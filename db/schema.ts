@@ -1,4 +1,3 @@
-// Intentionally empty by default.
-// Add Drizzle tables here when the site actually needs a database.
-// See examples/d1/db/schema.ts for an opt-in example.
-export {};
+import {integer,sqliteTable,text,uniqueIndex} from "drizzle-orm/sqlite-core";
+export const newsSources=sqliteTable("news_sources",{id:integer("id").primaryKey({autoIncrement:true}),name:text("name").notNull(),type:text("type").notNull(),url:text("url").notNull().default(""),rssUrl:text("rss_url").notNull().default(""),enabled:integer("enabled",{mode:"boolean"}).notNull().default(true),createdAt:text("created_at").notNull()},t=>[uniqueIndex("idx_news_sources_name").on(t.name)]);
+export const trackedKeywords=sqliteTable("tracked_keywords",{id:integer("id").primaryKey({autoIncrement:true}),keyword:text("keyword").notNull(),scope:text("scope").notNull().default("全台"),enabled:integer("enabled",{mode:"boolean"}).notNull().default(true)},t=>[uniqueIndex("idx_tracked_keywords_keyword_scope").on(t.keyword,t.scope)]);

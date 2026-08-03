@@ -1,0 +1,5 @@
+export const defaultSources=[
+ {name:"內政部",type:"政府機關",url:"https://www.moi.gov.tw/",rssUrl:""},{name:"內政部不動產資訊平台",type:"政府資料平台",url:"https://pip.moi.gov.tw/",rssUrl:""},{name:"實價登錄相關公開資訊",type:"政府公開資料",url:"https://lvr.land.moi.gov.tw/",rssUrl:""},{name:"財政部",type:"政府機關",url:"https://www.mof.gov.tw/",rssUrl:""},{name:"中央銀行",type:"政府機關",url:"https://www.cbc.gov.tw/",rssUrl:""},{name:"行政院",type:"政府機關",url:"https://www.ey.gov.tw/",rssUrl:""},{name:"各縣市地政局",type:"地方政府",url:"",rssUrl:""},{name:"國發會",type:"政府機關",url:"https://www.ndc.gov.tw/",rssUrl:""},{name:"主計總處",type:"政府機關",url:"https://www.dgbas.gov.tw/",rssUrl:""},{name:"金管會",type:"政府機關",url:"https://www.fsc.gov.tw/",rssUrl:""},{name:"銀行房貸公告",type:"金融機構",url:"",rssUrl:""},{name:"合法提供 RSS 的財經與房地產媒體",type:"合法媒體 RSS",url:"",rssUrl:""}
+];
+export const nationalKeywords="房市、房價、不動產、住宅、預售屋、新成屋、中古屋、成屋、土地、建商、建案、實價登錄、房貸、利率、央行、信用管制、選擇性信用管制、新青安、青年安心成家、首購、第二戶、第三戶、限貸、貸款成數、寬限期、土建融、房地合一稅、囤房稅、地價稅、房屋稅、契稅、豪宅、都更、危老、租金、租屋、社會住宅、交易量、移轉棟數、建照、使照、人口、捷運、重大建設".split("、");
+export const taichungKeywords="台中房市、南屯、西屯、北屯、南區、西區、北區、七期、五期、八期、單元二、單元三、十四期、水湳、烏日、太平、大里、沙鹿、清水、梧棲、海線、捷運藍線、捷運綠線、台中重大建設".split("、");
