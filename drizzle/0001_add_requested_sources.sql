@@ -1,0 +1,17 @@
+INSERT OR IGNORE INTO news_sources(name,type,url,rss_url,enabled,created_at) VALUES
+('內政部不動產資訊平台','官方資料','https://pip.moi.gov.tw/','',1,datetime('now')),
+('實價登錄','官方資料','https://lvr.land.moi.gov.tw/','',1,datetime('now')),
+('中央銀行','官方資料','https://www.cbc.gov.tw/','',1,datetime('now')),
+('財政部','官方資料','https://www.mof.gov.tw/','',1,datetime('now')),
+('國土管理署','官方資料','https://www.nlma.gov.tw/','',1,datetime('now')),
+('台中市政府地政局','官方資料','https://www.land.taichung.gov.tw/','',1,datetime('now')),
+('大台中房市交易動態資訊平台','官方資料','https://taichung.housetube.tw/','',1,datetime('now')),
+('經濟日報','即時新聞','https://money.udn.com/','',1,datetime('now')),
+('工商時報','即時新聞','https://www.ctee.com.tw/','',1,datetime('now')),
+('中央社','即時新聞','https://www.cna.com.tw/','',1,datetime('now')),
+('聯合新聞網','即時新聞','https://udn.com/','',1,datetime('now')),
+('地產天下','即時新聞','https://estate.ltn.com.tw/','',1,datetime('now')),
+('ETtoday房產雲','即時新聞','https://house.ettoday.net/','',1,datetime('now')),
+('住展','專業市場資訊','https://www.myhousing.com.tw/','',1,datetime('now')),
+('樂居','專業市場資訊','https://www.leju.com.tw/','',1,datetime('now')),
+('591','專業市場資訊','https://www.591.com.tw/','',1,datetime('now'));
