@@ -33,6 +33,7 @@ function Story({item,index}:{item:Item;index:number}) {
   const [copied,setCopied] = useState(false);
   const talk = open === "buyer" ? item.buyerTalk : item.sellerTalk;
   const lineText = `${open === "buyer" ? "您好，和您分享一則近期房市消息：" : "您好，最近市場有一則消息值得留意："}\n\n${talk}\n\n新聞連結：${item.url}`;
+  const lineShareUrl=`https://social-plugins.line.me/lineit/share?url=${encodeURIComponent(item.url)}&text=${encodeURIComponent(`${item.title}\n${item.summary}`)}`;
   async function copyLine(){ await navigator.clipboard.writeText(lineText); setCopied(true); setTimeout(()=>setCopied(false),1800); }
   function toggle(mode:Mode){ setOpen(open===mode?null:mode); setLineMode(null); }
   return <article className="weekly-story">
@@ -44,7 +45,7 @@ function Story({item,index}:{item:Item;index:number}) {
       <div className="viewpoint-buttons">
         <button className={open==="buyer"?"active":""} onClick={()=>toggle("buyer")}>買方觀點</button>
         <button className={open==="seller"?"active":""} onClick={()=>toggle("seller")}>賣方觀點</button>
-        <a href={item.url} target="_blank" rel="noreferrer">閱讀原文 ↗</a>
+        <div className="story-links"><a href={lineShareUrl} className="line-share" target="_blank" rel="noreferrer" aria-label={`使用 LINE 分享：${item.title}`}>LINE 分享</a><a href={item.url} target="_blank" rel="noreferrer">閱讀原文 ↗</a></div>
       </div>
       {open&&<div className={`viewpoint-panel ${open}`}>
         <div className="viewpoint-label">{`給${open==="buyer"?"買方":"賣方"}的專業觀點`}</div>
