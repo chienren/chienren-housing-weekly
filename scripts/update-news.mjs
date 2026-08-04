@@ -49,6 +49,16 @@ function viewpoints(item){
   const seller=policy?`貸款或政策消息可能讓買方需要更長時間確認資金。賣方可先備妥權狀、屋況與成交資料，並在合約及銷售節奏中預留合理的核貸時間；定價仍應依同類成交與實際詢問調整，不以政策預測保證成交。`:`市場數據只能作為背景，個別物件的成交速度仍取決於總價、屋況及競品。建議整理照片與帶看動線，依同社區實價設定合理開價，並持續觀察點閱、詢問與帶看回饋，務實調整曝光及議價策略。`;
   return {buyerTalk:buyer,sellerTalk:seller,agentAction:"核對原始來源與發布日期，確認政策是否生效；整理同區實價、在售競品及買方貸款條件，再進行客戶說明與後續追蹤。"};
 }
+function professionalViewpoints(item){
+  const policy=/政策法規|房貸金融|稅務/.test(item.category);
+  const local=/台中建設|南屯房市|西屯房市|北屯房市|南區房市|其他區域/.test(item.category);
+  const project=/預售屋|建商推案/.test(item.category);
+  const buyerLead=policy ? "這篇屬於政策、稅務或貸款制度訊息，真正影響購屋決策的關鍵，不只是新聞標題，而是正式公告內容、生效日期、適用對象、名下房屋數、購屋用途，以及各銀行最終授信結果。" : local ? "這篇與台中區域行情或重大建設有關，對買方最有價值的是協助判斷生活圈的長期條件，而不是直接推論房價必然上漲。" : project ? "這則預售屋或建商推案消息，可以用來觀察區域供給、產品規劃與市場信心，但個別建案仍要回到契約與實際條件判斷。" : "這則房價、交易或市場消息反映的是特定期間與統計範圍，不能直接等同於每個社區、每種產品都同步變化。";
+  const sellerLead=policy ? "這類政策、利率或貸款消息，通常會先反映在買方的自備款準備、銀行估價與核貸時間，而不是立刻讓所有房屋出現一致的價格變化。" : local ? "區域建設新聞有助於增加買方對生活圈的理解，但要轉化為成交，仍需要把建設與物件的實際關聯說清楚。" : project ? "新案供給或建商推案增加，會直接影響中古屋賣方的競爭環境，尤其是總價接近、屋齡較新或客群重疊的產品。" : "市場統計能協助判斷整體成交節奏，但您的物件能否順利出售，仍取決於同類產品競爭、開價與成交價差、屋況以及曝光品質。";
+  const buyer=`${buyerLead} 建議先把可動用自備款、每月安全還款額度、稅費、裝修與持有成本分開計算，再比對目標社區近一年實價、目前在售戶數、成交速度，以及樓層、車位、朝向與屋況差異。看屋時應確認消息中哪些是已發生的事實，哪些只是業者看法、規劃或預測；出價則以可追溯的成交案例與銀行估值為依據，保留資金安全緩衝，不因單一新聞追價或製造購屋壓力。${policy?" 實際適用條件仍應以主管機關、金融機構、地政士或專業人士最新公告與個案審核為準。":""}`;
+  const seller=`${sellerLead} 建議先整理同社區或同生活圈最近成交案例，排除樓層、車位、面向與特殊交易差異，再盤點目前在售競品的價格、曝光天數及優缺點。照片、文案、屋況整理與看屋便利性都會影響有效詢問；若詢問量高但出價少，應檢查價格與條件，若曝光多卻沒有帶看，則優先改善呈現與銷售節奏。定價宜設定可檢討的時間點，依真實買方回饋調整，不以單一新聞保證成交價格或市場漲跌。${policy?" 實際適用條件仍應以主管機關、金融機構、地政士或專業人士最新公告與個案審核為準。":""}`;
+  return {buyerTalk:buyer,sellerTalk:seller};
+}
 function score(item){let s=30;if(item.group==="官方RSS")s+=35;if(/央行|政策|稅|法規|新青安/.test(item.title))s+=25;if(/台中|移轉棟數|價格指數/.test(item.title))s+=15;s+=Math.max(0,10-Math.floor((now-item.time)/3600_000));return Math.min(100,s)}
 async function readFeed([feedName,group,url]){
   try{
@@ -73,7 +83,7 @@ for(const item of raw){
   if((official&&!currentOfficial)||(official===currentOfficial&&item.time>event.primary.time&&item.excerpt.length>=event.primary.excerpt.length))event.primary=item;
 }
 const items=events.map(event=>{
-  const item=event.primary;const talks=viewpoints(item);return {
+  const item=event.primary;const talks=professionalViewpoints(item);return {
     id:crypto.createHash("sha256").update(normalized(item.title)).digest("hex").slice(0,16),
     source:item.source,title:stripSource(item.title),published_at:item.published_at,original_url:item.original_url,google_news_url:item.google_news_url,excerpt:item.excerpt||stripSource(item.title),image_url:item.image_url,category:item.category,region:item.region,keywords:item.keywords,collected_at:item.collected_at,importance_score:score(item),fetch_status:item.fetch_status,
     sources:[...event.media.values()].map(source=>({source:source.source,published_at:source.published_at,original_url:source.original_url,google_news_url:source.google_news_url})),
