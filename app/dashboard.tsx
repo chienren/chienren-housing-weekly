@@ -59,7 +59,7 @@ export default function Dashboard({report}:{report:Report}) {
       <p>房市政策 ∕ 市場行情 ∕ 國際財經 ∕ 台中區域 ・ 每週一、三、五更新</p>
       <div className="issue-strip"><span>{report.items.length} STORIES</span><span>{report.period||report.updatedAt}</span><span>{report.items.length} 買賣觀點</span><span>SCOPE · 全台灣／台中</span></div>
     </header>
-    <section className="weekly-actions"><a href="#latest"><b>↓</b><span>閱讀本期週報<small>LATEST EDITION</small></span></a><a href="/admin"><b>⚙</b><span>新聞來源設定<small>SOURCE SETTINGS</small></span></a></section>
+    <section className="weekly-actions"><a href="#latest"><b>↓</b><span>閱讀本期週報<small>LATEST EDITION</small></span></a><a href="/rss-test"><b>✓</b><span>RSS來源測試<small>SOURCE MONITOR</small></span></a></section>
     <aside className="weekly-note">本週報彙整房市政策、市場行情、國際財經與台中區域動態。每則新聞均保留原始連結，並提供可展開的買方觀點、賣方觀點與 LINE 訊息。內容為資訊整理，不代表價格漲跌保證；貸款、稅務及政策適用條件，仍應以主管機關、金融機構或專業人士最新公告與個案審核為準。</aside>
     <div id="latest">{sections.map(section=>{const items=grouped.get(section.name)||[];if(!items.length)return null;return <section className={`weekly-section ${section.tone}`} key={section.name}><header className="section-title"><strong>{section.roman}</strong><div><small>本期共 {items.length} 則</small><h2>{section.name}</h2></div></header>{items.map((item,index)=><Story key={item.id} item={item} index={index}/>)}</section>})}</div>
     <footer className="weekly-footer"><b>謙仁房市週報 · CHIENREN WEEKLY</b><span>更新時間：{report.updatedAt}</span><span>來源：官方公開資訊及合法新聞連結</span><p>AI 協助彙整與撰寫買賣觀點；實際數據、法規、貸款及個案條件，請以原始來源與主管機關公告為準。</p></footer>
