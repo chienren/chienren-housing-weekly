@@ -1,6 +1,6 @@
 {
   "edition": "2026-08-04",
-  "updatedAt": "2026/8/4 17:25",
+  "updatedAt": "2026/8/4 17:36",
   "period": "最近72小時",
   "collectionMode": "RSS_ONLY",
   "items": [
@@ -18,7 +18,7 @@
       "keywords": [
         "水湳"
       ],
-      "collected_at": "2026-08-04T09:25:58.137Z",
+      "collected_at": "2026-08-04T09:36:01.862Z",
       "importance_score": 80,
       "fetch_status": "google_news_redirect",
       "sources": [
@@ -69,8 +69,8 @@
         "房市",
         "房貸"
       ],
-      "collected_at": "2026-08-04T09:25:58.137Z",
-      "importance_score": 73,
+      "collected_at": "2026-08-04T09:36:01.862Z",
+      "importance_score": 72,
       "fetch_status": "rss_ok",
       "sources": [
         {
@@ -114,7 +114,7 @@
         "水湳",
         "北屯"
       ],
-      "collected_at": "2026-08-04T09:25:58.137Z",
+      "collected_at": "2026-08-04T09:36:01.862Z",
       "importance_score": 69,
       "fetch_status": "google_news_redirect",
       "sources": [
@@ -134,33 +134,27 @@
     },
     {
       "id": "17e695591f5f2962",
-      "source": "中臺灣區域治理平台",
+      "source": "tcnm.taichung.gov.tw",
       "title": "水湳轉運中心8/5啟用！中市9條市區公車8/6進駐 串聯機場、高鐵更便利",
       "published_at": "2026-08-03T09:40:14.000Z",
       "original_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE8zRjNkVGtYSWpLTlZtNHFMbm9fbkVsUk9KUGM0S0NjazJ1X01mbGpMOEowNldwT3JNWU5UdVVVb3NkN25YX0VSazhaUnF0SjM5VHpGaEQxYnJwX2lfZnEtYzNjMy1URkRPbFZ0SGlRR3FTN2ZXY2ZhSmppVQ?oc=5",
       "google_news_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE8zRjNkVGtYSWpLTlZtNHFMbm9fbkVsUk9KUGM0S0NjazJ1X01mbGpMOEowNldwT3JNWU5UdVVVb3NkN25YX0VSazhaUnF0SjM5VHpGaEQxYnJwX2lfZnEtYzNjMy1URkRPbFZ0SGlRR3FTN2ZXY2ZhSmppVQ?oc=5",
-      "excerpt": "水湳轉運中心8/5啟用！中市9條市區公車8/6進駐 串聯機場、高鐵更便利 中臺灣區域治理平台",
+      "excerpt": "水湳轉運中心8/5啟用！中市9條市區公車8/6進駐 串聯機場、高鐵更便利 tcnm.taichung.gov.tw",
       "image_url": null,
       "category": "台中建設",
       "region": "台中市西屯區",
       "keywords": [
         "水湳"
       ],
-      "collected_at": "2026-08-04T09:25:58.137Z",
+      "collected_at": "2026-08-04T09:36:01.862Z",
       "importance_score": 65,
       "fetch_status": "google_news_redirect",
       "sources": [
         {
-          "source": "中臺灣區域治理平台",
+          "source": "tcnm.taichung.gov.tw",
           "published_at": "2026-08-03T09:40:14.000Z",
           "original_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE8zRjNkVGtYSWpLTlZtNHFMbm9fbkVsUk9KUGM0S0NjazJ1X01mbGpMOEowNldwT3JNWU5UdVVVb3NkN25YX0VSazhaUnF0SjM5VHpGaEQxYnJwX2lfZnEtYzNjMy1URkRPbFZ0SGlRR3FTN2ZXY2ZhSmppVQ?oc=5",
           "google_news_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE8zRjNkVGtYSWpLTlZtNHFMbm9fbkVsUk9KUGM0S0NjazJ1X01mbGpMOEowNldwT3JNWU5UdVVVb3NkN25YX0VSazhaUnF0SjM5VHpGaEQxYnJwX2lfZnEtYzNjMy1URkRPbFZ0SGlRR3FTN2ZXY2ZhSmppVQ?oc=5"
-        },
-        {
-          "source": "taichung.gov.tw",
-          "published_at": "2026-08-03T02:42:36.000Z",
-          "original_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5TS3RWTXBseWwzY09Jek9aaHRaUjN0SXNnRUNnOFBOMnBGQW5QVHo2SjliTllpdUtZZW5VbEhhT1lGSlA5NE9hYmJRNmxDLU43a1dEVUdrYkFnN1JJTGhj?oc=5",
-          "google_news_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5TS3RWTXBseWwzY09Jek9aaHRaUjN0SXNnRUNnOFBOMnBGQW5QVHo2SjliTllpdUtZZW5VbEhhT1lGSlA5NE9hYmJRNmxDLU43a1dEVUdrYkFnN1JJTGhj?oc=5"
         }
       ],
       "buyerTalk": "這則台中區域或建設消息可以當作選屋參考，但規劃、動工和完工是不同階段，不代表周邊房價一定會上漲。建議實際走訪生活圈，確認通勤、噪音與未來供給，再比較同社區近期實價。喜歡物件可以談，但還是要守住自己的預算。",
@@ -168,28 +162,28 @@
       "publishedAt": "2026-08-03",
       "relativeTime": "72小時內",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE8zRjNkVGtYSWpLTlZtNHFMbm9fbkVsUk9KUGM0S0NjazJ1X01mbGpMOEowNldwT3JNWU5UdVVVb3NkN25YX0VSazhaUnF0SjM5VHpGaEQxYnJwX2lfZnEtYzNjMy1URkRPbFZ0SGlRR3FTN2ZXY2ZhSmppVQ?oc=5",
-      "summary": "水湳轉運中心8/5啟用！中市9條市區公車8/6進駐 串聯機場、高鐵更便利 中臺灣區域治理平台"
+      "summary": "水湳轉運中心8/5啟用！中市9條市區公車8/6進駐 串聯機場、高鐵更便利 tcnm.taichung.gov.tw"
     },
     {
       "id": "54befeea6b309215",
-      "source": "Yahoo新聞",
+      "source": "tw.news.yahoo.com",
       "title": "李在明向豪宅與多屋族加稅 南韓房價連漲13個月、支持度受壓",
       "published_at": "2026-08-04T05:33:02.000Z",
       "original_url": "https://news.google.com/rss/articles/CBMihANBVV95cUxNeFhyWlhicHBDMURLZHJpZjR5QXNlOEJvTEVhUEgtU1ZMX1BUanZQY2RCS2xVaXhtenFMN2czTkdsOGF4VzJTWjE1T3diX0pweVhtZUEyaTA0Yms3MEJRMVRQbUk2eElxblctclFSaEFobnp4UFptNjMtUnZWYUxPalJCcmJTRXRyVVJuVHVKU2FuS1pwd2pxdFc0dlVnRzF2RU9hUWdKRzR5QXVXRU96TWlLRG5mc180OC1rbU1DYzV3aDVGUjhxQW1EYThOMXFTZXhnUjNEbWxIYW5PckNRNWVnMG05Tmk5Nk9TVFRKaHgyUTc1ZFdBMGNWU2N1YUM4WENvS2RrNTVHVDJwMHNMbmtSVGx3dWlMNjNkN3JRc3NGQXJCN3ZnT3hBVGxKak16TnJVN2gxTWJsdFJMNHI1UE5zTFJJbGFKV1MtYWZaYzhoN0EzOVo1WkZ6a3dHSWE0Q0hkaG13WWdUTVlVRC1FaTFmU1M5WnFJMlB6clFic2Z6dEdI?oc=5",
       "google_news_url": "https://news.google.com/rss/articles/CBMihANBVV95cUxNeFhyWlhicHBDMURLZHJpZjR5QXNlOEJvTEVhUEgtU1ZMX1BUanZQY2RCS2xVaXhtenFMN2czTkdsOGF4VzJTWjE1T3diX0pweVhtZUEyaTA0Yms3MEJRMVRQbUk2eElxblctclFSaEFobnp4UFptNjMtUnZWYUxPalJCcmJTRXRyVVJuVHVKU2FuS1pwd2pxdFc0dlVnRzF2RU9hUWdKRzR5QXVXRU96TWlLRG5mc180OC1rbU1DYzV3aDVGUjhxQW1EYThOMXFTZXhnUjNEbWxIYW5PckNRNWVnMG05Tmk5Nk9TVFRKaHgyUTc1ZFdBMGNWU2N1YUM4WENvS2RrNTVHVDJwMHNMbmtSVGx3dWlMNjNkN3JRc3NGQXJCN3ZnT3hBVGxKak16TnJVN2gxTWJsdFJMNHI1UE5zTFJJbGFKV1MtYWZaYzhoN0EzOVo1WkZ6a3dHSWE0Q0hkaG13WWdUTVlVRC1FaTFmU1M5WnFJMlB6clFic2Z6dEdI?oc=5",
-      "excerpt": "李在明向豪宅與多屋族加稅 南韓房價連漲13個月、支持度受壓 Yahoo新聞",
+      "excerpt": "李在明向豪宅與多屋族加稅 南韓房價連漲13個月、支持度受壓 tw.news.yahoo.com",
       "image_url": null,
       "category": "房價行情",
       "region": "全台灣",
       "keywords": [
         "房價"
       ],
-      "collected_at": "2026-08-04T09:25:58.137Z",
-      "importance_score": 62,
+      "collected_at": "2026-08-04T09:36:01.862Z",
+      "importance_score": 61,
       "fetch_status": "google_news_redirect",
       "sources": [
         {
-          "source": "Yahoo新聞",
+          "source": "tw.news.yahoo.com",
           "published_at": "2026-08-04T05:33:02.000Z",
           "original_url": "https://news.google.com/rss/articles/CBMihANBVV95cUxNeFhyWlhicHBDMURLZHJpZjR5QXNlOEJvTEVhUEgtU1ZMX1BUanZQY2RCS2xVaXhtenFMN2czTkdsOGF4VzJTWjE1T3diX0pweVhtZUEyaTA0Yms3MEJRMVRQbUk2eElxblctclFSaEFobnp4UFptNjMtUnZWYUxPalJCcmJTRXRyVVJuVHVKU2FuS1pwd2pxdFc0dlVnRzF2RU9hUWdKRzR5QXVXRU96TWlLRG5mc180OC1rbU1DYzV3aDVGUjhxQW1EYThOMXFTZXhnUjNEbWxIYW5PckNRNWVnMG05Tmk5Nk9TVFRKaHgyUTc1ZFdBMGNWU2N1YUM4WENvS2RrNTVHVDJwMHNMbmtSVGx3dWlMNjNkN3JRc3NGQXJCN3ZnT3hBVGxKak16TnJVN2gxTWJsdFJMNHI1UE5zTFJJbGFKV1MtYWZaYzhoN0EzOVo1WkZ6a3dHSWE0Q0hkaG13WWdUTVlVRC1FaTFmU1M5WnFJMlB6clFic2Z6dEdI?oc=5",
           "google_news_url": "https://news.google.com/rss/articles/CBMihANBVV95cUxNeFhyWlhicHBDMURLZHJpZjR5QXNlOEJvTEVhUEgtU1ZMX1BUanZQY2RCS2xVaXhtenFMN2czTkdsOGF4VzJTWjE1T3diX0pweVhtZUEyaTA0Yms3MEJRMVRQbUk2eElxblctclFSaEFobnp4UFptNjMtUnZWYUxPalJCcmJTRXRyVVJuVHVKU2FuS1pwd2pxdFc0dlVnRzF2RU9hUWdKRzR5QXVXRU96TWlLRG5mc180OC1rbU1DYzV3aDVGUjhxQW1EYThOMXFTZXhnUjNEbWxIYW5PckNRNWVnMG05Tmk5Nk9TVFRKaHgyUTc1ZFdBMGNWU2N1YUM4WENvS2RrNTVHVDJwMHNMbmtSVGx3dWlMNjNkN3JRc3NGQXJCN3ZnT3hBVGxKak16TnJVN2gxTWJsdFJMNHI1UE5zTFJJbGFKV1MtYWZaYzhoN0EzOVo1WkZ6a3dHSWE0Q0hkaG13WWdUTVlVRC1FaTFmU1M5WnFJMlB6clFic2Z6dEdI?oc=5"
@@ -200,7 +194,7 @@
       "publishedAt": "2026-08-04",
       "relativeTime": "72小時內",
       "url": "https://news.google.com/rss/articles/CBMihANBVV95cUxNeFhyWlhicHBDMURLZHJpZjR5QXNlOEJvTEVhUEgtU1ZMX1BUanZQY2RCS2xVaXhtenFMN2czTkdsOGF4VzJTWjE1T3diX0pweVhtZUEyaTA0Yms3MEJRMVRQbUk2eElxblctclFSaEFobnp4UFptNjMtUnZWYUxPalJCcmJTRXRyVVJuVHVKU2FuS1pwd2pxdFc0dlVnRzF2RU9hUWdKRzR5QXVXRU96TWlLRG5mc180OC1rbU1DYzV3aDVGUjhxQW1EYThOMXFTZXhnUjNEbWxIYW5PckNRNWVnMG05Tmk5Nk9TVFRKaHgyUTc1ZFdBMGNWU2N1YUM4WENvS2RrNTVHVDJwMHNMbmtSVGx3dWlMNjNkN3JRc3NGQXJCN3ZnT3hBVGxKak16TnJVN2gxTWJsdFJMNHI1UE5zTFJJbGFKV1MtYWZaYzhoN0EzOVo1WkZ6a3dHSWE0Q0hkaG13WWdUTVlVRC1FaTFmU1M5WnFJMlB6clFic2Z6dEdI?oc=5",
-      "summary": "李在明向豪宅與多屋族加稅 南韓房價連漲13個月、支持度受壓 Yahoo新聞"
+      "summary": "李在明向豪宅與多屋族加稅 南韓房價連漲13個月、支持度受壓 tw.news.yahoo.com"
     },
     {
       "id": "98d65de5bb55d2b1",
@@ -216,7 +210,7 @@
       "keywords": [
         "預售屋"
       ],
-      "collected_at": "2026-08-04T09:25:58.137Z",
+      "collected_at": "2026-08-04T09:36:01.862Z",
       "importance_score": 58,
       "fetch_status": "google_news_redirect",
       "sources": [
@@ -236,22 +230,22 @@
     },
     {
       "id": "602ae3bbf3261d44",
-      "source": "Yahoo新聞",
+      "source": "tw.news.yahoo.com",
       "title": "台中單元二「垂直森林聚落」成豪宅新亮點",
       "published_at": "2026-08-04T09:02:17.000Z",
       "original_url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxOV0c1Nko5eWMtQko4OGN6UnVZZEg5ZjMxeGE4em1PTXRLYmdsS2VFcEhZcTg3SFkzZzBHc2VQdGpzaEtfc2I5ckNHTnRVelM2d1pFaGktcmUxZVpVSndvSklmXzlvWDNtTkJ2bzlIb3N4SU9zTFRIcW5RQ0ZWT2RaTHFoYktBUDE0OWZxN25lTHhHdXk4aFd3bk5LZkN2Q194M2ZmSVF6b3VoNnRvY3UwNWhKZ184MlJ3dC00WW5wLUpLdFVBaDJVaFotYkE0REQ2T0xwNWVUclhiZUVoRzdwS2hEaDJKS0lyT0xWZy00T2FLVXlPMU1palBNUTlTZjBfUkczYjBLQkhaMmFZWXVnQ0hjTEswWTFjOURrTnVycmJJdw?oc=5",
       "google_news_url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxOV0c1Nko5eWMtQko4OGN6UnVZZEg5ZjMxeGE4em1PTXRLYmdsS2VFcEhZcTg3SFkzZzBHc2VQdGpzaEtfc2I5ckNHTnRVelM2d1pFaGktcmUxZVpVSndvSklmXzlvWDNtTkJ2bzlIb3N4SU9zTFRIcW5RQ0ZWT2RaTHFoYktBUDE0OWZxN25lTHhHdXk4aFd3bk5LZkN2Q194M2ZmSVF6b3VoNnRvY3UwNWhKZ184MlJ3dC00WW5wLUpLdFVBaDJVaFotYkE0REQ2T0xwNWVUclhiZUVoRzdwS2hEaDJKS0lyT0xWZy00T2FLVXlPMU1palBNUTlTZjBfUkczYjBLQkhaMmFZWXVnQ0hjTEswWTFjOURrTnVycmJJdw?oc=5",
-      "excerpt": "台中單元二「垂直森林聚落」成豪宅新亮點 Yahoo新聞",
+      "excerpt": "台中單元二「垂直森林聚落」成豪宅新亮點 tw.news.yahoo.com",
       "image_url": null,
       "category": "台中建設",
       "region": "台中市",
       "keywords": [],
-      "collected_at": "2026-08-04T09:25:58.137Z",
+      "collected_at": "2026-08-04T09:36:01.862Z",
       "importance_score": 55,
       "fetch_status": "google_news_redirect",
       "sources": [
         {
-          "source": "Yahoo新聞",
+          "source": "tw.news.yahoo.com",
           "published_at": "2026-08-04T09:02:17.000Z",
           "original_url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxOV0c1Nko5eWMtQko4OGN6UnVZZEg5ZjMxeGE4em1PTXRLYmdsS2VFcEhZcTg3SFkzZzBHc2VQdGpzaEtfc2I5ckNHTnRVelM2d1pFaGktcmUxZVpVSndvSklmXzlvWDNtTkJ2bzlIb3N4SU9zTFRIcW5RQ0ZWT2RaTHFoYktBUDE0OWZxN25lTHhHdXk4aFd3bk5LZkN2Q194M2ZmSVF6b3VoNnRvY3UwNWhKZ184MlJ3dC00WW5wLUpLdFVBaDJVaFotYkE0REQ2T0xwNWVUclhiZUVoRzdwS2hEaDJKS0lyT0xWZy00T2FLVXlPMU1palBNUTlTZjBfUkczYjBLQkhaMmFZWXVnQ0hjTEswWTFjOURrTnVycmJJdw?oc=5",
           "google_news_url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxOV0c1Nko5eWMtQko4OGN6UnVZZEg5ZjMxeGE4em1PTXRLYmdsS2VFcEhZcTg3SFkzZzBHc2VQdGpzaEtfc2I5ckNHTnRVelM2d1pFaGktcmUxZVpVSndvSklmXzlvWDNtTkJ2bzlIb3N4SU9zTFRIcW5RQ0ZWT2RaTHFoYktBUDE0OWZxN25lTHhHdXk4aFd3bk5LZkN2Q194M2ZmSVF6b3VoNnRvY3UwNWhKZ184MlJ3dC00WW5wLUpLdFVBaDJVaFotYkE0REQ2T0xwNWVUclhiZUVoRzdwS2hEaDJKS0lyT0xWZy00T2FLVXlPMU1palBNUTlTZjBfUkczYjBLQkhaMmFZWXVnQ0hjTEswWTFjOURrTnVycmJJdw?oc=5"
@@ -262,7 +256,7 @@
       "publishedAt": "2026-08-04",
       "relativeTime": "72小時內",
       "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxOV0c1Nko5eWMtQko4OGN6UnVZZEg5ZjMxeGE4em1PTXRLYmdsS2VFcEhZcTg3SFkzZzBHc2VQdGpzaEtfc2I5ckNHTnRVelM2d1pFaGktcmUxZVpVSndvSklmXzlvWDNtTkJ2bzlIb3N4SU9zTFRIcW5RQ0ZWT2RaTHFoYktBUDE0OWZxN25lTHhHdXk4aFd3bk5LZkN2Q194M2ZmSVF6b3VoNnRvY3UwNWhKZ184MlJ3dC00WW5wLUpLdFVBaDJVaFotYkE0REQ2T0xwNWVUclhiZUVoRzdwS2hEaDJKS0lyT0xWZy00T2FLVXlPMU1palBNUTlTZjBfUkczYjBLQkhaMmFZWXVnQ0hjTEswWTFjOURrTnVycmJJdw?oc=5",
-      "summary": "台中單元二「垂直森林聚落」成豪宅新亮點 Yahoo新聞"
+      "summary": "台中單元二「垂直森林聚落」成豪宅新亮點 tw.news.yahoo.com"
     },
     {
       "id": "64b32e2892a8931d",
@@ -278,7 +272,7 @@
       "keywords": [
         "預售屋"
       ],
-      "collected_at": "2026-08-04T09:25:58.137Z",
+      "collected_at": "2026-08-04T09:36:01.862Z",
       "importance_score": 55,
       "fetch_status": "google_news_redirect",
       "sources": [
@@ -311,7 +305,7 @@
         "房市",
         "預售屋"
       ],
-      "collected_at": "2026-08-04T09:25:58.137Z",
+      "collected_at": "2026-08-04T09:36:01.862Z",
       "importance_score": 55,
       "fetch_status": "google_news_redirect",
       "sources": [
@@ -344,7 +338,7 @@
         "房價",
         "房地產"
       ],
-      "collected_at": "2026-08-04T09:25:58.137Z",
+      "collected_at": "2026-08-04T09:36:01.862Z",
       "importance_score": 55,
       "fetch_status": "google_news_redirect",
       "sources": [
@@ -377,7 +371,7 @@
         "房地產",
         "央行"
       ],
-      "collected_at": "2026-08-04T09:25:58.137Z",
+      "collected_at": "2026-08-04T09:36:01.862Z",
       "importance_score": 55,
       "fetch_status": "google_news_redirect",
       "sources": [
@@ -409,7 +403,7 @@
       "keywords": [
         "房地產"
       ],
-      "collected_at": "2026-08-04T09:25:58.137Z",
+      "collected_at": "2026-08-04T09:36:01.862Z",
       "importance_score": 55,
       "fetch_status": "google_news_redirect",
       "sources": [
@@ -441,7 +435,7 @@
       "keywords": [
         "預售屋"
       ],
-      "collected_at": "2026-08-04T09:25:58.137Z",
+      "collected_at": "2026-08-04T09:36:01.862Z",
       "importance_score": 55,
       "fetch_status": "google_news_redirect",
       "sources": [
@@ -473,7 +467,7 @@
       "keywords": [
         "新青安"
       ],
-      "collected_at": "2026-08-04T09:25:58.137Z",
+      "collected_at": "2026-08-04T09:36:01.862Z",
       "importance_score": 55,
       "fetch_status": "google_news_redirect",
       "sources": [
@@ -505,7 +499,7 @@
       "keywords": [
         "房地產"
       ],
-      "collected_at": "2026-08-04T09:25:58.137Z",
+      "collected_at": "2026-08-04T09:36:01.862Z",
       "importance_score": 55,
       "fetch_status": "google_news_redirect",
       "sources": [
