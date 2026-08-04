@@ -14,8 +14,8 @@ const sections = [
 ];
 
 const stores = [
-  { brand:"永慶不動產", logo:"/yongqing-logo.jpg", name:"八期豐樂公園店", address:"台中市南屯區向心南路766號", phone:"04-2473-5511", tel:"0424735511", map:"https://maps.app.goo.gl/FTFUhNQbA4Rkg5nX6" },
-  { brand:"永義房屋", logo:"/yongyi-logo.jpg", name:"南屯豐樂公園店", address:"台中市南屯區向心南路762號", phone:"04-2473-2211", tel:"0424732211", map:"https://maps.app.goo.gl/Y2c4SkipRKuy5xzd8" },
+  { brand:"永慶不動產", logo:"/yongqing-logo-transparent.png", name:"八期豐樂公園店", address:"台中市南屯區向心南路766號", phone:"04-2473-5511", tel:"0424735511", map:"https://maps.app.goo.gl/FTFUhNQbA4Rkg5nX6" },
+  { brand:"永義房屋", logo:"/yongyi-logo-transparent.png", name:"南屯豐樂公園店", address:"台中市南屯區向心南路762號", phone:"04-2473-2211", tel:"0424732211", map:"https://maps.app.goo.gl/Y2c4SkipRKuy5xzd8" },
 ];
 
 function classify(item:Item) {

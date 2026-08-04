@@ -1,6 +1,6 @@
 .store-section{padding-top:28px}
 .store-brand{display:flex;align-items:center;gap:14px}
-.store-brand img{width:62px;height:62px;object-fit:contain;flex:0 0 auto;background:#fff;border-radius:9px;padding:5px;box-shadow:0 5px 14px rgba(0,0,0,.18)}
+.store-brand img{width:62px;height:62px;object-fit:contain;flex:0 0 auto;background:transparent;padding:0;filter:drop-shadow(0 5px 8px rgba(0,0,0,.18))}
 .store-brand div{min-width:0}
 .store-brand h3{margin-top:5px}
 @media(max-width:680px){.store-brand img{width:54px;height:54px}}
