@@ -4,12 +4,18 @@ import path from "node:path";
 const root = path.resolve(import.meta.dirname, "..");
 const reportPath = path.join(root, "data", "latest.json");
 const reviewPath = path.join(root, "data", "review-queue.json");
-const QUOTA = { media: 9, official: 6, total: 15 };
+const QUOTA = { total: 15 };
 const MEDIA_TYPES = new Set(["即時新聞", "專業市場資訊"]);
 const GOOGLE_NEWS = "https://news.google.com/rss/search";
 const DIRECT_FEEDS = [
   { name: "自由財經", type: "即時新聞", url: "https://news.ltn.com.tw/rss/business.xml" },
   { name: "自由國際", type: "即時新聞", url: "https://news.ltn.com.tw/rss/world.xml" },
+];
+const ARK_STYLE_QUERIES = [
+  "房市政策 OR 央行房貸 OR 信用管制 OR 住宅政策",
+  "台灣房市 OR 房價 OR 預售屋 OR 中古屋 OR 交易量",
+  "台中房市 OR 台中房價 OR 台中預售屋 OR 台中重大建設",
+  "國際財經 OR 通膨 OR 聯準會 OR 利率 房市",
 ];
 
 async function loadConfig() {
@@ -109,7 +115,6 @@ function addCandidate(found, candidate, sources, forcedConfig = null) {
   if (
     !candidate.title ||
     !candidate.url ||
-    !sourceRow ||
     !localAllowed(candidate.title, candidate.source) ||
     Number.isNaN(+candidate.date) ||
     Date.now() - +candidate.date > 7 * 864e5 ||
@@ -121,7 +126,7 @@ function addCandidate(found, candidate, sources, forcedConfig = null) {
     title: candidate.title,
     url: candidate.url,
     source: candidate.source,
-    sourceGroup: sourceGroup(sourceRow),
+    sourceGroup: sourceRow ? sourceGroup(sourceRow) : "media",
     timestamp: +candidate.date,
     publishedAt: new Intl.DateTimeFormat("zh-TW", {
       timeZone: "Asia/Taipei",
@@ -140,7 +145,7 @@ async function fetchXml(url) {
 
 async function collect() {
   const config = await loadConfig();
-  const queries = [];
+  const queries = [...ARK_STYLE_QUERIES];
   for (let index = 0; index < config.keywords.length; index += 8) {
     queries.push(config.keywords.slice(index, index + 8).join(" OR "));
   }
@@ -165,9 +170,8 @@ async function collect() {
     .map((source) => ({ name: source.name, type: source.type, url: source.rssUrl, source }));
   const directFeeds = [...configuredFeeds];
   for (const feed of DIRECT_FEEDS) {
-    const source = configuredSource(feed.name, config.sources);
-    if (source && !directFeeds.some((item) => item.url === feed.url)) {
-      directFeeds.push({ ...feed, source });
+    if (!directFeeds.some((item) => item.url === feed.url)) {
+      directFeeds.push({ ...feed, source: configuredSource(feed.name, config.sources) || feed });
     }
   }
 
@@ -200,7 +204,7 @@ async function run() {
 
   const input = await collect();
   const previous = JSON.parse(await fs.readFile(reportPath, "utf8"));
-  const prompt = `你是台灣房市週報編輯。請從候選資料中選出正好15則：媒體9則、官方6則。優先順序為72小時內、全國政策、全國數據、台中地區；不足才使用7日內新聞。相同事件或高度重複內容只能保留一則。排除廣告、個股行情、低相關內容，以及非台中市的地方地政或戶政新聞。每則保留原始id，產生summary、policyStatus、buyerTalk、sellerTalk。buyerTalk與sellerTalk各至少100個中文字，語氣專業、人性化且容易理解；不可製造恐慌、保證漲跌、保證獲利或製造急迫感。媒體推測不得寫成確定事實；政策須明確區分已生效、草案或討論。涉及法規、稅務、央行政策或貸款時，加入：實際適用條件仍應以主管機關、金融機構、地政士或專業人士最新公告與個案審核為準。只輸出JSON：{"items":[...],"review":[{"id":"...","reason":"..."}]}。候選資料：${JSON.stringify(input)}`;
+  const prompt = `你是台灣房市週報編輯。採用方舟週報式的廣泛新聞挑選方式，請從候選資料中選出正好15則，不限制媒體與官方比例。優先順序為72小時內、全國房市政策與數據、台中房市與重大建設；若房市新聞不足，可選擇會影響利率、通膨、資金環境或購屋信心的國際財經新聞，不足才使用7日內新聞。放寬文字與觀點表達，可自然討論可能機會、風險、議價與市場氣氛，不必過度保守或制式化；但相同事件或高度重複內容只能保留一則，並排除明顯廣告、純個股行情及非台中市的地方地政或戶政新聞。每則保留原始id，產生summary、policyStatus、buyerTalk、sellerTalk。buyerTalk與sellerTalk各至少100個中文字，語氣專業、人性化且容易理解。仍不可捏造數字、政策或法規，不可保證房價漲跌、保證獲利、保證成交或製造最後上車式急迫感。媒體推測不得寫成確定事實；政策須明確區分已生效、草案或討論。涉及法規、稅務、央行政策或貸款時，加入：實際適用條件仍應以主管機關、金融機構、地政士或專業人士最新公告與個案審核為準。只輸出JSON：{"items":[...],"review":[{"id":"...","reason":"..."}]}。候選資料：${JSON.stringify(input)}`;
   const response = await fetch(process.env.OPENAI_API_URL || "https://api.openai.com/v1/responses", {
     method: "POST",
     headers: {
@@ -223,8 +227,6 @@ async function run() {
     .filter((item) => item.title && item.buyerTalk && item.sellerTalk);
 
   if (items.length !== QUOTA.total) throw new Error(`新聞數量必須為15則，目前為${items.length}則`);
-  if (items.filter((item) => item.sourceGroup === "media").length !== QUOTA.media) throw new Error("媒體新聞必須為9則");
-  if (items.filter((item) => item.sourceGroup === "official").length !== QUOTA.official) throw new Error("官方新聞必須為6則");
 
   for (let index = 0; index < items.length; index += 1) {
     const item = items[index];
@@ -246,7 +248,7 @@ async function run() {
     fs.writeFile(reportPath, `${JSON.stringify(previous, null, 2)}\n`),
     fs.writeFile(reviewPath, `${JSON.stringify({ updatedAt: previous.updatedAt, items: result.review || [] }, null, 2)}\n`),
   ]);
-  console.log("週報已更新：15則（媒體9、官方6）");
+  console.log("週報已更新：15則（Google News RSS＋直接 RSS）");
 }
 
 await run();
