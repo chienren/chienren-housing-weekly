@@ -13,6 +13,11 @@ const sections = [
   { roman:"IV", name:"台中建設／區域動態", tone:"navy" },
 ];
 
+const stores = [
+  { brand:"永慶不動產", name:"八期豐樂公園店", address:"台中市南屯區向心南路766號", phone:"04-2473-5511", tel:"0424735511", map:"https://maps.app.goo.gl/FTFUhNQbA4Rkg5nX6" },
+  { brand:"永義房屋", name:"南屯豐樂公園店", address:"台中市南屯區向心南路762號", phone:"04-2473-2211", tel:"0424732211", map:"https://maps.app.goo.gl/Y2c4SkipRKuy5xzd8" },
+];
+
 function classify(item:Item) {
   if (item.category && sections.some(s => s.name === item.category)) return item.category;
   const text = `${item.title} ${item.summary}`;
@@ -56,11 +61,11 @@ export default function Dashboard({report}:{report:Report}) {
   return <main className="weekly-page">
     <header className="masthead">
       <div className="masthead-top"><span>VOL. {report.edition}</span><span>謙仁房產團隊 · 專業整理</span></div>
-      <h1>謙仁房市週報</h1>
-      <p>房市政策 ∕ 市場行情 ∕ 國際財經 ∕ 台中區域 ・ 每週一、三、五更新</p>
+      <div className="brand-lockup"><img src="/chienren-logo.png" alt="謙仁不動產 Logo"/><div><h1>謙仁房市週報</h1><p>房市政策 ∕ 市場行情 ∕ 國際財經 ∕ 台中區域 ・ 每週一、三、五更新</p></div></div>
       <div className="issue-strip"><span>{report.items.length} STORIES</span><span>{report.period||report.updatedAt}</span><span>{report.items.length} 買賣觀點</span><span>SCOPE · 全台灣／台中</span></div>
     </header>
     <section className="weekly-actions"><a href="#latest"><b>↓</b><span>閱讀本期週報<small>LATEST EDITION</small></span></a><a href="/rss-test"><b>✓</b><span>RSS來源測試<small>SOURCE MONITOR</small></span></a></section>
+    <section className="store-section" aria-label="謙仁服務門市"><header><small>CHIENREN SERVICE</small><h2>謙仁兩家服務門市</h2></header><div className="store-grid">{stores.map(store=><article className="store-card" key={store.name}><div className="store-brand"><span>{store.brand}</span><h3>{store.name}</h3></div><p>{store.address}</p><div className="store-links"><a className="phone-link" href={`tel:${store.tel}`}>☎ {store.phone}</a><a href={store.map} target="_blank" rel="noreferrer">Google 地圖 ↗</a></div></article>)}</div></section>
     <aside className="weekly-note">本週報彙整房市政策、市場行情、國際財經與台中區域動態。每則新聞均保留原始連結，並提供可展開的買方觀點、賣方觀點與 LINE 訊息。內容為資訊整理，不代表價格漲跌保證；貸款、稅務及政策適用條件，仍應以主管機關、金融機構或專業人士最新公告與個案審核為準。</aside>
     <div id="latest">{sections.map(section=>{const items=grouped.get(section.name)||[];if(!items.length)return null;return <section className={`weekly-section ${section.tone}`} key={section.name}><header className="section-title"><strong>{section.roman}</strong><div><small>本期共 {items.length} 則</small><h2>{section.name}</h2></div></header>{items.map((item,index)=><Story key={item.id} item={item} index={index}/>)}</section>})}</div>
     <footer className="weekly-footer"><b>謙仁房市週報 · CHIENREN WEEKLY</b><span>更新時間：{report.updatedAt}</span><span>來源：官方公開資訊及合法新聞連結</span><p>AI 協助彙整與撰寫買賣觀點；實際數據、法規、貸款及個案條件，請以原始來源與主管機關公告為準。</p></footer>
