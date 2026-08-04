@@ -1,53 +1,9 @@
 {
   "edition": "2026-08-04",
-  "updatedAt": "2026/8/4 13:56",
+  "updatedAt": "2026/8/4 14:35",
   "period": "最近72小時",
   "collectionMode": "RSS_ONLY",
   "items": [
-    {
-      "id": "5596e35cd2fa1064",
-      "source": "taichung.gov.tw",
-      "title": "琴響台中、愛樂傳城！國際扶輪捐贈鋼琴 水湳轉運中心邀旅人共譜城市樂章",
-      "published_at": "2026-08-01T06:31:26.000Z",
-      "original_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5UNVN0c1N1NnM0cEZsOWVmUU1RbEotVFFFNVNqVkRUc0E1ajMxOEtYT1k3UU9KTmxZY0ZkNUt2U3ZtdTYybnBNaEJid0dzX1pKWkE?oc=5",
-      "google_news_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5UNVN0c1N1NnM0cEZsOWVmUU1RbEotVFFFNVNqVkRUc0E1ajMxOEtYT1k3UU9KTmxZY0ZkNUt2U3ZtdTYybnBNaEJid0dzX1pKWkE?oc=5",
-      "excerpt": "琴響台中、愛樂傳城！國際扶輪捐贈鋼琴 水湳轉運中心邀旅人共譜城市樂章 taichung.gov.tw",
-      "image_url": null,
-      "category": "台中建設",
-      "region": "台中市西屯區",
-      "keywords": [
-        "水湳"
-      ],
-      "collected_at": "2026-08-04T05:56:33.521Z",
-      "importance_score": 80,
-      "fetch_status": "google_news_redirect",
-      "sources": [
-        {
-          "source": "Life 生活網",
-          "published_at": "2026-08-01T10:58:05.000Z",
-          "original_url": "https://news.google.com/rss/articles/CBMijwNBVV95cUxNRzJRRk1LVlFFQTJjdFRKcDlTLVVaUXFnTU9IX0NnNkcyTEdvYWJHN25sa01LeEdSVmk2dEFqaVpXaDBldUl4WWdYUzBQeHVIUkJFR2NYQzRwWWlqUldtalJId0tXV0xWSGNTQ3RKSE9QRGtTMGxiNlh6ZTVmQzZCRWtmWUFuaGYyVEF5NW1ycXljb3o0VFRuUldkMmNVY05aYWhtMzZhUXVTM2lGY2lSYXB3cjBTTktfX0FfekQ4YlMwQXRaUHg1TGtyZlYtQ2VtdlB0OUFTOC1PN3Z5SnhzU2Q2ejZJSUtPS0FQbUNfYi1FN0MzcU80ejZnQXVlelZjU3lMRkpadVhMVTVVMXlyYjFMSkhxbUhJUHBVR2tYTjEwNTkzOHJJWnBMVWQwZHBDcTNWZUpGOC1XRUw3RGcxX0M5Q1B2b0J2LVFad0U3T1VUWVRoRURmYjFvYTA2eTIwUllrTFdXV05uMy1oWGN1TWlEVFBlMUsxTVRBMDlLd05YSGxYbmxHdG1HQkdVYjA?oc=5",
-          "google_news_url": "https://news.google.com/rss/articles/CBMijwNBVV95cUxNRzJRRk1LVlFFQTJjdFRKcDlTLVVaUXFnTU9IX0NnNkcyTEdvYWJHN25sa01LeEdSVmk2dEFqaVpXaDBldUl4WWdYUzBQeHVIUkJFR2NYQzRwWWlqUldtalJId0tXV0xWSGNTQ3RKSE9QRGtTMGxiNlh6ZTVmQzZCRWtmWUFuaGYyVEF5NW1ycXljb3o0VFRuUldkMmNVY05aYWhtMzZhUXVTM2lGY2lSYXB3cjBTTktfX0FfekQ4YlMwQXRaUHg1TGtyZlYtQ2VtdlB0OUFTOC1PN3Z5SnhzU2Q2ejZJSUtPS0FQbUNfYi1FN0MzcU80ejZnQXVlelZjU3lMRkpadVhMVTVVMXlyYjFMSkhxbUhJUHBVR2tYTjEwNTkzOHJJWnBMVWQwZHBDcTNWZUpGOC1XRUw3RGcxX0M5Q1B2b0J2LVFad0U3T1VUWVRoRURmYjFvYTA2eTIwUllrTFdXV05uMy1oWGN1TWlEVFBlMUsxTVRBMDlLd05YSGxYbmxHdG1HQkdVYjA?oc=5"
-        },
-        {
-          "source": "觀傳媒",
-          "published_at": "2026-08-01T10:58:02.000Z",
-          "original_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1kbWlkbVl3ck1FSzg0MHJTUElEQi1lWmhLbHA5ZkJHVTB2R0Q5bXhMOVhud3ZPTXNTZTJGemdza2hlUTY1NXlrYm9DNF9ZWGJyUUhIRTJkTQ?oc=5",
-          "google_news_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1kbWlkbVl3ck1FSzg0MHJTUElEQi1lWmhLbHA5ZkJHVTB2R0Q5bXhMOVhud3ZPTXNTZTJGemdza2hlUTY1NXlrYm9DNF9ZWGJyUUhIRTJkTQ?oc=5"
-        },
-        {
-          "source": "taichung.gov.tw",
-          "published_at": "2026-08-01T06:31:26.000Z",
-          "original_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5UNVN0c1N1NnM0cEZsOWVmUU1RbEotVFFFNVNqVkRUc0E1ajMxOEtYT1k3UU9KTmxZY0ZkNUt2U3ZtdTYybnBNaEJid0dzX1pKWkE?oc=5",
-          "google_news_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5UNVN0c1N1NnM0cEZsOWVmUU1RbEotVFFFNVNqVkRUc0E1ajMxOEtYT1k3UU9KTmxZY0ZkNUt2U3ZtdTYybnBNaEJid0dzX1pKWkE?oc=5"
-        }
-      ],
-      "buyerTalk": "針對這篇「琴響台中、愛樂傳城！國際扶輪捐贈鋼琴 水湳轉運中心邀旅人共譜城市樂章」，這篇與台中區域行情或重大建設有關。從長期在地市場的經驗來看，建設題材真正形成住宅需求，必須經過規劃、動工、完工、人口與商業機能進駐等階段，不能把遠期想像直接當成今天的房價。\n\n站在買方立場，我會先把新聞拆成三層判讀：第一層是已正式發生、可由官方或原始數據確認的事實；第二層是媒體或業者對後市的推估；第三層才是這項訊息是否真的影響您想買的區域、社區與總價帶。這三層若沒有分開，很容易因為一則消息過度樂觀或過度擔心。\n\n實際購屋時，建議先把可動用自備款、每月安全還款額度、稅費、裝修與持有成本分開計算，再比對目標社區近一年實價、目前在售戶數、成交速度，以及樓層、車位、朝向、採光與屋況差異。實價登錄要看完整條件，不能只挑最高價或最低價；銀行估價也不一定等於成交價，因此出價前最好預留額外自備款緩衝。若同類物件增加，可利用比較期耐心篩選與議價；若好物件供給有限，也應守住預算與必要條件，不因市場氣氛追價。\n\n我會把這篇新聞當成談判與風險檢查的材料，而不是替您決定一定要買或不能買。真正適合的購屋決策，應同時符合居住需求、持有年限、家庭現金流與物件本身條件。",
-      "sellerTalk": "針對這篇「琴響台中、愛樂傳城！國際扶輪捐贈鋼琴 水湳轉運中心邀旅人共譜城市樂章」，區域建設新聞有助於增加買方對生活圈的理解，但要轉化為成交，仍需說清楚建設與物件的實際距離、使用便利性及可能帶來的施工影響。長期市場經驗告訴我們，題材能創造注意力，產品條件與合理價格才會形成成交。\n\n站在賣方立場，我會先觀察這項消息是否改變三件事：有效買方數量、買方可負擔總價，以及從看屋到核貸成交所需時間。這三項比單純討論房價會不會漲跌更有實務意義。若市場貸款條件轉緊，未必代表沒有買方，而是買方需要更完整的財務準備；若交易回溫，也不代表任何開價都能被接受。\n\n定價前應整理同社區或同生活圈最近成交案例，排除樓層、車位、面向、裝潢與特殊交易差異，再盤點目前在售競品的價格、曝光天數及優缺點。開價要留有合理談判空間，但不能與可驗證行情脫節。照片、文案、屋況整理、權利資料與看屋便利性都會影響有效詢問；成熟生活機能、可立即入住或稀有條件，則要用具體資料呈現，不用空泛話術放大。\n\n銷售過程中，建議每兩至四週檢視一次點閱、詢問、帶看與出價的轉換。如果詢問量高但出價少，通常要檢查價格與交易條件；若曝光多卻沒有帶看，則先改善照片、文案與平台配置。真正務實的銷售策略，是用買方的真實反饋逐步修正，而不是用一篇新聞保證成交價格或市場方向。",
-      "publishedAt": "2026-08-01",
-      "relativeTime": "72小時內",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5UNVN0c1N1NnM0cEZsOWVmUU1RbEotVFFFNVNqVkRUc0E1ajMxOEtYT1k3UU9KTmxZY0ZkNUt2U3ZtdTYybnBNaEJid0dzX1pKWkE?oc=5",
-      "summary": "琴響台中、愛樂傳城！國際扶輪捐贈鋼琴 水湳轉運中心邀旅人共譜城市樂章 taichung.gov.tw"
-    },
     {
       "id": "01633ebd98ca9cac",
       "source": "taichung.gov.tw",
@@ -63,8 +19,8 @@
         "水湳",
         "北屯"
       ],
-      "collected_at": "2026-08-04T05:56:33.521Z",
-      "importance_score": 73,
+      "collected_at": "2026-08-04T06:35:19.503Z",
+      "importance_score": 72,
       "fetch_status": "google_news_redirect",
       "sources": [
         {
@@ -74,8 +30,8 @@
           "google_news_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA3ZzQwalNfdFpobmd1TWpmcWNkd0NycFlxNVllVGNzVktGcEhWck9ZdVdjWk1lRTdlM29ReUJDUWlENmJjb2w4b2lMLUh2NHRUQ2c?oc=5"
         }
       ],
-      "buyerTalk": "針對這篇「雙金獎肯定！水湳轉運中心、北屯兒童公園地下停車場雙榮獲國家卓越建設獎」，這篇與台中區域行情或重大建設有關。從長期在地市場的經驗來看，建設題材真正形成住宅需求，必須經過規劃、動工、完工、人口與商業機能進駐等階段，不能把遠期想像直接當成今天的房價。\n\n站在買方立場，我會先把新聞拆成三層判讀：第一層是已正式發生、可由官方或原始數據確認的事實；第二層是媒體或業者對後市的推估；第三層才是這項訊息是否真的影響您想買的區域、社區與總價帶。這三層若沒有分開，很容易因為一則消息過度樂觀或過度擔心。\n\n實際購屋時，建議先把可動用自備款、每月安全還款額度、稅費、裝修與持有成本分開計算，再比對目標社區近一年實價、目前在售戶數、成交速度，以及樓層、車位、朝向、採光與屋況差異。實價登錄要看完整條件，不能只挑最高價或最低價；銀行估價也不一定等於成交價，因此出價前最好預留額外自備款緩衝。若同類物件增加，可利用比較期耐心篩選與議價；若好物件供給有限，也應守住預算與必要條件，不因市場氣氛追價。\n\n我會把這篇新聞當成談判與風險檢查的材料，而不是替您決定一定要買或不能買。真正適合的購屋決策，應同時符合居住需求、持有年限、家庭現金流與物件本身條件。",
-      "sellerTalk": "針對這篇「雙金獎肯定！水湳轉運中心、北屯兒童公園地下停車場雙榮獲國家卓越建設獎」，區域建設新聞有助於增加買方對生活圈的理解，但要轉化為成交，仍需說清楚建設與物件的實際距離、使用便利性及可能帶來的施工影響。長期市場經驗告訴我們，題材能創造注意力，產品條件與合理價格才會形成成交。\n\n站在賣方立場，我會先觀察這項消息是否改變三件事：有效買方數量、買方可負擔總價，以及從看屋到核貸成交所需時間。這三項比單純討論房價會不會漲跌更有實務意義。若市場貸款條件轉緊，未必代表沒有買方，而是買方需要更完整的財務準備；若交易回溫，也不代表任何開價都能被接受。\n\n定價前應整理同社區或同生活圈最近成交案例，排除樓層、車位、面向、裝潢與特殊交易差異，再盤點目前在售競品的價格、曝光天數及優缺點。開價要留有合理談判空間，但不能與可驗證行情脫節。照片、文案、屋況整理、權利資料與看屋便利性都會影響有效詢問；成熟生活機能、可立即入住或稀有條件，則要用具體資料呈現，不用空泛話術放大。\n\n銷售過程中，建議每兩至四週檢視一次點閱、詢問、帶看與出價的轉換。如果詢問量高但出價少，通常要檢查價格與交易條件；若曝光多卻沒有帶看，則先改善照片、文案與平台配置。真正務實的銷售策略，是用買方的真實反饋逐步修正，而不是用一篇新聞保證成交價格或市場方向。",
+      "buyerTalk": "這則台中區域或建設消息可以當作選屋參考，但規劃、動工和完工是不同階段，不代表周邊房價一定會上漲。建議實際走訪生活圈，確認通勤、噪音與未來供給，再比較同社區近期實價。喜歡物件可以談，但還是要守住自己的預算。",
+      "sellerTalk": "區域建設能增加買方對生活圈的注意，但真正影響成交的仍是距離、便利性、屋況與價格。建議把已完成、施工中及規劃中的內容說清楚，再用同社區近期成交設定合理開價。若帶看後反覆出現相同疑慮，就調整說明、整理方式或銷售條件。",
       "publishedAt": "2026-08-04",
       "relativeTime": "72小時內",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA3ZzQwalNfdFpobmd1TWpmcWNkd0NycFlxNVllVGNzVktGcEhWck9ZdVdjWk1lRTdlM29ReUJDUWlENmJjb2w4b2lMLUh2NHRUQ2c?oc=5",
@@ -85,7 +41,7 @@
       "id": "54befeea6b309215",
       "source": "放言Fount Media",
       "title": "李在明向豪宅與多屋族加稅 南韓房價連漲13個月、支持度受壓",
-      "published_at": "2026-08-04T05:41:48.000Z",
+      "published_at": "2026-08-04T05:42:36.000Z",
       "original_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB1Q0JJcGIycTd0SzNQS3owNmk5RXVsb3AxaWNOY3FRZVFRbUkxdnBrMXc5VGxpN2RDNUFQLXZEbmVLX013TlZiMFVGd3RZdXRZVGc?oc=5",
       "google_news_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB1Q0JJcGIycTd0SzNQS3owNmk5RXVsb3AxaWNOY3FRZVFRbUkxdnBrMXc5VGxpN2RDNUFQLXZEbmVLX013TlZiMFVGd3RZdXRZVGc?oc=5",
       "excerpt": "李在明向豪宅與多屋族加稅 南韓房價連漲13個月、支持度受壓 放言Fount Media",
@@ -95,19 +51,19 @@
       "keywords": [
         "房價"
       ],
-      "collected_at": "2026-08-04T05:56:33.521Z",
+      "collected_at": "2026-08-04T06:35:19.503Z",
       "importance_score": 65,
       "fetch_status": "google_news_redirect",
       "sources": [
         {
           "source": "放言Fount Media",
-          "published_at": "2026-08-04T05:41:48.000Z",
+          "published_at": "2026-08-04T05:42:36.000Z",
           "original_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB1Q0JJcGIycTd0SzNQS3owNmk5RXVsb3AxaWNOY3FRZVFRbUkxdnBrMXc5VGxpN2RDNUFQLXZEbmVLX013TlZiMFVGd3RZdXRZVGc?oc=5",
           "google_news_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB1Q0JJcGIycTd0SzNQS3owNmk5RXVsb3AxaWNOY3FRZVFRbUkxdnBrMXc5VGxpN2RDNUFQLXZEbmVLX013TlZiMFVGd3RZdXRZVGc?oc=5"
         }
       ],
-      "buyerTalk": "針對這篇「李在明向豪宅與多屋族加稅 南韓房價連漲13個月、支持度受壓」，這則房價、交易或市場消息反映的是特定期間與統計範圍。從長期實務經驗來看，量往往先於價出現變化，但不同總價帶、屋齡、地段與產品的反應速度並不相同，不能用一個全國或行政區數字套用到每間房屋。\n\n站在買方立場，我會先把新聞拆成三層判讀：第一層是已正式發生、可由官方或原始數據確認的事實；第二層是媒體或業者對後市的推估；第三層才是這項訊息是否真的影響您想買的區域、社區與總價帶。這三層若沒有分開，很容易因為一則消息過度樂觀或過度擔心。\n\n實際購屋時，建議先把可動用自備款、每月安全還款額度、稅費、裝修與持有成本分開計算，再比對目標社區近一年實價、目前在售戶數、成交速度，以及樓層、車位、朝向、採光與屋況差異。實價登錄要看完整條件，不能只挑最高價或最低價；銀行估價也不一定等於成交價，因此出價前最好預留額外自備款緩衝。若同類物件增加，可利用比較期耐心篩選與議價；若好物件供給有限，也應守住預算與必要條件，不因市場氣氛追價。\n\n我會把這篇新聞當成談判與風險檢查的材料，而不是替您決定一定要買或不能買。真正適合的購屋決策，應同時符合居住需求、持有年限、家庭現金流與物件本身條件。",
-      "sellerTalk": "針對這篇「李在明向豪宅與多屋族加稅 南韓房價連漲13個月、支持度受壓」，市場統計能協助判斷整體成交節奏，但房屋能否順利出售，仍取決於同類產品競爭、開價與成交價差、屋況以及曝光品質。實務上，新聞數字是市場氣壓計，不是個別房屋的估價報告。\n\n站在賣方立場，我會先觀察這項消息是否改變三件事：有效買方數量、買方可負擔總價，以及從看屋到核貸成交所需時間。這三項比單純討論房價會不會漲跌更有實務意義。若市場貸款條件轉緊，未必代表沒有買方，而是買方需要更完整的財務準備；若交易回溫，也不代表任何開價都能被接受。\n\n定價前應整理同社區或同生活圈最近成交案例，排除樓層、車位、面向、裝潢與特殊交易差異，再盤點目前在售競品的價格、曝光天數及優缺點。開價要留有合理談判空間，但不能與可驗證行情脫節。照片、文案、屋況整理、權利資料與看屋便利性都會影響有效詢問；成熟生活機能、可立即入住或稀有條件，則要用具體資料呈現，不用空泛話術放大。\n\n銷售過程中，建議每兩至四週檢視一次點閱、詢問、帶看與出價的轉換。如果詢問量高但出價少，通常要檢查價格與交易條件；若曝光多卻沒有帶看，則先改善照片、文案與平台配置。真正務實的銷售策略，是用買方的真實反饋逐步修正，而不是用一篇新聞保證成交價格或市場方向。",
+      "buyerTalk": "這則行情或交易數據可以幫您了解市場氣氛，但不代表每個社區都會一起漲跌。建議再看看目標社區近一年實價、目前在售數量，以及樓層、車位和屋況差異。看屋前先抓好總預算，喜歡再依可比較的成交案例出價，不需要被單一新聞催著做決定。",
+      "sellerTalk": "這則市場數據可以用來觀察成交速度，但不能直接當成您房屋的成交價。建議先比較同社區、相近坪數與屋齡的實價，再看看目前競品開價和曝光時間。若有詢問卻少出價，就檢查價格；若連帶看都不多，則先改善照片、文案與看屋安排。",
       "publishedAt": "2026-08-04",
       "relativeTime": "72小時內",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB1Q0JJcGIycTd0SzNQS3owNmk5RXVsb3AxaWNOY3FRZVFRbUkxdnBrMXc5VGxpN2RDNUFQLXZEbmVLX013TlZiMFVGd3RZdXRZVGc?oc=5",
@@ -127,7 +83,7 @@
       "keywords": [
         "水湳"
       ],
-      "collected_at": "2026-08-04T05:56:33.521Z",
+      "collected_at": "2026-08-04T06:35:19.503Z",
       "importance_score": 65,
       "fetch_status": "google_news_redirect",
       "sources": [
@@ -138,8 +94,8 @@
           "google_news_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE8zRjNkVGtYSWpLTlZtNHFMbm9fbkVsUk9KUGM0S0NjazJ1X01mbGpMOEowNldwT3JNWU5UdVVVb3NkN25YX0VSazhaUnF0SjM5VHpGaEQxYnJwX2lfZnEtYzNjMy1URkRPbFZ0SGlRR3FTN2ZXY2ZhSmppVQ?oc=5"
         }
       ],
-      "buyerTalk": "針對這篇「水湳轉運中心8/5啟用！中市9條市區公車8/6進駐 串聯機場、高鐵更便利」，這篇與台中區域行情或重大建設有關。從長期在地市場的經驗來看，建設題材真正形成住宅需求，必須經過規劃、動工、完工、人口與商業機能進駐等階段，不能把遠期想像直接當成今天的房價。\n\n站在買方立場，我會先把新聞拆成三層判讀：第一層是已正式發生、可由官方或原始數據確認的事實；第二層是媒體或業者對後市的推估；第三層才是這項訊息是否真的影響您想買的區域、社區與總價帶。這三層若沒有分開，很容易因為一則消息過度樂觀或過度擔心。\n\n實際購屋時，建議先把可動用自備款、每月安全還款額度、稅費、裝修與持有成本分開計算，再比對目標社區近一年實價、目前在售戶數、成交速度，以及樓層、車位、朝向、採光與屋況差異。實價登錄要看完整條件，不能只挑最高價或最低價；銀行估價也不一定等於成交價，因此出價前最好預留額外自備款緩衝。若同類物件增加，可利用比較期耐心篩選與議價；若好物件供給有限，也應守住預算與必要條件，不因市場氣氛追價。\n\n我會把這篇新聞當成談判與風險檢查的材料，而不是替您決定一定要買或不能買。真正適合的購屋決策，應同時符合居住需求、持有年限、家庭現金流與物件本身條件。",
-      "sellerTalk": "針對這篇「水湳轉運中心8/5啟用！中市9條市區公車8/6進駐 串聯機場、高鐵更便利」，區域建設新聞有助於增加買方對生活圈的理解，但要轉化為成交，仍需說清楚建設與物件的實際距離、使用便利性及可能帶來的施工影響。長期市場經驗告訴我們，題材能創造注意力，產品條件與合理價格才會形成成交。\n\n站在賣方立場，我會先觀察這項消息是否改變三件事：有效買方數量、買方可負擔總價，以及從看屋到核貸成交所需時間。這三項比單純討論房價會不會漲跌更有實務意義。若市場貸款條件轉緊，未必代表沒有買方，而是買方需要更完整的財務準備；若交易回溫，也不代表任何開價都能被接受。\n\n定價前應整理同社區或同生活圈最近成交案例，排除樓層、車位、面向、裝潢與特殊交易差異，再盤點目前在售競品的價格、曝光天數及優缺點。開價要留有合理談判空間，但不能與可驗證行情脫節。照片、文案、屋況整理、權利資料與看屋便利性都會影響有效詢問；成熟生活機能、可立即入住或稀有條件，則要用具體資料呈現，不用空泛話術放大。\n\n銷售過程中，建議每兩至四週檢視一次點閱、詢問、帶看與出價的轉換。如果詢問量高但出價少，通常要檢查價格與交易條件；若曝光多卻沒有帶看，則先改善照片、文案與平台配置。真正務實的銷售策略，是用買方的真實反饋逐步修正，而不是用一篇新聞保證成交價格或市場方向。",
+      "buyerTalk": "這則台中區域或建設消息可以當作選屋參考，但規劃、動工和完工是不同階段，不代表周邊房價一定會上漲。建議實際走訪生活圈，確認通勤、噪音與未來供給，再比較同社區近期實價。喜歡物件可以談，但還是要守住自己的預算。",
+      "sellerTalk": "區域建設能增加買方對生活圈的注意，但真正影響成交的仍是距離、便利性、屋況與價格。建議把已完成、施工中及規劃中的內容說清楚，再用同社區近期成交設定合理開價。若帶看後反覆出現相同疑慮，就調整說明、整理方式或銷售條件。",
       "publishedAt": "2026-08-03",
       "relativeTime": "72小時內",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE8zRjNkVGtYSWpLTlZtNHFMbm9fbkVsUk9KUGM0S0NjazJ1X01mbGpMOEowNldwT3JNWU5UdVVVb3NkN25YX0VSazhaUnF0SjM5VHpGaEQxYnJwX2lfZnEtYzNjMy1URkRPbFZ0SGlRR3FTN2ZXY2ZhSmppVQ?oc=5",
@@ -159,7 +115,7 @@
       "keywords": [
         "預售屋"
       ],
-      "collected_at": "2026-08-04T05:56:33.521Z",
+      "collected_at": "2026-08-04T06:35:19.503Z",
       "importance_score": 61,
       "fetch_status": "google_news_redirect",
       "sources": [
@@ -170,8 +126,8 @@
           "google_news_url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9aN3lhWkROU1RxcjAyZHRMOGthSF82bktGbEdOX19tUHhOc2o0Y0I1V1FZcFM2NkdlTi1kX0pTS2NVZXZ5VmEyMGh30gFPQVVfeXFMTkROTjJrMzAtYXZLSnN0OVNJbk91OEN6Wmt3Uy14ZDJqQ3pSRWZxS3JqZkk2bll1VnhzTEtSUW1IbjVObDBHcExtV3RycVNvNA?oc=5"
         }
       ],
-      "buyerTalk": "針對這篇「預售屋交屋後急售需注意！房地合一稅持有期間解析」，這篇屬於政策、稅務或貸款制度訊息。以歷經多次房市循環的實務角度來看，政策影響通常不是所有區域與產品立即齊漲齊跌，而是先改變銀行授信、自備款門檻、持有成本及買方決策時間。\n\n站在買方立場，我會先把新聞拆成三層判讀：第一層是已正式發生、可由官方或原始數據確認的事實；第二層是媒體或業者對後市的推估；第三層才是這項訊息是否真的影響您想買的區域、社區與總價帶。這三層若沒有分開，很容易因為一則消息過度樂觀或過度擔心。\n\n實際購屋時，建議先把可動用自備款、每月安全還款額度、稅費、裝修與持有成本分開計算，再比對目標社區近一年實價、目前在售戶數、成交速度，以及樓層、車位、朝向、採光與屋況差異。實價登錄要看完整條件，不能只挑最高價或最低價；銀行估價也不一定等於成交價，因此出價前最好預留額外自備款緩衝。若同類物件增加，可利用比較期耐心篩選與議價；若好物件供給有限，也應守住預算與必要條件，不因市場氣氛追價。\n\n我會把這篇新聞當成談判與風險檢查的材料，而不是替您決定一定要買或不能買。真正適合的購屋決策，應同時符合居住需求、持有年限、家庭現金流與物件本身條件。 實際適用條件仍應以主管機關、金融機構、地政士或專業人士最新公告與個案審核為準。",
-      "sellerTalk": "針對這篇「預售屋交屋後急售需注意！房地合一稅持有期間解析」，這類政策、利率或貸款消息，通常先反映在買方自備款、銀行估價、核貸條件與成交時間。多年第一線經驗顯示，市場轉折時最先改變的常是來客量與出價意願，不是所有成交價同一天一起變動。\n\n站在賣方立場，我會先觀察這項消息是否改變三件事：有效買方數量、買方可負擔總價，以及從看屋到核貸成交所需時間。這三項比單純討論房價會不會漲跌更有實務意義。若市場貸款條件轉緊，未必代表沒有買方，而是買方需要更完整的財務準備；若交易回溫，也不代表任何開價都能被接受。\n\n定價前應整理同社區或同生活圈最近成交案例，排除樓層、車位、面向、裝潢與特殊交易差異，再盤點目前在售競品的價格、曝光天數及優缺點。開價要留有合理談判空間，但不能與可驗證行情脫節。照片、文案、屋況整理、權利資料與看屋便利性都會影響有效詢問；成熟生活機能、可立即入住或稀有條件，則要用具體資料呈現，不用空泛話術放大。\n\n銷售過程中，建議每兩至四週檢視一次點閱、詢問、帶看與出價的轉換。如果詢問量高但出價少，通常要檢查價格與交易條件；若曝光多卻沒有帶看，則先改善照片、文案與平台配置。真正務實的銷售策略，是用買方的真實反饋逐步修正，而不是用一篇新聞保證成交價格或市場方向。 實際適用條件仍應以主管機關、金融機構、地政士或專業人士最新公告與個案審核為準。",
+      "buyerTalk": "這則消息和您的貸款、自備款或稅費比較有關，但先不用緊張，也不要只看標題就改變購屋計畫。建議先確認是否已正式生效，再請銀行依您的收入、負債與名下房屋試算，出價時也多留一點資金空間。實際條件仍以主管機關、銀行或專業人士最新公告與個案審核為準。",
+      "sellerTalk": "這類政策或貸款消息，可能讓買方需要更多時間準備自備款及確認核貸。建議先把房屋資料整理完整，並參考同社區近期成交與目前競品來定價，簽約和交屋時間也保留彈性。實際條件仍以主管機關、銀行或專業人士最新公告與個案審核為準。",
       "publishedAt": "2026-08-04",
       "relativeTime": "72小時內",
       "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9aN3lhWkROU1RxcjAyZHRMOGthSF82bktGbEdOX19tUHhOc2o0Y0I1V1FZcFM2NkdlTi1kX0pTS2NVZXZ5VmEyMGh30gFPQVVfeXFMTkROTjJrMzAtYXZLSnN0OVNJbk91OEN6Wmt3Uy14ZDJqQ3pSRWZxS3JqZkk2bll1VnhzTEtSUW1IbjVObDBHcExtV3RycVNvNA?oc=5",
@@ -191,7 +147,7 @@
       "keywords": [
         "預售屋"
       ],
-      "collected_at": "2026-08-04T05:56:33.521Z",
+      "collected_at": "2026-08-04T06:35:19.503Z",
       "importance_score": 55,
       "fetch_status": "google_news_redirect",
       "sources": [
@@ -202,8 +158,8 @@
           "google_news_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB5eFZtVVh3bk93blh3U3VkeVlpR3R0NmpJVXZQcDFkM2NPcEMzemg5TE9NVEhIeHpZbi1oVk1vcE9lek12X3pLY2dBajhYV2vSAU9BVV95cUxQeXhWbVVYd25Pd25Yd1N1ZHlZaUd0dDZqSVV2UHAxZDNjT3BDM3poOUxPTVRISHh6WW4taFZNb3BPZXpNdl96S2NnQWo4WFdr?oc=5"
         }
       ],
-      "buyerTalk": "針對這篇「換屋族必知！預售屋退稅優惠的兩年限制」，這則預售屋或建商推案消息，可以用來觀察區域供給、產品規劃與市場信心。做過多個景氣循環後會發現，新案熱度與未來轉手價並不是同一件事，買方仍要回到建商履歷、契約、付款節奏與產品條件。\n\n站在買方立場，我會先把新聞拆成三層判讀：第一層是已正式發生、可由官方或原始數據確認的事實；第二層是媒體或業者對後市的推估；第三層才是這項訊息是否真的影響您想買的區域、社區與總價帶。這三層若沒有分開，很容易因為一則消息過度樂觀或過度擔心。\n\n實際購屋時，建議先把可動用自備款、每月安全還款額度、稅費、裝修與持有成本分開計算，再比對目標社區近一年實價、目前在售戶數、成交速度，以及樓層、車位、朝向、採光與屋況差異。實價登錄要看完整條件，不能只挑最高價或最低價；銀行估價也不一定等於成交價，因此出價前最好預留額外自備款緩衝。若同類物件增加，可利用比較期耐心篩選與議價；若好物件供給有限，也應守住預算與必要條件，不因市場氣氛追價。\n\n我會把這篇新聞當成談判與風險檢查的材料，而不是替您決定一定要買或不能買。真正適合的購屋決策，應同時符合居住需求、持有年限、家庭現金流與物件本身條件。",
-      "sellerTalk": "針對這篇「換屋族必知！預售屋退稅優惠的兩年限制」，新案供給或建商推案增加，會直接影響中古屋賣方的競爭環境，尤其是總價接近、屋齡較新或客群重疊的產品。市場走過幾輪循環後，買方通常會把新屋付款彈性與中古屋立即入住、成熟機能放在同一張表比較。\n\n站在賣方立場，我會先觀察這項消息是否改變三件事：有效買方數量、買方可負擔總價，以及從看屋到核貸成交所需時間。這三項比單純討論房價會不會漲跌更有實務意義。若市場貸款條件轉緊，未必代表沒有買方，而是買方需要更完整的財務準備；若交易回溫，也不代表任何開價都能被接受。\n\n定價前應整理同社區或同生活圈最近成交案例，排除樓層、車位、面向、裝潢與特殊交易差異，再盤點目前在售競品的價格、曝光天數及優缺點。開價要留有合理談判空間，但不能與可驗證行情脫節。照片、文案、屋況整理、權利資料與看屋便利性都會影響有效詢問；成熟生活機能、可立即入住或稀有條件，則要用具體資料呈現，不用空泛話術放大。\n\n銷售過程中，建議每兩至四週檢視一次點閱、詢問、帶看與出價的轉換。如果詢問量高但出價少，通常要檢查價格與交易條件；若曝光多卻沒有帶看，則先改善照片、文案與平台配置。真正務實的銷售策略，是用買方的真實反饋逐步修正，而不是用一篇新聞保證成交價格或市場方向。",
+      "buyerTalk": "這則新案消息代表區域選擇可能增加，但熱銷或推案多，不等於每個建案都適合您。除了單價，也要一起比較車位、付款方式、公設比、格局、建商紀錄與交屋時間。多看幾個案子再決定，簽約前也要把契約和廣告內容逐項確認清楚。",
+      "sellerTalk": "附近新案增加後，買方通常會拿新屋付款方式和中古屋的總價、屋況一起比較。建議把立即入住、成熟機能、實際空間等優點說清楚，並用同類成交與在售競品檢查價格。若詢問多卻沒有出價，可再調整屋況呈現、曝光方式或議價空間。",
       "publishedAt": "2026-08-03",
       "relativeTime": "72小時內",
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB5eFZtVVh3bk93blh3U3VkeVlpR3R0NmpJVXZQcDFkM2NPcEMzemg5TE9NVEhIeHpZbi1oVk1vcE9lek12X3pLY2dBajhYV2vSAU9BVV95cUxQeXhWbVVYd25Pd25Yd1N1ZHlZaUd0dDZqSVV2UHAxZDNjT3BDM3poOUxPTVRISHh6WW4taFZNb3BPZXpNdl96S2NnQWo4WFdr?oc=5",
@@ -224,7 +180,7 @@
         "房市",
         "預售屋"
       ],
-      "collected_at": "2026-08-04T05:56:33.521Z",
+      "collected_at": "2026-08-04T06:35:19.503Z",
       "importance_score": 55,
       "fetch_status": "google_news_redirect",
       "sources": [
@@ -235,8 +191,8 @@
           "google_news_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBjMk9KaGRIVE9sZFZscWd6WmpiRUxabHZvRWhCOFNybjYxYnBTNXJIN252SkpQTFJNR3ZFcE5uencyZVloeF9vTm1MRjYzWUNUdnlhWnZfbHFYRVFtZmVB?oc=5"
         }
       ],
-      "buyerTalk": "針對這篇「預售屋買5年不等於持有5年！交屋後急賣恐課45％重稅- 房市」，這則預售屋或建商推案消息，可以用來觀察區域供給、產品規劃與市場信心。做過多個景氣循環後會發現，新案熱度與未來轉手價並不是同一件事，買方仍要回到建商履歷、契約、付款節奏與產品條件。\n\n站在買方立場，我會先把新聞拆成三層判讀：第一層是已正式發生、可由官方或原始數據確認的事實；第二層是媒體或業者對後市的推估；第三層才是這項訊息是否真的影響您想買的區域、社區與總價帶。這三層若沒有分開，很容易因為一則消息過度樂觀或過度擔心。\n\n實際購屋時，建議先把可動用自備款、每月安全還款額度、稅費、裝修與持有成本分開計算，再比對目標社區近一年實價、目前在售戶數、成交速度，以及樓層、車位、朝向、採光與屋況差異。實價登錄要看完整條件，不能只挑最高價或最低價；銀行估價也不一定等於成交價，因此出價前最好預留額外自備款緩衝。若同類物件增加，可利用比較期耐心篩選與議價；若好物件供給有限，也應守住預算與必要條件，不因市場氣氛追價。\n\n我會把這篇新聞當成談判與風險檢查的材料，而不是替您決定一定要買或不能買。真正適合的購屋決策，應同時符合居住需求、持有年限、家庭現金流與物件本身條件。",
-      "sellerTalk": "針對這篇「預售屋買5年不等於持有5年！交屋後急賣恐課45％重稅- 房市」，新案供給或建商推案增加，會直接影響中古屋賣方的競爭環境，尤其是總價接近、屋齡較新或客群重疊的產品。市場走過幾輪循環後，買方通常會把新屋付款彈性與中古屋立即入住、成熟機能放在同一張表比較。\n\n站在賣方立場，我會先觀察這項消息是否改變三件事：有效買方數量、買方可負擔總價，以及從看屋到核貸成交所需時間。這三項比單純討論房價會不會漲跌更有實務意義。若市場貸款條件轉緊，未必代表沒有買方，而是買方需要更完整的財務準備；若交易回溫，也不代表任何開價都能被接受。\n\n定價前應整理同社區或同生活圈最近成交案例，排除樓層、車位、面向、裝潢與特殊交易差異，再盤點目前在售競品的價格、曝光天數及優缺點。開價要留有合理談判空間，但不能與可驗證行情脫節。照片、文案、屋況整理、權利資料與看屋便利性都會影響有效詢問；成熟生活機能、可立即入住或稀有條件，則要用具體資料呈現，不用空泛話術放大。\n\n銷售過程中，建議每兩至四週檢視一次點閱、詢問、帶看與出價的轉換。如果詢問量高但出價少，通常要檢查價格與交易條件；若曝光多卻沒有帶看，則先改善照片、文案與平台配置。真正務實的銷售策略，是用買方的真實反饋逐步修正，而不是用一篇新聞保證成交價格或市場方向。",
+      "buyerTalk": "這則新案消息代表區域選擇可能增加，但熱銷或推案多，不等於每個建案都適合您。除了單價，也要一起比較車位、付款方式、公設比、格局、建商紀錄與交屋時間。多看幾個案子再決定，簽約前也要把契約和廣告內容逐項確認清楚。",
+      "sellerTalk": "附近新案增加後，買方通常會拿新屋付款方式和中古屋的總價、屋況一起比較。建議把立即入住、成熟機能、實際空間等優點說清楚，並用同類成交與在售競品檢查價格。若詢問多卻沒有出價，可再調整屋況呈現、曝光方式或議價空間。",
       "publishedAt": "2026-08-03",
       "relativeTime": "72小時內",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBjMk9KaGRIVE9sZFZscWd6WmpiRUxabHZvRWhCOFNybjYxYnBTNXJIN252SkpQTFJNR3ZFcE5uencyZVloeF9vTm1MRjYzWUNUdnlhWnZfbHFYRVFtZmVB?oc=5",
@@ -257,7 +213,7 @@
         "房價",
         "房地產"
       ],
-      "collected_at": "2026-08-04T05:56:33.521Z",
+      "collected_at": "2026-08-04T06:35:19.503Z",
       "importance_score": 55,
       "fetch_status": "google_news_redirect",
       "sources": [
@@ -268,8 +224,8 @@
           "google_news_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPdVY0UzlrVkVhRUVKVkVkTl9ZamYwdDNCaXQ3YVB3czJZdTVHUFFteEJmTW5IbUdyVjFiaWdGMTI0MmxIZlhBSVVUbmFRWm1TREJ4WjQ5OC1UNFJSc1dISzNKR3o3RjJUUFAtT3dlWmRpcnBLc05CdEJBVWhjWXR3MWFCQdIBYkFVX3lxTE9pUk10T0xsb1RMOG05RmZxY1J2RHZVZGJZMGRJUGM4aVJjR2llM1Q0YUlJQjNEWU5fR2MtUXFxeDJuZktCR3BmMWdDQnJFcEJRazlYcEhUblJESV8zb2pnSWhn?oc=5"
         }
       ],
-      "buyerTalk": "針對這篇「青安3.0不會推升房價再漲！專家點「政策限制太多」：銀行沒錢借才是根本問題」，這篇屬於政策、稅務或貸款制度訊息。以歷經多次房市循環的實務角度來看，政策影響通常不是所有區域與產品立即齊漲齊跌，而是先改變銀行授信、自備款門檻、持有成本及買方決策時間。\n\n站在買方立場，我會先把新聞拆成三層判讀：第一層是已正式發生、可由官方或原始數據確認的事實；第二層是媒體或業者對後市的推估；第三層才是這項訊息是否真的影響您想買的區域、社區與總價帶。這三層若沒有分開，很容易因為一則消息過度樂觀或過度擔心。\n\n實際購屋時，建議先把可動用自備款、每月安全還款額度、稅費、裝修與持有成本分開計算，再比對目標社區近一年實價、目前在售戶數、成交速度，以及樓層、車位、朝向、採光與屋況差異。實價登錄要看完整條件，不能只挑最高價或最低價；銀行估價也不一定等於成交價，因此出價前最好預留額外自備款緩衝。若同類物件增加，可利用比較期耐心篩選與議價；若好物件供給有限，也應守住預算與必要條件，不因市場氣氛追價。\n\n我會把這篇新聞當成談判與風險檢查的材料，而不是替您決定一定要買或不能買。真正適合的購屋決策，應同時符合居住需求、持有年限、家庭現金流與物件本身條件。 實際適用條件仍應以主管機關、金融機構、地政士或專業人士最新公告與個案審核為準。",
-      "sellerTalk": "針對這篇「青安3.0不會推升房價再漲！專家點「政策限制太多」：銀行沒錢借才是根本問題」，這類政策、利率或貸款消息，通常先反映在買方自備款、銀行估價、核貸條件與成交時間。多年第一線經驗顯示，市場轉折時最先改變的常是來客量與出價意願，不是所有成交價同一天一起變動。\n\n站在賣方立場，我會先觀察這項消息是否改變三件事：有效買方數量、買方可負擔總價，以及從看屋到核貸成交所需時間。這三項比單純討論房價會不會漲跌更有實務意義。若市場貸款條件轉緊，未必代表沒有買方，而是買方需要更完整的財務準備；若交易回溫，也不代表任何開價都能被接受。\n\n定價前應整理同社區或同生活圈最近成交案例，排除樓層、車位、面向、裝潢與特殊交易差異，再盤點目前在售競品的價格、曝光天數及優缺點。開價要留有合理談判空間，但不能與可驗證行情脫節。照片、文案、屋況整理、權利資料與看屋便利性都會影響有效詢問；成熟生活機能、可立即入住或稀有條件，則要用具體資料呈現，不用空泛話術放大。\n\n銷售過程中，建議每兩至四週檢視一次點閱、詢問、帶看與出價的轉換。如果詢問量高但出價少，通常要檢查價格與交易條件；若曝光多卻沒有帶看，則先改善照片、文案與平台配置。真正務實的銷售策略，是用買方的真實反饋逐步修正，而不是用一篇新聞保證成交價格或市場方向。 實際適用條件仍應以主管機關、金融機構、地政士或專業人士最新公告與個案審核為準。",
+      "buyerTalk": "這則消息和您的貸款、自備款或稅費比較有關，但先不用緊張，也不要只看標題就改變購屋計畫。建議先確認是否已正式生效，再請銀行依您的收入、負債與名下房屋試算，出價時也多留一點資金空間。實際條件仍以主管機關、銀行或專業人士最新公告與個案審核為準。",
+      "sellerTalk": "這類政策或貸款消息，可能讓買方需要更多時間準備自備款及確認核貸。建議先把房屋資料整理完整，並參考同社區近期成交與目前競品來定價，簽約和交屋時間也保留彈性。實際條件仍以主管機關、銀行或專業人士最新公告與個案審核為準。",
       "publishedAt": "2026-08-03",
       "relativeTime": "72小時內",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPdVY0UzlrVkVhRUVKVkVkTl9ZamYwdDNCaXQ3YVB3czJZdTVHUFFteEJmTW5IbUdyVjFiaWdGMTI0MmxIZlhBSVVUbmFRWm1TREJ4WjQ5OC1UNFJSc1dISzNKR3o3RjJUUFAtT3dlWmRpcnBLc05CdEJBVWhjWXR3MWFCQdIBYkFVX3lxTE9pUk10T0xsb1RMOG05RmZxY1J2RHZVZGJZMGRJUGM4aVJjR2llM1Q0YUlJQjNEWU5fR2MtUXFxeDJuZktCR3BmMWdDQnJFcEJRazlYcEhUblJESV8zb2pnSWhn?oc=5",
@@ -290,7 +246,7 @@
         "房地產",
         "央行"
       ],
-      "collected_at": "2026-08-04T05:56:33.521Z",
+      "collected_at": "2026-08-04T06:35:19.503Z",
       "importance_score": 55,
       "fetch_status": "google_news_redirect",
       "sources": [
@@ -301,8 +257,8 @@
           "google_news_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNUEo5cmpPOUc1MWl3MlREYjgzREJwSjUteVIzXzlTOXpWcndBZG9Id0Z3aWZ0VXNEU0NXbVI3WEs1VWFyY0IzQVJRNlllbV95cjBTRXltVXlmcG9XUjRVaXdXd01UUndVdFRyclQ3UVZDb0JHSS1GUGg1RDhzbkVReDhn0gFiQVVfeXFMT3R1Sm9GUVJ3d2JkRDktSzE1eW1EXzU1UHBGRjI2SEJvZC0xYUdoNXlhRkRrR0JHOGdyS3k3QkdoVGd5SHRoUlppZHR4RFNoNG9qM09GUno1TlFrQUdiWnY5WWc?oc=5"
         }
       ],
-      "buyerTalk": "針對這篇「央行關注「四貸同堂」李同榮：真正的風險在這」，這篇屬於政策、稅務或貸款制度訊息。以歷經多次房市循環的實務角度來看，政策影響通常不是所有區域與產品立即齊漲齊跌，而是先改變銀行授信、自備款門檻、持有成本及買方決策時間。\n\n站在買方立場，我會先把新聞拆成三層判讀：第一層是已正式發生、可由官方或原始數據確認的事實；第二層是媒體或業者對後市的推估；第三層才是這項訊息是否真的影響您想買的區域、社區與總價帶。這三層若沒有分開，很容易因為一則消息過度樂觀或過度擔心。\n\n實際購屋時，建議先把可動用自備款、每月安全還款額度、稅費、裝修與持有成本分開計算，再比對目標社區近一年實價、目前在售戶數、成交速度，以及樓層、車位、朝向、採光與屋況差異。實價登錄要看完整條件，不能只挑最高價或最低價；銀行估價也不一定等於成交價，因此出價前最好預留額外自備款緩衝。若同類物件增加，可利用比較期耐心篩選與議價；若好物件供給有限，也應守住預算與必要條件，不因市場氣氛追價。\n\n我會把這篇新聞當成談判與風險檢查的材料，而不是替您決定一定要買或不能買。真正適合的購屋決策，應同時符合居住需求、持有年限、家庭現金流與物件本身條件。 實際適用條件仍應以主管機關、金融機構、地政士或專業人士最新公告與個案審核為準。",
-      "sellerTalk": "針對這篇「央行關注「四貸同堂」李同榮：真正的風險在這」，這類政策、利率或貸款消息，通常先反映在買方自備款、銀行估價、核貸條件與成交時間。多年第一線經驗顯示，市場轉折時最先改變的常是來客量與出價意願，不是所有成交價同一天一起變動。\n\n站在賣方立場，我會先觀察這項消息是否改變三件事：有效買方數量、買方可負擔總價，以及從看屋到核貸成交所需時間。這三項比單純討論房價會不會漲跌更有實務意義。若市場貸款條件轉緊，未必代表沒有買方，而是買方需要更完整的財務準備；若交易回溫，也不代表任何開價都能被接受。\n\n定價前應整理同社區或同生活圈最近成交案例，排除樓層、車位、面向、裝潢與特殊交易差異，再盤點目前在售競品的價格、曝光天數及優缺點。開價要留有合理談判空間，但不能與可驗證行情脫節。照片、文案、屋況整理、權利資料與看屋便利性都會影響有效詢問；成熟生活機能、可立即入住或稀有條件，則要用具體資料呈現，不用空泛話術放大。\n\n銷售過程中，建議每兩至四週檢視一次點閱、詢問、帶看與出價的轉換。如果詢問量高但出價少，通常要檢查價格與交易條件；若曝光多卻沒有帶看，則先改善照片、文案與平台配置。真正務實的銷售策略，是用買方的真實反饋逐步修正，而不是用一篇新聞保證成交價格或市場方向。 實際適用條件仍應以主管機關、金融機構、地政士或專業人士最新公告與個案審核為準。",
+      "buyerTalk": "這則消息和您的貸款、自備款或稅費比較有關，但先不用緊張，也不要只看標題就改變購屋計畫。建議先確認是否已正式生效，再請銀行依您的收入、負債與名下房屋試算，出價時也多留一點資金空間。實際條件仍以主管機關、銀行或專業人士最新公告與個案審核為準。",
+      "sellerTalk": "這類政策或貸款消息，可能讓買方需要更多時間準備自備款及確認核貸。建議先把房屋資料整理完整，並參考同社區近期成交與目前競品來定價，簽約和交屋時間也保留彈性。實際條件仍以主管機關、銀行或專業人士最新公告與個案審核為準。",
       "publishedAt": "2026-08-03",
       "relativeTime": "72小時內",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNUEo5cmpPOUc1MWl3MlREYjgzREJwSjUteVIzXzlTOXpWcndBZG9Id0Z3aWZ0VXNEU0NXbVI3WEs1VWFyY0IzQVJRNlllbV95cjBTRXltVXlmcG9XUjRVaXdXd01UUndVdFRyclQ3UVZDb0JHSS1GUGg1RDhzbkVReDhn0gFiQVVfeXFMT3R1Sm9GUVJ3d2JkRDktSzE1eW1EXzU1UHBGRjI2SEJvZC0xYUdoNXlhRkRrR0JHOGdyS3k3QkdoVGd5SHRoUlppZHR4RFNoNG9qM09GUno1TlFrQUdiWnY5WWc?oc=5",
@@ -322,7 +278,7 @@
       "keywords": [
         "房地產"
       ],
-      "collected_at": "2026-08-04T05:56:33.521Z",
+      "collected_at": "2026-08-04T06:35:19.503Z",
       "importance_score": 55,
       "fetch_status": "google_news_redirect",
       "sources": [
@@ -333,8 +289,8 @@
           "google_news_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9MX3hQamloTXdwVUtfdkljXzZBVVlKR0pSelE4cXB1Mzd3VElHSDl1bUJrTVpDM1Q2VlRsYW92eUEweG13MS1qb2pqZVZPeFpScy1Ld3A1TW9adEsxNWctSldB0gFiQVVfeXFMT0xfeFBqaWhNd3BVS192SWNfNkFVWUpHSlJ6UThxcHUzN3dUSUdIOXVtQmtNWkMzVDZWVGxhb3Z5QTB4bXcxLWpvamplVk94WlJzLUt3cDVNb1p0SzE1Zy1KV0E?oc=5"
         }
       ],
-      "buyerTalk": "針對這篇「少子化加上房地合一稅！專家指「蛋白區榮景難再現」：高稅賦鎖死獲利」，這篇屬於政策、稅務或貸款制度訊息。以歷經多次房市循環的實務角度來看，政策影響通常不是所有區域與產品立即齊漲齊跌，而是先改變銀行授信、自備款門檻、持有成本及買方決策時間。\n\n站在買方立場，我會先把新聞拆成三層判讀：第一層是已正式發生、可由官方或原始數據確認的事實；第二層是媒體或業者對後市的推估；第三層才是這項訊息是否真的影響您想買的區域、社區與總價帶。這三層若沒有分開，很容易因為一則消息過度樂觀或過度擔心。\n\n實際購屋時，建議先把可動用自備款、每月安全還款額度、稅費、裝修與持有成本分開計算，再比對目標社區近一年實價、目前在售戶數、成交速度，以及樓層、車位、朝向、採光與屋況差異。實價登錄要看完整條件，不能只挑最高價或最低價；銀行估價也不一定等於成交價，因此出價前最好預留額外自備款緩衝。若同類物件增加，可利用比較期耐心篩選與議價；若好物件供給有限，也應守住預算與必要條件，不因市場氣氛追價。\n\n我會把這篇新聞當成談判與風險檢查的材料，而不是替您決定一定要買或不能買。真正適合的購屋決策，應同時符合居住需求、持有年限、家庭現金流與物件本身條件。 實際適用條件仍應以主管機關、金融機構、地政士或專業人士最新公告與個案審核為準。",
-      "sellerTalk": "針對這篇「少子化加上房地合一稅！專家指「蛋白區榮景難再現」：高稅賦鎖死獲利」，這類政策、利率或貸款消息，通常先反映在買方自備款、銀行估價、核貸條件與成交時間。多年第一線經驗顯示，市場轉折時最先改變的常是來客量與出價意願，不是所有成交價同一天一起變動。\n\n站在賣方立場，我會先觀察這項消息是否改變三件事：有效買方數量、買方可負擔總價，以及從看屋到核貸成交所需時間。這三項比單純討論房價會不會漲跌更有實務意義。若市場貸款條件轉緊，未必代表沒有買方，而是買方需要更完整的財務準備；若交易回溫，也不代表任何開價都能被接受。\n\n定價前應整理同社區或同生活圈最近成交案例，排除樓層、車位、面向、裝潢與特殊交易差異，再盤點目前在售競品的價格、曝光天數及優缺點。開價要留有合理談判空間，但不能與可驗證行情脫節。照片、文案、屋況整理、權利資料與看屋便利性都會影響有效詢問；成熟生活機能、可立即入住或稀有條件，則要用具體資料呈現，不用空泛話術放大。\n\n銷售過程中，建議每兩至四週檢視一次點閱、詢問、帶看與出價的轉換。如果詢問量高但出價少，通常要檢查價格與交易條件；若曝光多卻沒有帶看，則先改善照片、文案與平台配置。真正務實的銷售策略，是用買方的真實反饋逐步修正，而不是用一篇新聞保證成交價格或市場方向。 實際適用條件仍應以主管機關、金融機構、地政士或專業人士最新公告與個案審核為準。",
+      "buyerTalk": "這則消息和您的貸款、自備款或稅費比較有關，但先不用緊張，也不要只看標題就改變購屋計畫。建議先確認是否已正式生效，再請銀行依您的收入、負債與名下房屋試算，出價時也多留一點資金空間。實際條件仍以主管機關、銀行或專業人士最新公告與個案審核為準。",
+      "sellerTalk": "這類政策或貸款消息，可能讓買方需要更多時間準備自備款及確認核貸。建議先把房屋資料整理完整，並參考同社區近期成交與目前競品來定價，簽約和交屋時間也保留彈性。實際條件仍以主管機關、銀行或專業人士最新公告與個案審核為準。",
       "publishedAt": "2026-08-03",
       "relativeTime": "72小時內",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5iNjlmcFk0UnVIOHJ2VXNfNWdFNGpQRXlOVFF0d2ZsVElhMUExMUhUYkRpX2lrWnFhUEJzYnU3azJFeVJ0TzhXcUNoZVpVMGxBa05VTmlqOVJ4M0c4aXVaY0NHUUJiNlBIUVVMQ3ZtcjAtVlkxTXZCMHdyc9IBYkFVX3lxTE9MX3hQamloTXdwVUtfdkljXzZBVVlKR0pSelE4cXB1Mzd3VElHSDl1bUJrTVpDM1Q2VlRsYW92eUEweG13MS1qb2pqZVZPeFpScy1Ld3A1TW9adEsxNWctSldB?oc=5",
@@ -354,7 +310,7 @@
       "keywords": [
         "預售屋"
       ],
-      "collected_at": "2026-08-04T05:56:33.521Z",
+      "collected_at": "2026-08-04T06:35:19.503Z",
       "importance_score": 55,
       "fetch_status": "google_news_redirect",
       "sources": [
@@ -365,8 +321,8 @@
           "google_news_url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE95YW1LeEVSQXJzSGhGZnl3X0xiRURRZmRXeDJBQzc1cHVpZzZscWJRWG05UURWUHE0dlZUZzM1MVk1My1zZkR3dTByRmpMR1dl?oc=5"
         }
       ],
-      "buyerTalk": "針對這篇「等交屋等到退稅資格過期！換屋族買預售屋「蓋太久」 200萬退稅慘泡湯」，這則預售屋或建商推案消息，可以用來觀察區域供給、產品規劃與市場信心。做過多個景氣循環後會發現，新案熱度與未來轉手價並不是同一件事，買方仍要回到建商履歷、契約、付款節奏與產品條件。\n\n站在買方立場，我會先把新聞拆成三層判讀：第一層是已正式發生、可由官方或原始數據確認的事實；第二層是媒體或業者對後市的推估；第三層才是這項訊息是否真的影響您想買的區域、社區與總價帶。這三層若沒有分開，很容易因為一則消息過度樂觀或過度擔心。\n\n實際購屋時，建議先把可動用自備款、每月安全還款額度、稅費、裝修與持有成本分開計算，再比對目標社區近一年實價、目前在售戶數、成交速度，以及樓層、車位、朝向、採光與屋況差異。實價登錄要看完整條件，不能只挑最高價或最低價；銀行估價也不一定等於成交價，因此出價前最好預留額外自備款緩衝。若同類物件增加，可利用比較期耐心篩選與議價；若好物件供給有限，也應守住預算與必要條件，不因市場氣氛追價。\n\n我會把這篇新聞當成談判與風險檢查的材料，而不是替您決定一定要買或不能買。真正適合的購屋決策，應同時符合居住需求、持有年限、家庭現金流與物件本身條件。",
-      "sellerTalk": "針對這篇「等交屋等到退稅資格過期！換屋族買預售屋「蓋太久」 200萬退稅慘泡湯」，新案供給或建商推案增加，會直接影響中古屋賣方的競爭環境，尤其是總價接近、屋齡較新或客群重疊的產品。市場走過幾輪循環後，買方通常會把新屋付款彈性與中古屋立即入住、成熟機能放在同一張表比較。\n\n站在賣方立場，我會先觀察這項消息是否改變三件事：有效買方數量、買方可負擔總價，以及從看屋到核貸成交所需時間。這三項比單純討論房價會不會漲跌更有實務意義。若市場貸款條件轉緊，未必代表沒有買方，而是買方需要更完整的財務準備；若交易回溫，也不代表任何開價都能被接受。\n\n定價前應整理同社區或同生活圈最近成交案例，排除樓層、車位、面向、裝潢與特殊交易差異，再盤點目前在售競品的價格、曝光天數及優缺點。開價要留有合理談判空間，但不能與可驗證行情脫節。照片、文案、屋況整理、權利資料與看屋便利性都會影響有效詢問；成熟生活機能、可立即入住或稀有條件，則要用具體資料呈現，不用空泛話術放大。\n\n銷售過程中，建議每兩至四週檢視一次點閱、詢問、帶看與出價的轉換。如果詢問量高但出價少，通常要檢查價格與交易條件；若曝光多卻沒有帶看，則先改善照片、文案與平台配置。真正務實的銷售策略，是用買方的真實反饋逐步修正，而不是用一篇新聞保證成交價格或市場方向。",
+      "buyerTalk": "這則新案消息代表區域選擇可能增加，但熱銷或推案多，不等於每個建案都適合您。除了單價，也要一起比較車位、付款方式、公設比、格局、建商紀錄與交屋時間。多看幾個案子再決定，簽約前也要把契約和廣告內容逐項確認清楚。",
+      "sellerTalk": "附近新案增加後，買方通常會拿新屋付款方式和中古屋的總價、屋況一起比較。建議把立即入住、成熟機能、實際空間等優點說清楚，並用同類成交與在售競品檢查價格。若詢問多卻沒有出價，可再調整屋況呈現、曝光方式或議價空間。",
       "publishedAt": "2026-08-03",
       "relativeTime": "72小時內",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE95YW1LeEVSQXJzSGhGZnl3X0xiRURRZmRXeDJBQzc1cHVpZzZscWJRWG05UURWUHE0dlZUZzM1MVk1My1zZkR3dTByRmpMR1dl?oc=5",
@@ -386,7 +342,7 @@
       "keywords": [
         "新青安"
       ],
-      "collected_at": "2026-08-04T05:56:33.521Z",
+      "collected_at": "2026-08-04T06:35:19.503Z",
       "importance_score": 55,
       "fetch_status": "google_news_redirect",
       "sources": [
@@ -397,8 +353,8 @@
           "google_news_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBSbkFNaUdSLWt4SUpmX1pxcUlRYmVENjQ2WGZzbEZ4czA3b0VjMWxSOTA1YmFUWDdJeVpISEpEVHVXZjF6UHAyREVjSDFfR1FfZFNZazhBYWRoZzBpaF9v?oc=5"
         }
       ],
-      "buyerTalk": "針對這篇「政府推新青安 類似美次貸危機？ PTT掀正反討論」，這篇屬於政策、稅務或貸款制度訊息。以歷經多次房市循環的實務角度來看，政策影響通常不是所有區域與產品立即齊漲齊跌，而是先改變銀行授信、自備款門檻、持有成本及買方決策時間。\n\n站在買方立場，我會先把新聞拆成三層判讀：第一層是已正式發生、可由官方或原始數據確認的事實；第二層是媒體或業者對後市的推估；第三層才是這項訊息是否真的影響您想買的區域、社區與總價帶。這三層若沒有分開，很容易因為一則消息過度樂觀或過度擔心。\n\n實際購屋時，建議先把可動用自備款、每月安全還款額度、稅費、裝修與持有成本分開計算，再比對目標社區近一年實價、目前在售戶數、成交速度，以及樓層、車位、朝向、採光與屋況差異。實價登錄要看完整條件，不能只挑最高價或最低價；銀行估價也不一定等於成交價，因此出價前最好預留額外自備款緩衝。若同類物件增加，可利用比較期耐心篩選與議價；若好物件供給有限，也應守住預算與必要條件，不因市場氣氛追價。\n\n我會把這篇新聞當成談判與風險檢查的材料，而不是替您決定一定要買或不能買。真正適合的購屋決策，應同時符合居住需求、持有年限、家庭現金流與物件本身條件。 實際適用條件仍應以主管機關、金融機構、地政士或專業人士最新公告與個案審核為準。",
-      "sellerTalk": "針對這篇「政府推新青安 類似美次貸危機？ PTT掀正反討論」，這類政策、利率或貸款消息，通常先反映在買方自備款、銀行估價、核貸條件與成交時間。多年第一線經驗顯示，市場轉折時最先改變的常是來客量與出價意願，不是所有成交價同一天一起變動。\n\n站在賣方立場，我會先觀察這項消息是否改變三件事：有效買方數量、買方可負擔總價，以及從看屋到核貸成交所需時間。這三項比單純討論房價會不會漲跌更有實務意義。若市場貸款條件轉緊，未必代表沒有買方，而是買方需要更完整的財務準備；若交易回溫，也不代表任何開價都能被接受。\n\n定價前應整理同社區或同生活圈最近成交案例，排除樓層、車位、面向、裝潢與特殊交易差異，再盤點目前在售競品的價格、曝光天數及優缺點。開價要留有合理談判空間，但不能與可驗證行情脫節。照片、文案、屋況整理、權利資料與看屋便利性都會影響有效詢問；成熟生活機能、可立即入住或稀有條件，則要用具體資料呈現，不用空泛話術放大。\n\n銷售過程中，建議每兩至四週檢視一次點閱、詢問、帶看與出價的轉換。如果詢問量高但出價少，通常要檢查價格與交易條件；若曝光多卻沒有帶看，則先改善照片、文案與平台配置。真正務實的銷售策略，是用買方的真實反饋逐步修正，而不是用一篇新聞保證成交價格或市場方向。 實際適用條件仍應以主管機關、金融機構、地政士或專業人士最新公告與個案審核為準。",
+      "buyerTalk": "這則消息和您的貸款、自備款或稅費比較有關，但先不用緊張，也不要只看標題就改變購屋計畫。建議先確認是否已正式生效，再請銀行依您的收入、負債與名下房屋試算，出價時也多留一點資金空間。實際條件仍以主管機關、銀行或專業人士最新公告與個案審核為準。",
+      "sellerTalk": "這類政策或貸款消息，可能讓買方需要更多時間準備自備款及確認核貸。建議先把房屋資料整理完整，並參考同社區近期成交與目前競品來定價，簽約和交屋時間也保留彈性。實際條件仍以主管機關、銀行或專業人士最新公告與個案審核為準。",
       "publishedAt": "2026-08-03",
       "relativeTime": "72小時內",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBSbkFNaUdSLWt4SUpmX1pxcUlRYmVENjQ2WGZzbEZ4czA3b0VjMWxSOTA1YmFUWDdJeVpISEpEVHVXZjF6UHAyREVjSDFfR1FfZFNZazhBYWRoZzBpaF9v?oc=5",
@@ -418,7 +374,7 @@
       "keywords": [
         "房地產"
       ],
-      "collected_at": "2026-08-04T05:56:33.521Z",
+      "collected_at": "2026-08-04T06:35:19.503Z",
       "importance_score": 55,
       "fetch_status": "google_news_redirect",
       "sources": [
@@ -429,8 +385,8 @@
           "google_news_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9KaE9MQkR1bGxjR1FGTFZzakx1RC1iMnNXWVVQY2M4RjVDZHpzeko2SWRPN2tXYzRZcTluZXFzb0M1VjBWX0ZaVllDdzZhQk5wbkpWSHZjeGREVldy0gFiQVVfeXFMTk5yQzUwaWlwX1J3WjFERHdIMkdIQThxWExySHdPRWFlc2hQVWlOekFDM1U0NjM1Tk05UGQ5Q0Fock14cG1ENEF5bFBPNFdCU0xNLVVVMF9VMXMzbDFFT1c2cUE?oc=5"
         }
       ],
-      "buyerTalk": "針對這篇「設戶籍還不夠！他主張「睡覺、煮飯分不同屋」2百萬元退稅照樣沒了」，這篇與台中區域行情或重大建設有關。從長期在地市場的經驗來看，建設題材真正形成住宅需求，必須經過規劃、動工、完工、人口與商業機能進駐等階段，不能把遠期想像直接當成今天的房價。\n\n站在買方立場，我會先把新聞拆成三層判讀：第一層是已正式發生、可由官方或原始數據確認的事實；第二層是媒體或業者對後市的推估；第三層才是這項訊息是否真的影響您想買的區域、社區與總價帶。這三層若沒有分開，很容易因為一則消息過度樂觀或過度擔心。\n\n實際購屋時，建議先把可動用自備款、每月安全還款額度、稅費、裝修與持有成本分開計算，再比對目標社區近一年實價、目前在售戶數、成交速度，以及樓層、車位、朝向、採光與屋況差異。實價登錄要看完整條件，不能只挑最高價或最低價；銀行估價也不一定等於成交價，因此出價前最好預留額外自備款緩衝。若同類物件增加，可利用比較期耐心篩選與議價；若好物件供給有限，也應守住預算與必要條件，不因市場氣氛追價。\n\n我會把這篇新聞當成談判與風險檢查的材料，而不是替您決定一定要買或不能買。真正適合的購屋決策，應同時符合居住需求、持有年限、家庭現金流與物件本身條件。",
-      "sellerTalk": "針對這篇「設戶籍還不夠！他主張「睡覺、煮飯分不同屋」2百萬元退稅照樣沒了」，區域建設新聞有助於增加買方對生活圈的理解，但要轉化為成交，仍需說清楚建設與物件的實際距離、使用便利性及可能帶來的施工影響。長期市場經驗告訴我們，題材能創造注意力，產品條件與合理價格才會形成成交。\n\n站在賣方立場，我會先觀察這項消息是否改變三件事：有效買方數量、買方可負擔總價，以及從看屋到核貸成交所需時間。這三項比單純討論房價會不會漲跌更有實務意義。若市場貸款條件轉緊，未必代表沒有買方，而是買方需要更完整的財務準備；若交易回溫，也不代表任何開價都能被接受。\n\n定價前應整理同社區或同生活圈最近成交案例，排除樓層、車位、面向、裝潢與特殊交易差異，再盤點目前在售競品的價格、曝光天數及優缺點。開價要留有合理談判空間，但不能與可驗證行情脫節。照片、文案、屋況整理、權利資料與看屋便利性都會影響有效詢問；成熟生活機能、可立即入住或稀有條件，則要用具體資料呈現，不用空泛話術放大。\n\n銷售過程中，建議每兩至四週檢視一次點閱、詢問、帶看與出價的轉換。如果詢問量高但出價少，通常要檢查價格與交易條件；若曝光多卻沒有帶看，則先改善照片、文案與平台配置。真正務實的銷售策略，是用買方的真實反饋逐步修正，而不是用一篇新聞保證成交價格或市場方向。",
+      "buyerTalk": "這則台中區域或建設消息可以當作選屋參考，但規劃、動工和完工是不同階段，不代表周邊房價一定會上漲。建議實際走訪生活圈，確認通勤、噪音與未來供給，再比較同社區近期實價。喜歡物件可以談，但還是要守住自己的預算。",
+      "sellerTalk": "區域建設能增加買方對生活圈的注意，但真正影響成交的仍是距離、便利性、屋況與價格。建議把已完成、施工中及規劃中的內容說清楚，再用同社區近期成交設定合理開價。若帶看後反覆出現相同疑慮，就調整說明、整理方式或銷售條件。",
       "publishedAt": "2026-08-03",
       "relativeTime": "72小時內",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9KaE9MQkR1bGxjR1FGTFZzakx1RC1iMnNXWVVQY2M4RjVDZHpzeko2SWRPN2tXYzRZcTluZXFzb0M1VjBWX0ZaVllDdzZhQk5wbkpWSHZjeGREVldy0gFiQVVfeXFMTk5yQzUwaWlwX1J3WjFERHdIMkdIQThxWExySHdPRWFlc2hQVWlOekFDM1U0NjM1Tk05UGQ5Q0Fock14cG1ENEF5bFBPNFdCU0xNLVVVMF9VMXMzbDFFT1c2cUE?oc=5",
@@ -451,7 +407,7 @@
         "房地產",
         "央行"
       ],
-      "collected_at": "2026-08-04T05:56:33.521Z",
+      "collected_at": "2026-08-04T06:35:19.503Z",
       "importance_score": 55,
       "fetch_status": "google_news_redirect",
       "sources": [
@@ -462,8 +418,8 @@
           "google_news_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPNVJRbFRFeWRSZkt0V213MTZMVF9NclVLejAwbm9ncTY0UzdocjdTR2JxWmZEU2JMX0EtRVFBZFJhUnlTYWROME9jUWMxYjQwY2hGcXdIVEc2Z095UElkWFdkVDJrQ0k0b2g3cFBqRFlERVFnY2piTVBrcHlmaHZHUW9ZeDZueHfSAWJBVV95cUxQOUl4OF9rUmNodnJvWUVnOWtCdkpwdHBFRHlRNjQ1ODZXcE1SWXdSWGdjZ1g1QTdUOWYzeHZyMUd2ZDFvREFDRUQtcWh3MWhmOF9vVUNfbjBKMjRBQ015UGFOQQ?oc=5"
         }
       ],
-      "buyerTalk": "針對這篇「為何央行關注「四貸同堂」？ 他曝股房雙殺路徑圖」，這篇屬於政策、稅務或貸款制度訊息。以歷經多次房市循環的實務角度來看，政策影響通常不是所有區域與產品立即齊漲齊跌，而是先改變銀行授信、自備款門檻、持有成本及買方決策時間。\n\n站在買方立場，我會先把新聞拆成三層判讀：第一層是已正式發生、可由官方或原始數據確認的事實；第二層是媒體或業者對後市的推估；第三層才是這項訊息是否真的影響您想買的區域、社區與總價帶。這三層若沒有分開，很容易因為一則消息過度樂觀或過度擔心。\n\n實際購屋時，建議先把可動用自備款、每月安全還款額度、稅費、裝修與持有成本分開計算，再比對目標社區近一年實價、目前在售戶數、成交速度，以及樓層、車位、朝向、採光與屋況差異。實價登錄要看完整條件，不能只挑最高價或最低價；銀行估價也不一定等於成交價，因此出價前最好預留額外自備款緩衝。若同類物件增加，可利用比較期耐心篩選與議價；若好物件供給有限，也應守住預算與必要條件，不因市場氣氛追價。\n\n我會把這篇新聞當成談判與風險檢查的材料，而不是替您決定一定要買或不能買。真正適合的購屋決策，應同時符合居住需求、持有年限、家庭現金流與物件本身條件。 實際適用條件仍應以主管機關、金融機構、地政士或專業人士最新公告與個案審核為準。",
-      "sellerTalk": "針對這篇「為何央行關注「四貸同堂」？ 他曝股房雙殺路徑圖」，這類政策、利率或貸款消息，通常先反映在買方自備款、銀行估價、核貸條件與成交時間。多年第一線經驗顯示，市場轉折時最先改變的常是來客量與出價意願，不是所有成交價同一天一起變動。\n\n站在賣方立場，我會先觀察這項消息是否改變三件事：有效買方數量、買方可負擔總價，以及從看屋到核貸成交所需時間。這三項比單純討論房價會不會漲跌更有實務意義。若市場貸款條件轉緊，未必代表沒有買方，而是買方需要更完整的財務準備；若交易回溫，也不代表任何開價都能被接受。\n\n定價前應整理同社區或同生活圈最近成交案例，排除樓層、車位、面向、裝潢與特殊交易差異，再盤點目前在售競品的價格、曝光天數及優缺點。開價要留有合理談判空間，但不能與可驗證行情脫節。照片、文案、屋況整理、權利資料與看屋便利性都會影響有效詢問；成熟生活機能、可立即入住或稀有條件，則要用具體資料呈現，不用空泛話術放大。\n\n銷售過程中，建議每兩至四週檢視一次點閱、詢問、帶看與出價的轉換。如果詢問量高但出價少，通常要檢查價格與交易條件；若曝光多卻沒有帶看，則先改善照片、文案與平台配置。真正務實的銷售策略，是用買方的真實反饋逐步修正，而不是用一篇新聞保證成交價格或市場方向。 實際適用條件仍應以主管機關、金融機構、地政士或專業人士最新公告與個案審核為準。",
+      "buyerTalk": "這則消息和您的貸款、自備款或稅費比較有關，但先不用緊張，也不要只看標題就改變購屋計畫。建議先確認是否已正式生效，再請銀行依您的收入、負債與名下房屋試算，出價時也多留一點資金空間。實際條件仍以主管機關、銀行或專業人士最新公告與個案審核為準。",
+      "sellerTalk": "這類政策或貸款消息，可能讓買方需要更多時間準備自備款及確認核貸。建議先把房屋資料整理完整，並參考同社區近期成交與目前競品來定價，簽約和交屋時間也保留彈性。實際條件仍以主管機關、銀行或專業人士最新公告與個案審核為準。",
       "publishedAt": "2026-08-03",
       "relativeTime": "72小時內",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPNVJRbFRFeWRSZkt0V213MTZMVF9NclVLejAwbm9ncTY0UzdocjdTR2JxWmZEU2JMX0EtRVFBZFJhUnlTYWROME9jUWMxYjQwY2hGcXdIVEc2Z095UElkWFdkVDJrQ0k0b2g3cFBqRFlERVFnY2piTVBrcHlmaHZHUW9ZeDZueHfSAWJBVV95cUxQOUl4OF9rUmNodnJvWUVnOWtCdkpwdHBFRHlRNjQ1ODZXcE1SWXdSWGdjZ1g1QTdUOWYzeHZyMUd2ZDFvREFDRUQtcWh3MWhmOF9vVUNfbjBKMjRBQ015UGFOQQ?oc=5",
@@ -481,7 +437,7 @@
       "category": "稅務",
       "region": "全台灣",
       "keywords": [],
-      "collected_at": "2026-08-04T05:56:33.521Z",
+      "collected_at": "2026-08-04T06:35:19.503Z",
       "importance_score": 55,
       "fetch_status": "google_news_redirect",
       "sources": [
@@ -492,12 +448,42 @@
           "google_news_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE80X0FvR2VrbG8zc2w2TmJEN2hHTXI2QWZlanlNZTlIZ3ZURUJjVnBnWUlOeW4wbUxGZVVHSDE3YUI2M3NEX3lXU1FIbmxGVFdmNGZZQnFqQ3RIeERZaDVmYjVuTGNUbEd2NjRYamRpQW3SAXBBVV95cUxPNF9Bb0dla2xvM3NsNk5iRDdoR01yNkFmZWp5TWU5SGd2VEVCY1ZwZ1lJTnluMG1MRmVVR0gxN2FCNjNzRF95V1NRSG5sRlRXZjRmWUJxakN0SHhEWWg1ZmI1bkxjVGxHdjY0WGpkaUFt?oc=5"
         }
       ],
-      "buyerTalk": "針對這篇「買預售賣舊屋 他申請重購退稅200萬「踢到鐵板」 國稅局這樣說」，這篇屬於政策、稅務或貸款制度訊息。以歷經多次房市循環的實務角度來看，政策影響通常不是所有區域與產品立即齊漲齊跌，而是先改變銀行授信、自備款門檻、持有成本及買方決策時間。\n\n站在買方立場，我會先把新聞拆成三層判讀：第一層是已正式發生、可由官方或原始數據確認的事實；第二層是媒體或業者對後市的推估；第三層才是這項訊息是否真的影響您想買的區域、社區與總價帶。這三層若沒有分開，很容易因為一則消息過度樂觀或過度擔心。\n\n實際購屋時，建議先把可動用自備款、每月安全還款額度、稅費、裝修與持有成本分開計算，再比對目標社區近一年實價、目前在售戶數、成交速度，以及樓層、車位、朝向、採光與屋況差異。實價登錄要看完整條件，不能只挑最高價或最低價；銀行估價也不一定等於成交價，因此出價前最好預留額外自備款緩衝。若同類物件增加，可利用比較期耐心篩選與議價；若好物件供給有限，也應守住預算與必要條件，不因市場氣氛追價。\n\n我會把這篇新聞當成談判與風險檢查的材料，而不是替您決定一定要買或不能買。真正適合的購屋決策，應同時符合居住需求、持有年限、家庭現金流與物件本身條件。 實際適用條件仍應以主管機關、金融機構、地政士或專業人士最新公告與個案審核為準。",
-      "sellerTalk": "針對這篇「買預售賣舊屋 他申請重購退稅200萬「踢到鐵板」 國稅局這樣說」，這類政策、利率或貸款消息，通常先反映在買方自備款、銀行估價、核貸條件與成交時間。多年第一線經驗顯示，市場轉折時最先改變的常是來客量與出價意願，不是所有成交價同一天一起變動。\n\n站在賣方立場，我會先觀察這項消息是否改變三件事：有效買方數量、買方可負擔總價，以及從看屋到核貸成交所需時間。這三項比單純討論房價會不會漲跌更有實務意義。若市場貸款條件轉緊，未必代表沒有買方，而是買方需要更完整的財務準備；若交易回溫，也不代表任何開價都能被接受。\n\n定價前應整理同社區或同生活圈最近成交案例，排除樓層、車位、面向、裝潢與特殊交易差異，再盤點目前在售競品的價格、曝光天數及優缺點。開價要留有合理談判空間，但不能與可驗證行情脫節。照片、文案、屋況整理、權利資料與看屋便利性都會影響有效詢問；成熟生活機能、可立即入住或稀有條件，則要用具體資料呈現，不用空泛話術放大。\n\n銷售過程中，建議每兩至四週檢視一次點閱、詢問、帶看與出價的轉換。如果詢問量高但出價少，通常要檢查價格與交易條件；若曝光多卻沒有帶看，則先改善照片、文案與平台配置。真正務實的銷售策略，是用買方的真實反饋逐步修正，而不是用一篇新聞保證成交價格或市場方向。 實際適用條件仍應以主管機關、金融機構、地政士或專業人士最新公告與個案審核為準。",
+      "buyerTalk": "這則消息和您的貸款、自備款或稅費比較有關，但先不用緊張，也不要只看標題就改變購屋計畫。建議先確認是否已正式生效，再請銀行依您的收入、負債與名下房屋試算，出價時也多留一點資金空間。實際條件仍以主管機關、銀行或專業人士最新公告與個案審核為準。",
+      "sellerTalk": "這類政策或貸款消息，可能讓買方需要更多時間準備自備款及確認核貸。建議先把房屋資料整理完整，並參考同社區近期成交與目前競品來定價，簽約和交屋時間也保留彈性。實際條件仍以主管機關、銀行或專業人士最新公告與個案審核為準。",
       "publishedAt": "2026-08-03",
       "relativeTime": "72小時內",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE80X0FvR2VrbG8zc2w2TmJEN2hHTXI2QWZlanlNZTlIZ3ZURUJjVnBnWUlOeW4wbUxGZVVHSDE3YUI2M3NEX3lXU1FIbmxGVFdmNGZZQnFqQ3RIeERZaDVmYjVuTGNUbEd2NjRYamRpQW3SAXBBVV95cUxPNF9Bb0dla2xvM3NsNk5iRDdoR01yNkFmZWp5TWU5SGd2VEVCY1ZwZ1lJTnluMG1MRmVVR0gxN2FCNjNzRF95V1NRSG5sRlRXZjRmWUJxakN0SHhEWWg1ZmI1bkxjVGxHdjY0WGpkaUFt?oc=5",
       "summary": "買預售賣舊屋 他申請重購退稅200萬「踢到鐵板」 國稅局這樣說 好房網News"
+    },
+    {
+      "id": "3602d1905fc304fd",
+      "source": "三立新聞網SETN.com",
+      "title": "MyGonews換屋族善用重購退稅土增稅少負擔| 房產",
+      "published_at": "2026-08-02T14:58:23.000Z",
+      "original_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQOWxZeE9FUlZVc0lfN0l0MkhrTHFicjZQTkNNcWhxU2tXQll1Tldway1IMlJHal9laGMtV2g5bnBYTnluQTRhOW84RE5VNlZzQUZibjJaVGUxN0RTQVRVRVMxYzFrSHBGaE9iMk80VFNfVVlRV2s2cjNfLW5vQUhhd042ZlprYXc?oc=5",
+      "google_news_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQOWxZeE9FUlZVc0lfN0l0MkhrTHFicjZQTkNNcWhxU2tXQll1Tldway1IMlJHal9laGMtV2g5bnBYTnluQTRhOW84RE5VNlZzQUZibjJaVGUxN0RTQVRVRVMxYzFrSHBGaE9iMk80VFNfVVlRV2s2cjNfLW5vQUhhd042ZlprYXc?oc=5",
+      "excerpt": "MyGonews換屋族善用重購退稅土增稅少負擔| 房產 三立新聞網SETN.com",
+      "image_url": null,
+      "category": "稅務",
+      "region": "全台灣",
+      "keywords": [],
+      "collected_at": "2026-08-04T06:35:19.503Z",
+      "importance_score": 55,
+      "fetch_status": "google_news_redirect",
+      "sources": [
+        {
+          "source": "三立新聞網SETN.com",
+          "published_at": "2026-08-02T14:58:23.000Z",
+          "original_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQOWxZeE9FUlZVc0lfN0l0MkhrTHFicjZQTkNNcWhxU2tXQll1Tldway1IMlJHal9laGMtV2g5bnBYTnluQTRhOW84RE5VNlZzQUZibjJaVGUxN0RTQVRVRVMxYzFrSHBGaE9iMk80VFNfVVlRV2s2cjNfLW5vQUhhd042ZlprYXc?oc=5",
+          "google_news_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQOWxZeE9FUlZVc0lfN0l0MkhrTHFicjZQTkNNcWhxU2tXQll1Tldway1IMlJHal9laGMtV2g5bnBYTnluQTRhOW84RE5VNlZzQUZibjJaVGUxN0RTQVRVRVMxYzFrSHBGaE9iMk80VFNfVVlRV2s2cjNfLW5vQUhhd042ZlprYXc?oc=5"
+        }
+      ],
+      "buyerTalk": "這則消息和您的貸款、自備款或稅費比較有關，但先不用緊張，也不要只看標題就改變購屋計畫。建議先確認是否已正式生效，再請銀行依您的收入、負債與名下房屋試算，出價時也多留一點資金空間。實際條件仍以主管機關、銀行或專業人士最新公告與個案審核為準。",
+      "sellerTalk": "這類政策或貸款消息，可能讓買方需要更多時間準備自備款及確認核貸。建議先把房屋資料整理完整，並參考同社區近期成交與目前競品來定價，簽約和交屋時間也保留彈性。實際條件仍以主管機關、銀行或專業人士最新公告與個案審核為準。",
+      "publishedAt": "2026-08-02",
+      "relativeTime": "72小時內",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQOWxZeE9FUlZVc0lfN0l0MkhrTHFicjZQTkNNcWhxU2tXQll1Tldway1IMlJHal9laGMtV2g5bnBYTnluQTRhOW84RE5VNlZzQUZibjJaVGUxN0RTQVRVRVMxYzFrSHBGaE9iMk80VFNfVVlRV2s2cjNfLW5vQUhhd042ZlprYXc?oc=5",
+      "summary": "MyGonews換屋族善用重購退稅土增稅少負擔| 房產 三立新聞網SETN.com"
     }
   ]
 }
