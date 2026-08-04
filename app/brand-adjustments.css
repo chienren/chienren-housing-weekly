@@ -8,4 +8,5 @@
 .story-links a{color:#777168;font-size:12px;text-decoration:none;white-space:nowrap}
 .story-links .line-share{padding:7px 12px;border-radius:4px;background:#06c755;color:#fff;font-weight:800}
 .story-links .line-share:hover{background:#05ad49}
-@media(max-width:680px){.story-links{width:100%;margin:5px 0 0}.story-links a:last-child{margin-left:auto}}
+.store-links .phone-link{white-space:nowrap;word-break:keep-all}
+@media(max-width:680px){.story-links{width:100%;margin:5px 0 0}.story-links a:last-child{margin-left:auto}.store-links{flex-wrap:nowrap}.store-links .phone-link{flex:0 0 auto;min-width:max-content}.store-links a:last-child{flex:1 1 auto;min-width:0}}
