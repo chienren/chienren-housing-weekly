@@ -1,254 +1,87 @@
 import fs from "node:fs/promises";
+import crypto from "node:crypto";
 import path from "node:path";
 
-const root = path.resolve(import.meta.dirname, "..");
-const reportPath = path.join(root, "data", "latest.json");
-const reviewPath = path.join(root, "data", "review-queue.json");
-const QUOTA = { total: 15 };
-const MEDIA_TYPES = new Set(["即時新聞", "專業市場資訊"]);
-const GOOGLE_NEWS = "https://news.google.com/rss/search";
-const DIRECT_FEEDS = [
-  { name: "自由財經", type: "即時新聞", url: "https://news.ltn.com.tw/rss/business.xml" },
-  { name: "自由國際", type: "即時新聞", url: "https://news.ltn.com.tw/rss/world.xml" },
+const root=path.resolve(import.meta.dirname,"..");
+const googleRss=(query)=>`https://news.google.com/rss/search?q=${encodeURIComponent(`${query} when:3d`)}&hl=zh-TW&gl=TW&ceid=TW:zh-Hant`;
+const feeds=[
+  ["全台房市","主題RSS",googleRss("台灣房市 OR 房價 OR 房地產 OR 房貸 OR 預售屋 OR 成屋")],
+  ["台中房市","主題RSS",googleRss("台中房市 OR 台中房價 OR 南屯房市 OR 西屯房市 OR 北屯房市 OR 南區房市 OR 台中重劃區")],
+  ["政策與貸款","主題RSS",googleRss("央行信用管制 OR 房貸政策 OR 新青安 OR 銀行房貸 OR 第二戶 OR 第三戶 OR 換屋族")],
+  ["稅務與法規","主題RSS",googleRss("房地合一稅 OR 囤房稅 OR 重購退稅 OR 土地增值稅 OR 平均地權條例 OR 預售屋法規")],
+  ["交易數據","主題RSS",googleRss("實價登錄 OR 建物買賣移轉棟數 OR 住宅價格指數 OR 房貸負擔率 OR 預售屋交易量")],
+  ["台中建設","主題RSS",googleRss("台中捷運 OR 台中巨蛋 OR 水湳 OR 十四期 OR 十三期 OR 單元二 OR 單元三 OR 都市計畫 OR 區段徵收")],
+  ...["money.udn.com","ctee.com.tw","cna.com.tw","udn.com","estate.ltn.com.tw","ettoday.net"].map(domain=>[`指定媒體 · ${domain}`,"指定媒體",googleRss(`(房市 OR 房價 OR 房地產 OR 房貸) site:${domain}`)]),
+  ["中央社產經證券RSS","官方RSS","https://feeds.feedburner.com/rsscna/finance"],
+  ["內政部新聞發布RSS","官方RSS","https://www.moi.gov.tw/OpenData.aspx?SN=76F358C679FAD4CF"],
+  ["財政部本部新聞RSS","官方RSS","https://www.mof.gov.tw/Rss/384fb3077bb349ea973e7fc6f13b6974"],
+  ["台中市政府公開新聞RSS","官方RSS",googleRss("site:taichung.gov.tw (房市 OR 房價 OR 房地產 OR 捷運 OR 水湳 OR 都市計畫)")],
 ];
-const ARK_STYLE_QUERIES = [
-  "房市政策 OR 央行房貸 OR 信用管制 OR 住宅政策",
-  "台灣房市 OR 房價 OR 預售屋 OR 中古屋 OR 交易量",
-  "台中房市 OR 台中房價 OR 台中預售屋 OR 台中重大建設",
-  "國際財經 OR 通膨 OR 聯準會 OR 利率 房市",
-];
-
-async function loadConfig() {
-  if (process.env.CONFIG_API_URL) {
-    const response = await fetch(process.env.CONFIG_API_URL, {
-      headers: process.env.CONFIG_API_TOKEN
-        ? { authorization: `Bearer ${process.env.CONFIG_API_TOKEN}` }
-        : {},
-    });
-    if (!response.ok) throw new Error(`Config API ${response.status}`);
-    const data = await response.json();
-    return {
-      keywords: data.keywords.filter((item) => item.enabled).map((item) => item.keyword),
-      sources: data.sources.filter((item) => item.enabled),
-    };
-  }
-  return JSON.parse(
-    await fs.readFile(path.join(root, "config", "collector-defaults.json"), "utf8"),
-  );
+const now=Date.now(), cutoff=now-72*3600_000;
+const decode=(v="")=>v.replace(/<!\[CDATA\[|\]\]>/g,"").replace(/&lt;/g,"<").replace(/&gt;/g,">").replace(/&nbsp;/g," ").replace(/&amp;/g,"&").replace(/&quot;/g,'"').replace(/&#39;/g,"'").replace(/<[^>]+>/g," ").replace(/\s+/g," ").trim();
+const tag=(block,name)=>decode(block.match(new RegExp(`<${name}[^>]*>([\\s\\S]*?)<\\/${name}>`,"i"))?.[1]);
+const attr=(block,name,attribute)=>decode(block.match(new RegExp(`<${name}[^>]*${attribute}=["']([^"']+)["']`,"i"))?.[1]);
+const stripSource=(title)=>title.replace(/\s*[-｜|–—]\s*[^-｜|–—]{2,35}$/u,"").trim();
+const normalized=(title)=>stripSource(title).normalize("NFKC").toLowerCase().replace(/[\s\p{P}\p{S}]/gu,"");
+function similarity(a,b){
+  a=normalized(a);b=normalized(b);if(a===b)return 1;if(!a||!b)return 0;
+  const rows=Array.from({length:a.length+1},(_,i)=>i);
+  for(let j=1;j<=b.length;j++){let prev=rows[0];rows[0]=j;for(let i=1;i<=a.length;i++){const old=rows[i];rows[i]=Math.min(rows[i]+1,rows[i-1]+1,prev+(a[i-1]===b[j-1]?0:1));prev=old}}
+  return 1-rows[a.length]/Math.max(a.length,b.length);
+}
+function category(text){
+  if(/南屯/.test(text))return"南屯房市";if(/西屯/.test(text))return"西屯房市";if(/北屯/.test(text))return"北屯房市";if(/台中南區|南區房/.test(text))return"南區房市";
+  if(/房地合一|囤房稅|重購退稅|土地增值稅|房屋稅|地價稅/.test(text))return"稅務";
+  if(/央行|房貸|利率|信用管制|新青安|銀行|第二戶|第三戶/.test(text))return"房貸金融";
+  if(/法規|條例|政策|管制/.test(text))return"政策法規";
+  if(/移轉棟數|交易量|價格指數|負擔率|實價登錄/.test(text))return"交易量";
+  if(/預售/.test(text))return"預售屋";if(/建商|推案|建案/.test(text))return"建商推案";
+  if(/台中捷運|台中巨蛋|水湳|十四期|十三期|單元二|單元三|區段徵收/.test(text))return"台中建設";
+  if(/房價|行情|成交/.test(text))return"房價行情";return"其他區域";
+}
+const region=(text)=>/南屯/.test(text)?"台中市南屯區":/西屯|水湳/.test(text)?"台中市西屯區":/北屯|十四期/.test(text)?"台中市北屯區":/台中南區|南區房/.test(text)?"台中市南區":/台中/.test(text)?"台中市":"全台灣";
+const keywordList=(text)=>["房市","房價","房地產","房貸","預售屋","成屋","央行","信用管制","新青安","實價登錄","移轉棟數","台中捷運","水湳","十四期","南屯","西屯","北屯"].filter(k=>text.includes(k));
+const isRelevant=(text)=>/(房市|房價|房地產|不動產|住宅|房貸|預售屋|新成屋|中古屋|成屋|實價登錄|買賣移轉|住宅價格指數|房貸負擔率|央行.*信用管制|新青安|第二戶|第三戶|換屋族|房地合一|囤房稅|重購退稅|土地增值稅|平均地權|預售屋法規|台中捷運|台中巨蛋|水湳|十四期|十三期|單元二|單元三|區段徵收)/.test(text);
+const isForeign=(text)=>/(韓國|韓元|首爾|澳洲|香港房|中國大陸|大紀元|大纪元|동아일보|韓聯社|香港經濟日報)/.test(text);
+function viewpoints(item){
+  const policy=/政策法規|房貸金融|稅務/.test(item.category);
+  const buyer=policy?`這則消息可能影響貸款、稅務或購屋條件，但仍要區分媒體分析與已正式生效的規定。建議先用現行條件試算自備款與月付金，再向銀行或專業人士確認個案適用，不因單一標題急著出價。`:`這則市場消息可作為看屋比較的背景，但不能直接推論所有區域房價同步變化。建議回到目標社區近期實價、待售數量、屋況與貸款能力，至少比較數個相近物件後，再提出符合自身預算的價格。`;
+  const seller=policy?`貸款或政策消息可能讓買方需要更長時間確認資金。賣方可先備妥權狀、屋況與成交資料，並在合約及銷售節奏中預留合理的核貸時間；定價仍應依同類成交與實際詢問調整，不以政策預測保證成交。`:`市場數據只能作為背景，個別物件的成交速度仍取決於總價、屋況及競品。建議整理照片與帶看動線，依同社區實價設定合理開價，並持續觀察點閱、詢問與帶看回饋，務實調整曝光及議價策略。`;
+  return {buyerTalk:buyer,sellerTalk:seller,agentAction:"核對原始來源與發布日期，確認政策是否生效；整理同區實價、在售競品及買方貸款條件，再進行客戶說明與後續追蹤。"};
+}
+function score(item){let s=30;if(item.group==="官方RSS")s+=35;if(/央行|政策|稅|法規|新青安/.test(item.title))s+=25;if(/台中|移轉棟數|價格指數/.test(item.title))s+=15;s+=Math.max(0,10-Math.floor((now-item.time)/3600_000));return Math.min(100,s)}
+async function readFeed([feedName,group,url]){
+  try{
+    const response=await fetch(url,{headers:{"user-agent":"ChienrenHousingWeeklyRSS/2.0","accept":"application/rss+xml, application/xml, text/xml"},signal:AbortSignal.timeout(20000)});
+    if(!response.ok)throw new Error(`HTTP ${response.status}`);
+    const xml=await response.text();
+    return (xml.match(/<item[\s>][\s\S]*?<\/item>/gi)||[]).map(block=>{
+      const title=tag(block,"title"),link=tag(block,"link")||tag(block,"guid"),published=tag(block,"pubDate")||tag(block,"published")||tag(block,"updated"),time=+new Date(published);
+      const google=/news\.google\.com/.test(link);const source=tag(block,"source")||feedName;const text=`${title} ${decode(tag(block,"description"))}`;
+      return {feedName,group,title,source,time,published_at:Number.isNaN(time)?null:new Date(time).toISOString(),original_url:link,google_news_url:google?link:null,excerpt:decode(tag(block,"description")).slice(0,240),image_url:attr(block,"media:content","url")||attr(block,"enclosure","url")||null,category:category(text),region:region(text),keywords:keywordList(text),collected_at:new Date(now).toISOString(),fetch_status:google?"google_news_redirect":"rss_ok"};
+    }).filter(item=>item.title&&item.original_url&&item.time>=cutoff&&isRelevant(item.title)&&!isForeign(`${item.title} ${item.source}`));
+  }catch(error){console.warn(`[RSS失敗] ${feedName}: ${error instanceof Error?error.message:error}`);return[]}
 }
 
-const clean = (value = "") =>
-  value
-    .replace(/<!\[CDATA\[|\]\]>/g, "")
-    .replace(/<[^>]+>/g, " ")
-    .replace(/&amp;/g, "&")
-    .replace(/&quot;/g, '"')
-    .replace(/&#39;/g, "'")
-    .replace(/\s+/g, " ")
-    .trim();
-
-const tag = (block, name) =>
-  clean(block.match(new RegExp(`<${name}[^>]*>([\\s\\S]*?)<\\/${name}>`, "i"))?.[1]);
-
-const sourceTag = (block) => {
-  const match = block.match(/<source[^>]*>([\s\S]*?)<\/source>/i);
-  return clean(match?.[1]);
-};
-
-const normalize = (value = "") => value.replace(/[\s\p{P}\p{S}]/gu, "").toLowerCase();
-
-const similarity = (left, right) => {
-  const a = new Set([...normalize(left)]);
-  const b = new Set([...normalize(right)]);
-  const intersection = [...a].filter((char) => b.has(char)).length;
-  return intersection / Math.max(1, new Set([...a, ...b]).size);
-};
-
-const sourceMatches = (publishedName, configuredName) => {
-  const published = normalize(publishedName);
-  const configured = normalize(configuredName);
-  if (!published || !configured) return false;
-  const aliases = {
-    自由時報: ["自由時報", "自由財經", "自由國際"],
-    樂居或591: ["樂居", "591"],
-    ettoday房產雲: ["ettoday房產雲", "ettoday"],
-  };
-  const candidates = aliases[configured] || [configured];
-  return candidates.some((name) => published.includes(normalize(name)) || normalize(name).includes(published));
-};
-
-const configuredSource = (name, sources) =>
-  sources.find((source) => sourceMatches(name, typeof source === "string" ? source : source.name));
-
-const sourceGroup = (source) => (MEDIA_TYPES.has(source?.type) ? "media" : "official");
-
-const localAllowed = (title, source) => {
-  const text = `${title} ${source}`;
-  const mentionsOtherLocalGovernment =
-    /(台北|新北|桃園|新竹|苗栗|彰化|南投|雲林|嘉義|台南|高雄|屏東|宜蘭|花蓮|台東|澎湖|金門|連江).*(地政|戶政|市府|縣府|市政府|縣政府)/.test(text);
-  return !mentionsOtherLocalGovernment || /台中|臺中/.test(text);
-};
-
-const relevanceScore = (item) => {
-  const hours = (Date.now() - item.timestamp) / 36e5;
-  const recent = hours <= 72 ? 1000 : 0;
-  const national = /(央行|中央銀行|內政部|財政部|行政院|金管會|國土管理署|全國|六都|房貸|利率|信用管制|房地合一|房屋稅|住宅指數|移轉棟數)/.test(item.title)
-    ? 300
-    : 0;
-  const taichung = /(台中|臺中|南屯|西屯|北屯|水湳|烏日|太平|大里|海線|捷運藍線|捷運綠線)/.test(item.title)
-    ? 250
-    : 0;
-  return recent + national + taichung - hours;
-};
-
-function parseFeed(xml, fallbackSource = "") {
-  return (xml.match(/<item>[\s\S]*?<\/item>/gi) || []).map((item) => ({
-    title: tag(item, "title"),
-    url: tag(item, "link") || tag(item, "guid"),
-    source: sourceTag(item) || fallbackSource,
-    date: new Date(tag(item, "pubDate") || tag(item, "published") || tag(item, "date")),
-  }));
+const raw=(await Promise.all(feeds.map(readFeed))).flat().sort((a,b)=>b.time-a.time);
+const events=[];
+for(const item of raw){
+  let event=events.find(e=>e.primary.original_url===item.original_url||similarity(e.primary.title,item.title)>.85);
+  if(!event){events.push({primary:item,media:new Map([[item.source,item]])});continue}
+  event.media.set(item.source,item);
+  const official=item.group==="官方RSS", currentOfficial=event.primary.group==="官方RSS";
+  if((official&&!currentOfficial)||(official===currentOfficial&&item.time>event.primary.time&&item.excerpt.length>=event.primary.excerpt.length))event.primary=item;
 }
-
-function addCandidate(found, candidate, sources, forcedConfig = null) {
-  const sourceRow = forcedConfig || configuredSource(candidate.source, sources);
-  if (
-    !candidate.title ||
-    !candidate.url ||
-    !localAllowed(candidate.title, candidate.source) ||
-    Number.isNaN(+candidate.date) ||
-    Date.now() - +candidate.date > 7 * 864e5 ||
-    found.some((item) => similarity(item.title, candidate.title) > 0.72)
-  ) return;
-
-  found.push({
-    id: Buffer.from(candidate.url).toString("base64url").slice(0, 12),
-    title: candidate.title,
-    url: candidate.url,
-    source: candidate.source,
-    sourceGroup: sourceRow ? sourceGroup(sourceRow) : "media",
-    timestamp: +candidate.date,
-    publishedAt: new Intl.DateTimeFormat("zh-TW", {
-      timeZone: "Asia/Taipei",
-      year: "numeric",
-      month: "2-digit",
-      day: "2-digit",
-    }).format(candidate.date),
-  });
-}
-
-async function fetchXml(url) {
-  const response = await fetch(url, { headers: { "user-agent": "ChienrenHousingBrief/11.0" } });
-  if (!response.ok) throw new Error(`Feed ${response.status}: ${url}`);
-  return response.text();
-}
-
-async function collect() {
-  const config = await loadConfig();
-  const queries = [...ARK_STYLE_QUERIES];
-  for (let index = 0; index < config.keywords.length; index += 8) {
-    queries.push(config.keywords.slice(index, index + 8).join(" OR "));
+const items=events.map(event=>{
+  const item=event.primary;const talks=viewpoints(item);return {
+    id:crypto.createHash("sha256").update(normalized(item.title)).digest("hex").slice(0,16),
+    source:item.source,title:stripSource(item.title),published_at:item.published_at,original_url:item.original_url,google_news_url:item.google_news_url,excerpt:item.excerpt||stripSource(item.title),image_url:item.image_url,category:item.category,region:item.region,keywords:item.keywords,collected_at:item.collected_at,importance_score:score(item),fetch_status:item.fetch_status,
+    sources:[...event.media.values()].map(source=>({source:source.source,published_at:source.published_at,original_url:source.original_url,google_news_url:source.google_news_url})),
+    ...talks,
+    publishedAt:item.published_at?.slice(0,10)||"",relativeTime:"72小時內",url:item.original_url,summary:item.excerpt||stripSource(item.title),
   }
-
-  const found = [];
-  for (const days of [3, 7]) {
-    for (const query of queries) {
-      const url = `${GOOGLE_NEWS}?q=${encodeURIComponent(`${query} when:${days}d`)}&hl=zh-TW&gl=TW&ceid=TW:zh-Hant`;
-      try {
-        for (const candidate of parseFeed(await fetchXml(url))) {
-          addCandidate(found, candidate, config.sources);
-        }
-      } catch (error) {
-        console.warn(`Google News RSS 暫時無法讀取：${error.message}`);
-      }
-    }
-    if (found.length >= 45) break;
-  }
-
-  const configuredFeeds = config.sources
-    .filter((source) => source.rssUrl)
-    .map((source) => ({ name: source.name, type: source.type, url: source.rssUrl, source }));
-  const directFeeds = [...configuredFeeds];
-  for (const feed of DIRECT_FEEDS) {
-    if (!directFeeds.some((item) => item.url === feed.url)) {
-      directFeeds.push({ ...feed, source: configuredSource(feed.name, config.sources) || feed });
-    }
-  }
-
-  for (const feed of directFeeds) {
-    try {
-      for (const candidate of parseFeed(await fetchXml(feed.url), feed.name)) {
-        addCandidate(found, candidate, config.sources, feed.source);
-      }
-    } catch (error) {
-      console.warn(`${feed.name} RSS 暫時無法讀取：${error.message}`);
-    }
-  }
-
-  found.sort((a, b) => relevanceScore(b) - relevanceScore(a));
-  return {
-    items: found.slice(0, 80),
-    quota: QUOTA,
-    updatedAt: new Date().toISOString(),
-    primaryWindowHours: 72,
-    fallbackWindowDays: 7,
-    collectionChannels: ["Google News RSS", "後台直接 RSS", "自由財經／自由國際 RSS"],
-  };
-}
-
-async function run() {
-  if (!process.env.OPENAI_API_KEY) {
-    console.warn("未設定 OPENAI_API_KEY，保留上一期內容，不覆蓋正式週報。");
-    return;
-  }
-
-  const input = await collect();
-  const previous = JSON.parse(await fs.readFile(reportPath, "utf8"));
-  const prompt = `你是台灣房市週報編輯。採用方舟週報式的廣泛新聞挑選方式，請從候選資料中選出正好15則，不限制媒體與官方比例。優先順序為72小時內、全國房市政策與數據、台中房市與重大建設；若房市新聞不足，可選擇會影響利率、通膨、資金環境或購屋信心的國際財經新聞，不足才使用7日內新聞。放寬文字與觀點表達，可自然討論可能機會、風險、議價與市場氣氛，不必過度保守或制式化；但相同事件或高度重複內容只能保留一則，並排除明顯廣告、純個股行情及非台中市的地方地政或戶政新聞。每則保留原始id，產生summary、policyStatus、buyerTalk、sellerTalk、category；category只能是「政策／房市監管」「市場行情」「台中房市／重大建設」「國際財經／利率通膨」其中之一。buyerTalk與sellerTalk各至少100個中文字，語氣專業、人性化且容易理解。仍不可捏造數字、政策或法規，不可保證房價漲跌、保證獲利、保證成交或製造最後上車式急迫感。媒體推測不得寫成確定事實；政策須明確區分已生效、草案或討論。涉及法規、稅務、央行政策或貸款時，加入：實際適用條件仍應以主管機關、金融機構、地政士或專業人士最新公告與個案審核為準。只輸出JSON：{"items":[...],"review":[{"id":"...","reason":"..."}]}。候選資料：${JSON.stringify(input)}`;
-  const response = await fetch(process.env.OPENAI_API_URL || "https://api.openai.com/v1/responses", {
-    method: "POST",
-    headers: {
-      "content-type": "application/json",
-      authorization: `Bearer ${process.env.OPENAI_API_KEY}`,
-    },
-    body: JSON.stringify({
-      model: process.env.OPENAI_MODEL || "gpt-5-mini",
-      input: prompt,
-      text: { format: { type: "json_object" } },
-    }),
-  });
-  if (!response.ok) throw new Error(`AI ${response.status}`);
-  const payload = await response.json();
-  const output = payload.output_text || payload.output?.flatMap((item) => item.content || []).find((item) => item.type === "output_text")?.text;
-  const result = JSON.parse(output);
-  const candidates = new Map(input.items.map((item) => [item.id, item]));
-  const items = (result.items || [])
-    .map((item) => ({ ...candidates.get(item.id), ...item }))
-    .filter((item) => item.title && item.buyerTalk && item.sellerTalk);
-
-  if (items.length !== QUOTA.total) throw new Error(`新聞數量必須為15則，目前為${items.length}則`);
-
-  for (let index = 0; index < items.length; index += 1) {
-    const item = items[index];
-    if (Date.now() - item.timestamp > 7 * 864e5) throw new Error(`新聞超過7日：${item.id}`);
-    if ([...item.buyerTalk].length < 100 || [...item.sellerTalk].length < 100) throw new Error(`說帖少於100字：${item.id}`);
-    if (items.slice(0, index).some((other) => similarity(other.title, item.title) > 0.72)) throw new Error(`重複新聞：${item.id}`);
-  }
-
-  const now = new Date();
-  previous.items = items;
-  previous.updatedAt = new Intl.DateTimeFormat("zh-TW", {
-    timeZone: "Asia/Taipei",
-    dateStyle: "short",
-    timeStyle: "short",
-    hour12: false,
-  }).format(now);
-  previous.nextRun = "每週一、三、五 08:00";
-  await Promise.all([
-    fs.writeFile(reportPath, `${JSON.stringify(previous, null, 2)}\n`),
-    fs.writeFile(reviewPath, `${JSON.stringify({ updatedAt: previous.updatedAt, items: result.review || [] }, null, 2)}\n`),
-  ]);
-  console.log("週報已更新：15則（Google News RSS＋直接 RSS）");
-}
-
-await run();
+}).sort((a,b)=>b.importance_score-a.importance_score).slice(0,15);
+if(items.length<10)throw new Error(`72小時內去重後僅 ${items.length} 則，未達最低10則`);
+const report={edition:new Date(now).toISOString().slice(0,10),updatedAt:new Intl.DateTimeFormat("zh-TW",{timeZone:"Asia/Taipei",dateStyle:"short",timeStyle:"short",hour12:false}).format(now),period:"最近72小時",collectionMode:"RSS_ONLY",items};
+await fs.writeFile(path.join(root,"data","latest.json"),`${JSON.stringify(report,null,2)}\n`);
+console.log(`RSS蒐集完成：原始 ${raw.length} 則，主事件 ${events.length} 筆，正式週報 ${items.length} 則。`);

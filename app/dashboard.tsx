@@ -2,9 +2,9 @@
 
 import { useMemo, useState } from "react";
 
-type Item = { id:string; title:string; source:string; publishedAt:string; relativeTime?:string; url:string; summary:string; buyerTalk:string; sellerTalk:string; category?:string };
+type Item = { id:string; title:string; source:string; publishedAt:string; relativeTime?:string; url:string; summary:string; buyerTalk:string; sellerTalk:string; agentAction?:string; category?:string };
 type Report = { edition:string; updatedAt:string; period?:string; items:Item[] };
-type Mode = "buyer" | "seller";
+type Mode = "buyer" | "seller" | "agent";
 
 const sections = [
   { roman:"I", name:"政策／房市監管", tone:"red" },
@@ -26,8 +26,8 @@ function Story({item,index}:{item:Item;index:number}) {
   const [open,setOpen] = useState<Mode|null>(null);
   const [lineMode,setLineMode] = useState<Mode|null>(null);
   const [copied,setCopied] = useState(false);
-  const talk = open === "buyer" ? item.buyerTalk : item.sellerTalk;
-  const lineText = `${open === "buyer" ? "您好，和您分享一則近期房市消息：" : "您好，最近市場有一則消息值得留意："}\n\n${talk}\n\n新聞連結：${item.url}`;
+  const talk = open === "buyer" ? item.buyerTalk : open === "seller" ? item.sellerTalk : item.agentAction||"核對原始來源與同區實價後，再進行客戶說明。";
+  const lineText = `${open === "buyer" ? "您好，和您分享一則近期房市消息：" : open === "seller" ? "您好，最近市場有一則消息值得留意：" : "同仁行動提醒："}\n\n${talk}\n\n新聞連結：${item.url}`;
   async function copyLine(){ await navigator.clipboard.writeText(lineText); setCopied(true); setTimeout(()=>setCopied(false),1800); }
   function toggle(mode:Mode){ setOpen(open===mode?null:mode); setLineMode(null); }
   return <article className="weekly-story">
@@ -39,10 +39,11 @@ function Story({item,index}:{item:Item;index:number}) {
       <div className="viewpoint-buttons">
         <button className={open==="buyer"?"active":""} onClick={()=>toggle("buyer")}>買方觀點</button>
         <button className={open==="seller"?"active":""} onClick={()=>toggle("seller")}>賣方觀點</button>
+        <button className={open==="agent"?"active":""} onClick={()=>toggle("agent")}>同仁行動</button>
         <a href={item.url} target="_blank" rel="noreferrer">閱讀原文 ↗</a>
       </div>
       {open&&<div className={`viewpoint-panel ${open}`}>
-        <div className="viewpoint-label">給{open==="buyer"?"買方":"賣方"}</div>
+        <div className="viewpoint-label">{open==="agent"?"房仲同仁行動建議":`給${open==="buyer"?"買方":"賣方"}`}</div>
         <p>{talk}</p>
         {lineMode!==open?<button onClick={()=>setLineMode(open)}>💬 生成 LINE 訊息</button>:<div className="line-message"><p>{lineText}</p><button onClick={copyLine}>{copied?"已複製 ✓":"複製訊息"}</button><small>複製後可直接貼到 LINE，再依客戶狀況調整。</small></div>}
       </div>}
