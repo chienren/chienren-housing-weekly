@@ -18,6 +18,8 @@ const feeds=[
   ["台中市政府公開新聞RSS","官方RSS",googleRss("site:taichung.gov.tw (房市 OR 房價 OR 房地產 OR 捷運 OR 水湳 OR 都市計畫)")],
 ];
 const now=Date.now(), cutoff=now-72*3600_000;
+const refreshedAt=new Date(now).toISOString();
+const refreshBatch=crypto.createHash("sha256").update(refreshedAt).digest("hex").slice(0,12);
 const decode=(v="")=>v.replace(/<!\[CDATA\[|\]\]>/g,"").replace(/&lt;/g,"<").replace(/&gt;/g,">").replace(/&nbsp;/g," ").replace(/&amp;/g,"&").replace(/&quot;/g,'"').replace(/&#39;/g,"'").replace(/<[^>]+>/g," ").replace(/\s+/g," ").trim();
 const tag=(block,name)=>decode(block.match(new RegExp(`<${name}[^>]*>([\\s\\S]*?)<\\/${name}>`,"i"))?.[1]);
 const attr=(block,name,attribute)=>decode(block.match(new RegExp(`<${name}[^>]*${attribute}=["']([^"']+)["']`,"i"))?.[1]);
@@ -96,13 +98,21 @@ for(const item of raw){
 const items=events.map(event=>{
   const item=event.primary;const talks=professionalViewpoints(item);return {
     id:crypto.createHash("sha256").update(normalized(item.title)).digest("hex").slice(0,16),
-    source:item.source,title:stripSource(item.title),published_at:item.published_at,original_url:item.original_url,google_news_url:item.google_news_url,excerpt:item.excerpt||stripSource(item.title),image_url:item.image_url,category:item.category,region:item.region,keywords:item.keywords,collected_at:item.collected_at,importance_score:score(item),fetch_status:item.fetch_status,
+    source:item.source,title:stripSource(item.title),published_at:item.published_at,original_url:item.original_url,google_news_url:item.google_news_url,excerpt:item.excerpt||stripSource(item.title),image_url:item.image_url,category:item.category,region:item.region,keywords:item.keywords,collected_at:item.collected_at,refreshed_at:refreshedAt,refresh_batch:refreshBatch,importance_score:score(item),fetch_status:item.fetch_status,
     sources:[...event.media.values()].map(source=>({source:source.source,published_at:source.published_at,original_url:source.original_url,google_news_url:source.google_news_url})),
     ...talks,
     publishedAt:item.published_at?.slice(0,10)||"",relativeTime:"72小時內",url:item.original_url,summary:item.excerpt||stripSource(item.title),
   }
 }).sort((a,b)=>b.importance_score-a.importance_score).slice(0,15);
-if(items.length<10)throw new Error(`72小時內去重後僅 ${items.length} 則，未達最低10則`);
-const report={edition:new Date(now).toISOString().slice(0,10),updatedAt:new Intl.DateTimeFormat("zh-TW",{timeZone:"Asia/Taipei",dateStyle:"short",timeStyle:"short",hour12:false}).format(now),period:"最近72小時",collectionMode:"RSS_ONLY",items};
+if(items.length!==15)throw new Error(`72小時內去重後僅 ${items.length} 則，未達整批更新所需15則`);
+const previous=JSON.parse(await fs.readFile(path.join(root,"data","latest.json"),"utf8").catch(()=>'{"items":[]}'));
+const previousIds=new Set((previous.items||[]).map(item=>item.id));
+const hasNewStory=items.some(item=>!previousIds.has(item.id));
+if(!hasNewStory){
+  console.log("RSS蒐集完成：沒有偵測到新事件，保留目前完整15則，不進行單篇增量更新。");
+  process.exit(0);
+}
+if(items.some(item=>item.refresh_batch!==refreshBatch||item.refreshed_at!==refreshedAt))throw new Error("整批刷新驗證失敗：15則新聞不屬於同一更新批次");
+const report={edition:new Date(now).toISOString().slice(0,10),updatedAt:new Intl.DateTimeFormat("zh-TW",{timeZone:"Asia/Taipei",dateStyle:"short",timeStyle:"short",hour12:false}).format(now),period:"最近72小時",collectionMode:"RSS_ONLY",refreshMode:"FULL_BATCH_15",refreshBatch,refreshedAt,items};
 await fs.writeFile(path.join(root,"data","latest.json"),`${JSON.stringify(report,null,2)}\n`);
 console.log(`RSS蒐集完成：原始 ${raw.length} 則，主事件 ${events.length} 筆，正式週報 ${items.length} 則。`);
