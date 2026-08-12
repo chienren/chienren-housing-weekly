@@ -1,97 +1,53 @@
 {
-  "edition": "2026-08-10",
-  "updatedAt": "2026/8/10 13:10",
+  "edition": "2026-08-12",
+  "updatedAt": "2026/8/12 13:20",
   "period": "最近72小時",
   "collectionMode": "RSS_ONLY",
   "refreshMode": "FULL_BATCH_15",
-  "refreshBatch": "3a8f24f16cca",
-  "refreshedAt": "2026-08-10T05:10:25.708Z",
+  "refreshBatch": "61ec20dc0f0a",
+  "refreshedAt": "2026-08-12T05:20:19.700Z",
   "items": [
     {
-      "id": "019620c89126f4ad",
-      "source": "land.taichung.gov.tw",
-      "title": "內政部不動產交易實價查詢服務網 - 臺中市政府地政局",
-      "published_at": "2026-08-09T02:36:13.000Z",
-      "original_url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOT19NZWVMT2V2cG5lUGR0OTlpbkRnWFZ5ZWkyY0Q0VnlzZUxzUThtdGY5MXpYQWt0cV9QaXh1cjhNRFNtaEZpWFEtNjQ0THFGVDZlWjUyNHRxUXAxUzFIS0dlbXlqcGl2R05fRmY4djVxZWhUYzdDNkxvbExVUDhuV01pbXdtZE00QWMzOFdPRU9hWDJLMGpFNDZjREZuRmdqOXhHdi1GNjhSU3lyZFItZFVaRDY3d3hoTWlBeUpLbDFtdG9Ld19naUY3NUFxTWg1Q0gxakUwSFBtQzBob2hkdlJhOU1CaENPOFlxZDRGNDdBQk1SZ0FRWVl3RXRJcHpQZ2FhUktXMVV6MFN2?oc=5",
-      "google_news_url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOT19NZWVMT2V2cG5lUGR0OTlpbkRnWFZ5ZWkyY0Q0VnlzZUxzUThtdGY5MXpYQWt0cV9QaXh1cjhNRFNtaEZpWFEtNjQ0THFGVDZlWjUyNHRxUXAxUzFIS0dlbXlqcGl2R05fRmY4djVxZWhUYzdDNkxvbExVUDhuV01pbXdtZE00QWMzOFdPRU9hWDJLMGpFNDZjREZuRmdqOXhHdi1GNjhSU3lyZFItZFVaRDY3d3hoTWlBeUpLbDFtdG9Ld19naUY3NUFxTWg1Q0gxakUwSFBtQzBob2hkdlJhOU1CaENPOFlxZDRGNDdBQk1SZ0FRWVl3RXRJcHpQZ2FhUktXMVV6MFN2?oc=5",
-      "excerpt": "內政部不動產交易實價查詢服務網 - 臺中市政府地政局 land.taichung.gov.tw",
-      "image_url": null,
-      "category": "其他區域",
-      "region": "全台灣",
-      "keywords": [],
-      "collected_at": "2026-08-10T05:10:25.708Z",
-      "refreshed_at": "2026-08-10T05:10:25.708Z",
-      "refresh_batch": "3a8f24f16cca",
-      "importance_score": 65,
-      "fetch_status": "google_news_redirect",
-      "sources": [
-        {
-          "source": "land.taichung.gov.tw",
-          "published_at": "2026-08-09T02:36:13.000Z",
-          "original_url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOT19NZWVMT2V2cG5lUGR0OTlpbkRnWFZ5ZWkyY0Q0VnlzZUxzUThtdGY5MXpYQWt0cV9QaXh1cjhNRFNtaEZpWFEtNjQ0THFGVDZlWjUyNHRxUXAxUzFIS0dlbXlqcGl2R05fRmY4djVxZWhUYzdDNkxvbExVUDhuV01pbXdtZE00QWMzOFdPRU9hWDJLMGpFNDZjREZuRmdqOXhHdi1GNjhSU3lyZFItZFVaRDY3d3hoTWlBeUpLbDFtdG9Ld19naUY3NUFxTWg1Q0gxakUwSFBtQzBob2hkdlJhOU1CaENPOFlxZDRGNDdBQk1SZ0FRWVl3RXRJcHpQZ2FhUktXMVV6MFN2?oc=5",
-          "google_news_url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOT19NZWVMT2V2cG5lUGR0OTlpbkRnWFZ5ZWkyY0Q0VnlzZUxzUThtdGY5MXpYQWt0cV9QaXh1cjhNRFNtaEZpWFEtNjQ0THFGVDZlWjUyNHRxUXAxUzFIS0dlbXlqcGl2R05fRmY4djVxZWhUYzdDNkxvbExVUDhuV01pbXdtZE00QWMzOFdPRU9hWDJLMGpFNDZjREZuRmdqOXhHdi1GNjhSU3lyZFItZFVaRDY3d3hoTWlBeUpLbDFtdG9Ld19naUY3NUFxTWg1Q0gxakUwSFBtQzBob2hkdlJhOU1CaENPOFlxZDRGNDdBQk1SZ0FRWVl3RXRJcHpQZ2FhUktXMVV6MFN2?oc=5"
-        }
-      ],
-      "buyerTalk": "這則台中區域或建設消息可以當作選屋參考，但規劃、動工和完工是不同階段，不代表周邊房價一定會上漲。建議實際走訪生活圈，確認通勤、噪音與未來供給，再比較同社區近期實價。喜歡物件可以談，但還是要守住自己的預算。",
-      "sellerTalk": "區域建設能增加買方對生活圈的注意，但真正影響成交的仍是距離、便利性、屋況與價格。建議把已完成、施工中及規劃中的內容說清楚，再用同社區近期成交設定合理開價。若帶看後反覆出現相同疑慮，就調整說明、整理方式或銷售條件。",
-      "publishedAt": "2026-08-09",
-      "relativeTime": "72小時內",
-      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOT19NZWVMT2V2cG5lUGR0OTlpbkRnWFZ5ZWkyY0Q0VnlzZUxzUThtdGY5MXpYQWt0cV9QaXh1cjhNRFNtaEZpWFEtNjQ0THFGVDZlWjUyNHRxUXAxUzFIS0dlbXlqcGl2R05fRmY4djVxZWhUYzdDNkxvbExVUDhuV01pbXdtZE00QWMzOFdPRU9hWDJLMGpFNDZjREZuRmdqOXhHdi1GNjhSU3lyZFItZFVaRDY3d3hoTWlBeUpLbDFtdG9Ld19naUY3NUFxTWg1Q0gxakUwSFBtQzBob2hkdlJhOU1CaENPOFlxZDRGNDdBQk1SZ0FRWVl3RXRJcHpQZ2FhUktXMVV6MFN2?oc=5",
-      "summary": "內政部不動產交易實價查詢服務網 - 臺中市政府地政局 land.taichung.gov.tw"
-    },
-    {
-      "id": "6b26e6cd35848eea",
-      "source": "中臺灣區域治理平台",
-      "title": "史努比魅力延燒！中市交通局宣布水湳轉運中心快閃店延長到8/23",
-      "published_at": "2026-08-08T09:36:30.000Z",
-      "original_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9rRThzWi01YUdYbmdBTmJVMGRlSGdzWFFvYXhtRWQtODlQQzV6dk1wQ1JIMzFGZ0VTM25LU2UtcnFIZUszV0dCVXdQa2x2VnhETHBma3NmMXRkZGtIampwT2l2eWpkRkZxbGxnc0RMZFVEa2t6ZnpOaGx2UQ?oc=5",
-      "google_news_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9rRThzWi01YUdYbmdBTmJVMGRlSGdzWFFvYXhtRWQtODlQQzV6dk1wQ1JIMzFGZ0VTM25LU2UtcnFIZUszV0dCVXdQa2x2VnhETHBma3NmMXRkZGtIampwT2l2eWpkRkZxbGxnc0RMZFVEa2t6ZnpOaGx2UQ?oc=5",
-      "excerpt": "史努比魅力延燒！中市交通局宣布水湳轉運中心快閃店延長到8/23 中臺灣區域治理平台",
+      "id": "7cfc71ec033b1c0a",
+      "source": "臺中市政府捷運工程局",
+      "title": "【新聞】台中捷運藍線BC12標決標 高架段兩大施工標全數完成發包",
+      "published_at": "2026-08-11T02:18:53.000Z",
+      "original_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE83SEcwZ0JSWkRBQXlHMlZtQno0eWcwajl1V0FxUDdKRjRvLTZRRkp1RDVfbS1qQlEwd3VaeS1TNHRoVHFyYThYMFA5Uy1jTjhNeVgybDRBbTFpRDR6YlBDWUdlQkliM0hsc3pUQ2VYcGZlblowZllhckdVUQ?oc=5",
+      "google_news_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE83SEcwZ0JSWkRBQXlHMlZtQno0eWcwajl1V0FxUDdKRjRvLTZRRkp1RDVfbS1qQlEwd3VaeS1TNHRoVHFyYThYMFA5Uy1jTjhNeVgybDRBbTFpRDR6YlBDWUdlQkliM0hsc3pUQ2VYcGZlblowZllhckdVUQ?oc=5",
+      "excerpt": "【新聞】台中捷運藍線BC12標決標 高架段兩大施工標全數完成發包 臺中市政府捷運工程局",
       "image_url": null,
       "category": "台中建設",
-      "region": "台中市西屯區",
+      "region": "台中市",
       "keywords": [
-        "水湳"
+        "台中捷運"
       ],
-      "collected_at": "2026-08-10T05:10:25.708Z",
-      "refreshed_at": "2026-08-10T05:10:25.708Z",
-      "refresh_batch": "3a8f24f16cca",
-      "importance_score": 65,
+      "collected_at": "2026-08-12T05:20:19.700Z",
+      "refreshed_at": "2026-08-12T05:20:19.700Z",
+      "refresh_batch": "61ec20dc0f0a",
+      "importance_score": 80,
       "fetch_status": "google_news_redirect",
       "sources": [
         {
-          "source": "觀傳媒",
-          "published_at": "2026-08-08T10:50:28.000Z",
-          "original_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1sQWFDUnZBdkc4ZHV4VnNsR0xSUXIzZG5INlhleGo5QWdRdlQ2YlJwcnA5SnJPZEoxZHlNRTJNMWJWZTNKNW11RXdaelVoNjhtTkhTRXNSaw?oc=5",
-          "google_news_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1sQWFDUnZBdkc4ZHV4VnNsR0xSUXIzZG5INlhleGo5QWdRdlQ2YlJwcnA5SnJPZEoxZHlNRTJNMWJWZTNKNW11RXdaelVoNjhtTkhTRXNSaw?oc=5"
-        },
-        {
-          "source": "中臺灣區域治理平台",
-          "published_at": "2026-08-08T09:36:30.000Z",
-          "original_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9rRThzWi01YUdYbmdBTmJVMGRlSGdzWFFvYXhtRWQtODlQQzV6dk1wQ1JIMzFGZ0VTM25LU2UtcnFIZUszV0dCVXdQa2x2VnhETHBma3NmMXRkZGtIampwT2l2eWpkRkZxbGxnc0RMZFVEa2t6ZnpOaGx2UQ?oc=5",
-          "google_news_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9rRThzWi01YUdYbmdBTmJVMGRlSGdzWFFvYXhtRWQtODlQQzV6dk1wQ1JIMzFGZ0VTM25LU2UtcnFIZUszV0dCVXdQa2x2VnhETHBma3NmMXRkZGtIampwT2l2eWpkRkZxbGxnc0RMZFVEa2t6ZnpOaGx2UQ?oc=5"
-        },
-        {
-          "source": "Yahoo新聞",
-          "published_at": "2026-08-08T08:19:35.000Z",
-          "original_url": "https://news.google.com/rss/articles/CBMi-gJBVV95cUxPTy1XaldYeXZRTlZiUWFGbVZQcGViWE45X2Y5OTlNVkZkVjlObnhDRGFDQkhWTzNYbXRzNUtrNWdoZ0lwVjNRdXUwZHV0Z3NnSzhYUTEzZ1dGNlI4cUhBQ21UR2NZdFh0bmw2dUx3aFIxUnoyaElKSVZsdkUxRWhmTE9NVTRESEJSQTNMci1sZG1pbW5PeW1zbU5SQWZkd2dSUU5IZkhkc1oxb1B4WHdxYlR3M0lzZlp0STVwdHBCMWh2RElsa19yT3FVeWFMZHZMZkltVEFYWUlOSXo1cTBwNFVwQ3duQXZhOWVIYkdTb01adWlhTGVHSzJILWI1X2V3RVdZMHptc2lCRHU0ckZlYUpxbE55dHNsQ1pCZHQ4RW12dm5BZ3ctSWtnSkxPeUhrTVBvUlZlRTlyQkR2Mm9NSkxJbGtjVU85YzVWNDNobDQtbEFtWUVlNFBLU0JFOHNRa0pPMHFNampOSHFKN2xQc3NfUGxiTXFHX0E?oc=5",
-          "google_news_url": "https://news.google.com/rss/articles/CBMi-gJBVV95cUxPTy1XaldYeXZRTlZiUWFGbVZQcGViWE45X2Y5OTlNVkZkVjlObnhDRGFDQkhWTzNYbXRzNUtrNWdoZ0lwVjNRdXUwZHV0Z3NnSzhYUTEzZ1dGNlI4cUhBQ21UR2NZdFh0bmw2dUx3aFIxUnoyaElKSVZsdkUxRWhmTE9NVTRESEJSQTNMci1sZG1pbW5PeW1zbU5SQWZkd2dSUU5IZkhkc1oxb1B4WHdxYlR3M0lzZlp0STVwdHBCMWh2RElsa19yT3FVeWFMZHZMZkltVEFYWUlOSXo1cTBwNFVwQ3duQXZhOWVIYkdTb01adWlhTGVHSzJILWI1X2V3RVdZMHptc2lCRHU0ckZlYUpxbE55dHNsQ1pCZHQ4RW12dm5BZ3ctSWtnSkxPeUhrTVBvUlZlRTlyQkR2Mm9NSkxJbGtjVU85YzVWNDNobDQtbEFtWUVlNFBLU0JFOHNRa0pPMHFNampOSHFKN2xQc3NfUGxiTXFHX0E?oc=5"
+          "source": "臺中市政府捷運工程局",
+          "published_at": "2026-08-11T02:18:53.000Z",
+          "original_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE83SEcwZ0JSWkRBQXlHMlZtQno0eWcwajl1V0FxUDdKRjRvLTZRRkp1RDVfbS1qQlEwd3VaeS1TNHRoVHFyYThYMFA5Uy1jTjhNeVgybDRBbTFpRDR6YlBDWUdlQkliM0hsc3pUQ2VYcGZlblowZllhckdVUQ?oc=5",
+          "google_news_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE83SEcwZ0JSWkRBQXlHMlZtQno0eWcwajl1V0FxUDdKRjRvLTZRRkp1RDVfbS1qQlEwd3VaeS1TNHRoVHFyYThYMFA5Uy1jTjhNeVgybDRBbTFpRDR6YlBDWUdlQkliM0hsc3pUQ2VYcGZlblowZllhckdVUQ?oc=5"
         }
       ],
       "buyerTalk": "這則台中區域或建設消息可以當作選屋參考，但規劃、動工和完工是不同階段，不代表周邊房價一定會上漲。建議實際走訪生活圈，確認通勤、噪音與未來供給，再比較同社區近期實價。喜歡物件可以談，但還是要守住自己的預算。",
       "sellerTalk": "區域建設能增加買方對生活圈的注意，但真正影響成交的仍是距離、便利性、屋況與價格。建議把已完成、施工中及規劃中的內容說清楚，再用同社區近期成交設定合理開價。若帶看後反覆出現相同疑慮，就調整說明、整理方式或銷售條件。",
-      "publishedAt": "2026-08-08",
+      "publishedAt": "2026-08-11",
       "relativeTime": "72小時內",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9rRThzWi01YUdYbmdBTmJVMGRlSGdzWFFvYXhtRWQtODlQQzV6dk1wQ1JIMzFGZ0VTM25LU2UtcnFIZUszV0dCVXdQa2x2VnhETHBma3NmMXRkZGtIampwT2l2eWpkRkZxbGxnc0RMZFVEa2t6ZnpOaGx2UQ?oc=5",
-      "summary": "史努比魅力延燒！中市交通局宣布水湳轉運中心快閃店延長到8/23 中臺灣區域治理平台"
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE83SEcwZ0JSWkRBQXlHMlZtQno0eWcwajl1V0FxUDdKRjRvLTZRRkp1RDVfbS1qQlEwd3VaeS1TNHRoVHFyYThYMFA5Uy1jTjhNeVgybDRBbTFpRDR6YlBDWUdlQkliM0hsc3pUQ2VYcGZlblowZllhckdVUQ?oc=5",
+      "summary": "【新聞】台中捷運藍線BC12標決標 高架段兩大施工標全數完成發包 臺中市政府捷運工程局"
     },
     {
       "id": "090a2ae4d588fd3b",
       "source": "fire.taichung.gov.tw",
       "title": "第八救災救護大隊水湳分隊 -救護訓練-胸痛（12導程）、意識不清；政令宣導： 緊急醫療救護職業安全",
-      "published_at": "2026-08-07T21:17:00.000Z",
-      "original_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9mV2tTekw3WmY0WTkzVkowajZBS3l6Z29iN0M0N0pPWVJhNnotX1FSTDlPcHJueW5IZ0Rrcm9mN3NtRU0zcTBtWC1IOU9tWUtwbmw5YU5NU2lvQlNZaF9kUnVmSXcwZkxORFdPTWptWXdycmI3QXcwUVpZQ2Q?oc=5",
-      "google_news_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9mV2tTekw3WmY0WTkzVkowajZBS3l6Z29iN0M0N0pPWVJhNnotX1FSTDlPcHJueW5IZ0Rrcm9mN3NtRU0zcTBtWC1IOU9tWUtwbmw5YU5NU2lvQlNZaF9kUnVmSXcwZkxORFdPTWptWXdycmI3QXcwUVpZQ2Q?oc=5",
+      "published_at": "2026-08-11T15:48:59.000Z",
+      "original_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9JMENBWEpzblpKdkR2aUQ3blE0azdZVE1OcTJSUGowUWl4TzFhTkpOZkJMbGgxZE1GbGd0ZUo3di1qMW9Jb3dGOWVJSGZiT0JmZ192c2ZDSlpoRGdmdzh4cjc4QkNMUXg5aWFra1d1dTlFTXB3bzZpOFk3T2k?oc=5",
+      "google_news_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9JMENBWEpzblpKdkR2aUQ3blE0azdZVE1OcTJSUGowUWl4TzFhTkpOZkJMbGgxZE1GbGd0ZUo3di1qMW9Jb3dGOWVJSGZiT0JmZ192c2ZDSlpoRGdmdzh4cjc4QkNMUXg5aWFra1d1dTlFTXB3bzZpOFk3T2k?oc=5",
       "excerpt": "第八救災救護大隊水湳分隊 -救護訓練-胸痛（12導程）、意識不清；政令宣導： 緊急醫療救護職業安全 fire.taichung.gov.tw",
       "image_url": null,
       "category": "台中建設",
@@ -99,431 +55,471 @@
       "keywords": [
         "水湳"
       ],
-      "collected_at": "2026-08-10T05:10:25.708Z",
-      "refreshed_at": "2026-08-10T05:10:25.708Z",
-      "refresh_batch": "3a8f24f16cca",
+      "collected_at": "2026-08-12T05:20:19.700Z",
+      "refreshed_at": "2026-08-12T05:20:19.700Z",
+      "refresh_batch": "61ec20dc0f0a",
       "importance_score": 65,
       "fetch_status": "google_news_redirect",
       "sources": [
         {
           "source": "fire.taichung.gov.tw",
-          "published_at": "2026-08-07T21:17:00.000Z",
-          "original_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9mV2tTekw3WmY0WTkzVkowajZBS3l6Z29iN0M0N0pPWVJhNnotX1FSTDlPcHJueW5IZ0Rrcm9mN3NtRU0zcTBtWC1IOU9tWUtwbmw5YU5NU2lvQlNZaF9kUnVmSXcwZkxORFdPTWptWXdycmI3QXcwUVpZQ2Q?oc=5",
-          "google_news_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9mV2tTekw3WmY0WTkzVkowajZBS3l6Z29iN0M0N0pPWVJhNnotX1FSTDlPcHJueW5IZ0Rrcm9mN3NtRU0zcTBtWC1IOU9tWUtwbmw5YU5NU2lvQlNZaF9kUnVmSXcwZkxORFdPTWptWXdycmI3QXcwUVpZQ2Q?oc=5"
+          "published_at": "2026-08-11T15:48:59.000Z",
+          "original_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9JMENBWEpzblpKdkR2aUQ3blE0azdZVE1OcTJSUGowUWl4TzFhTkpOZkJMbGgxZE1GbGd0ZUo3di1qMW9Jb3dGOWVJSGZiT0JmZ192c2ZDSlpoRGdmdzh4cjc4QkNMUXg5aWFra1d1dTlFTXB3bzZpOFk3T2k?oc=5",
+          "google_news_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9JMENBWEpzblpKdkR2aUQ3blE0azdZVE1OcTJSUGowUWl4TzFhTkpOZkJMbGgxZE1GbGd0ZUo3di1qMW9Jb3dGOWVJSGZiT0JmZ192c2ZDSlpoRGdmdzh4cjc4QkNMUXg5aWFra1d1dTlFTXB3bzZpOFk3T2k?oc=5"
         }
       ],
       "buyerTalk": "這則台中區域或建設消息可以當作選屋參考，但規劃、動工和完工是不同階段，不代表周邊房價一定會上漲。建議實際走訪生活圈，確認通勤、噪音與未來供給，再比較同社區近期實價。喜歡物件可以談，但還是要守住自己的預算。",
       "sellerTalk": "區域建設能增加買方對生活圈的注意，但真正影響成交的仍是距離、便利性、屋況與價格。建議把已完成、施工中及規劃中的內容說清楚，再用同社區近期成交設定合理開價。若帶看後反覆出現相同疑慮，就調整說明、整理方式或銷售條件。",
-      "publishedAt": "2026-08-07",
+      "publishedAt": "2026-08-11",
       "relativeTime": "72小時內",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9mV2tTekw3WmY0WTkzVkowajZBS3l6Z29iN0M0N0pPWVJhNnotX1FSTDlPcHJueW5IZ0Rrcm9mN3NtRU0zcTBtWC1IOU9tWUtwbmw5YU5NU2lvQlNZaF9kUnVmSXcwZkxORFdPTWptWXdycmI3QXcwUVpZQ2Q?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9JMENBWEpzblpKdkR2aUQ3blE0azdZVE1OcTJSUGowUWl4TzFhTkpOZkJMbGgxZE1GbGd0ZUo3di1qMW9Jb3dGOWVJSGZiT0JmZ192c2ZDSlpoRGdmdzh4cjc4QkNMUXg5aWFra1d1dTlFTXB3bzZpOFk3T2k?oc=5",
       "summary": "第八救災救護大隊水湳分隊 -救護訓練-胸痛（12導程）、意識不清；政令宣導： 緊急醫療救護職業安全 fire.taichung.gov.tw"
     },
     {
-      "id": "8864590df530db2c",
+      "id": "ad60d3c76f942be1",
       "source": "fire.taichung.gov.tw",
-      "title": "第八救災救護大隊水湳分隊 -火搶訓練- 入室救災管制系統及救災管制板填寫操作訓練",
-      "published_at": "2026-08-07T20:59:36.000Z",
-      "original_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9mWko3UEp3RXBiVHJfOUsyX3llX1k4OW42bjdCVVFZckVwaEd4cU5nRmZsVWF4MWhSMUswOHU4Um5aSG9CV3FyZWFPOWdRVE5Rc2dXdkljTVBSdzlIN3BTVC1OdjJ2NEljZVlPUzBkLWxaaG8zeUQ3UTZrQUI?oc=5",
-      "google_news_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9mWko3UEp3RXBiVHJfOUsyX3llX1k4OW42bjdCVVFZckVwaEd4cU5nRmZsVWF4MWhSMUswOHU4Um5aSG9CV3FyZWFPOWdRVE5Rc2dXdkljTVBSdzlIN3BTVC1OdjJ2NEljZVlPUzBkLWxaaG8zeUQ3UTZrQUI?oc=5",
-      "excerpt": "第八救災救護大隊水湳分隊 -火搶訓練- 入室救災管制系統及救災管制板填寫操作訓練 fire.taichung.gov.tw",
+      "title": "第八救災救護大隊水湳分隊-防災演練- 強化防颱整備",
+      "published_at": "2026-08-11T15:42:59.000Z",
+      "original_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBZMmdTc1FCZnVOUXBiTHA4T080TVkxSXZGZFF6V0ExbXZmS2hKRm4zaVBEZ1NGU3Y5VTBxUGZNay1lNGoxMjlILWFuc2x6WmR2WFlqYVM5SDBrVDZ3V0N2c3ZZdy15VU5ONU10TFpqcVVqMk1CQjVNR3NBTDM?oc=5",
+      "google_news_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBZMmdTc1FCZnVOUXBiTHA4T080TVkxSXZGZFF6V0ExbXZmS2hKRm4zaVBEZ1NGU3Y5VTBxUGZNay1lNGoxMjlILWFuc2x6WmR2WFlqYVM5SDBrVDZ3V0N2c3ZZdy15VU5ONU10TFpqcVVqMk1CQjVNR3NBTDM?oc=5",
+      "excerpt": "第八救災救護大隊水湳分隊-防災演練- 強化防颱整備 fire.taichung.gov.tw",
       "image_url": null,
-      "category": "政策法規",
+      "category": "台中建設",
       "region": "台中市西屯區",
       "keywords": [
         "水湳"
       ],
-      "collected_at": "2026-08-10T05:10:25.708Z",
-      "refreshed_at": "2026-08-10T05:10:25.708Z",
-      "refresh_batch": "3a8f24f16cca",
+      "collected_at": "2026-08-12T05:20:19.700Z",
+      "refreshed_at": "2026-08-12T05:20:19.700Z",
+      "refresh_batch": "61ec20dc0f0a",
       "importance_score": 65,
       "fetch_status": "google_news_redirect",
       "sources": [
         {
           "source": "fire.taichung.gov.tw",
-          "published_at": "2026-08-07T20:59:36.000Z",
-          "original_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9mWko3UEp3RXBiVHJfOUsyX3llX1k4OW42bjdCVVFZckVwaEd4cU5nRmZsVWF4MWhSMUswOHU4Um5aSG9CV3FyZWFPOWdRVE5Rc2dXdkljTVBSdzlIN3BTVC1OdjJ2NEljZVlPUzBkLWxaaG8zeUQ3UTZrQUI?oc=5",
-          "google_news_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9mWko3UEp3RXBiVHJfOUsyX3llX1k4OW42bjdCVVFZckVwaEd4cU5nRmZsVWF4MWhSMUswOHU4Um5aSG9CV3FyZWFPOWdRVE5Rc2dXdkljTVBSdzlIN3BTVC1OdjJ2NEljZVlPUzBkLWxaaG8zeUQ3UTZrQUI?oc=5"
+          "published_at": "2026-08-11T15:42:59.000Z",
+          "original_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBZMmdTc1FCZnVOUXBiTHA4T080TVkxSXZGZFF6V0ExbXZmS2hKRm4zaVBEZ1NGU3Y5VTBxUGZNay1lNGoxMjlILWFuc2x6WmR2WFlqYVM5SDBrVDZ3V0N2c3ZZdy15VU5ONU10TFpqcVVqMk1CQjVNR3NBTDM?oc=5",
+          "google_news_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBZMmdTc1FCZnVOUXBiTHA4T080TVkxSXZGZFF6V0ExbXZmS2hKRm4zaVBEZ1NGU3Y5VTBxUGZNay1lNGoxMjlILWFuc2x6WmR2WFlqYVM5SDBrVDZ3V0N2c3ZZdy15VU5ONU10TFpqcVVqMk1CQjVNR3NBTDM?oc=5"
         }
       ],
-      "buyerTalk": "這則消息和您的貸款、自備款或稅費比較有關，但先不用緊張，也不要只看標題就改變購屋計畫。建議先確認是否已正式生效，再請銀行依您的收入、負債與名下房屋試算，出價時也多留一點資金空間。實際條件仍以主管機關、銀行或專業人士最新公告與個案審核為準。",
-      "sellerTalk": "這類政策或貸款消息，可能讓買方需要更多時間準備自備款及確認核貸。建議先把房屋資料整理完整，並參考同社區近期成交與目前競品來定價，簽約和交屋時間也保留彈性。實際條件仍以主管機關、銀行或專業人士最新公告與個案審核為準。",
-      "publishedAt": "2026-08-07",
+      "buyerTalk": "這則台中區域或建設消息可以當作選屋參考，但規劃、動工和完工是不同階段，不代表周邊房價一定會上漲。建議實際走訪生活圈，確認通勤、噪音與未來供給，再比較同社區近期實價。喜歡物件可以談，但還是要守住自己的預算。",
+      "sellerTalk": "區域建設能增加買方對生活圈的注意，但真正影響成交的仍是距離、便利性、屋況與價格。建議把已完成、施工中及規劃中的內容說清楚，再用同社區近期成交設定合理開價。若帶看後反覆出現相同疑慮，就調整說明、整理方式或銷售條件。",
+      "publishedAt": "2026-08-11",
       "relativeTime": "72小時內",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9mWko3UEp3RXBiVHJfOUsyX3llX1k4OW42bjdCVVFZckVwaEd4cU5nRmZsVWF4MWhSMUswOHU4Um5aSG9CV3FyZWFPOWdRVE5Rc2dXdkljTVBSdzlIN3BTVC1OdjJ2NEljZVlPUzBkLWxaaG8zeUQ3UTZrQUI?oc=5",
-      "summary": "第八救災救護大隊水湳分隊 -火搶訓練- 入室救災管制系統及救災管制板填寫操作訓練 fire.taichung.gov.tw"
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBZMmdTc1FCZnVOUXBiTHA4T080TVkxSXZGZFF6V0ExbXZmS2hKRm4zaVBEZ1NGU3Y5VTBxUGZNay1lNGoxMjlILWFuc2x6WmR2WFlqYVM5SDBrVDZ3V0N2c3ZZdy15VU5ONU10TFpqcVVqMk1CQjVNR3NBTDM?oc=5",
+      "summary": "第八救災救護大隊水湳分隊-防災演練- 強化防颱整備 fire.taichung.gov.tw"
     },
     {
-      "id": "a54416b6eaea6ccd",
-      "source": "5168實價登錄比價王",
-      "title": "10月電價凍漲？ 經長：照顧民生穩定物價為政策方向",
-      "published_at": "2026-08-10T02:48:56.000Z",
-      "original_url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9VdDVnYWVEbTF6Q1dRREl6d19jSDNKaUhtbGxxemdFeFNJb0lQLTc0elA4TEF3eVp3Q2phODlEVi1wb2VMdkczNQ?oc=5",
-      "google_news_url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9VdDVnYWVEbTF6Q1dRREl6d19jSDNKaUhtbGxxemdFeFNJb0lQLTc0elA4TEF3eVp3Q2phODlEVi1wb2VMdkczNQ?oc=5",
-      "excerpt": "10月電價凍漲？ 經長：照顧民生穩定物價為政策方向 5168實價登錄比價王",
+      "id": "31b1c4cf7286f387",
+      "source": "dongshi.taichung.gov.tw",
+      "title": "最新消息-史努比魅力延燒！中市交通局宣布水湳轉運中心快閃店延長到8/23",
+      "published_at": "2026-08-10T11:44:52.000Z",
+      "original_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9ZZWJpeFFxQVJ1R19vb3VPUUV1U2VhODFFNmJMcEE2MUdsRlNTR0JDa202akpYcWxSODRKS3ZpVkdQQ3NuQXdTQmFfMUxwOElTWGJIME9rV0dtNTZR?oc=5",
+      "google_news_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9ZZWJpeFFxQVJ1R19vb3VPUUV1U2VhODFFNmJMcEE2MUdsRlNTR0JDa202akpYcWxSODRKS3ZpVkdQQ3NuQXdTQmFfMUxwOElTWGJIME9rV0dtNTZR?oc=5",
+      "excerpt": "最新消息-史努比魅力延燒！中市交通局宣布水湳轉運中心快閃店延長到8/23 dongshi.taichung.gov.tw",
       "image_url": null,
-      "category": "政策法規",
-      "region": "全台灣",
+      "category": "台中建設",
+      "region": "台中市西屯區",
       "keywords": [
-        "實價登錄"
+        "水湳"
       ],
-      "collected_at": "2026-08-10T05:10:25.708Z",
-      "refreshed_at": "2026-08-10T05:10:25.708Z",
-      "refresh_batch": "3a8f24f16cca",
-      "importance_score": 63,
+      "collected_at": "2026-08-12T05:20:19.700Z",
+      "refreshed_at": "2026-08-12T05:20:19.700Z",
+      "refresh_batch": "61ec20dc0f0a",
+      "importance_score": 65,
       "fetch_status": "google_news_redirect",
       "sources": [
         {
-          "source": "5168實價登錄比價王",
-          "published_at": "2026-08-10T02:48:56.000Z",
-          "original_url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9VdDVnYWVEbTF6Q1dRREl6d19jSDNKaUhtbGxxemdFeFNJb0lQLTc0elA4TEF3eVp3Q2phODlEVi1wb2VMdkczNQ?oc=5",
-          "google_news_url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9VdDVnYWVEbTF6Q1dRREl6d19jSDNKaUhtbGxxemdFeFNJb0lQLTc0elA4TEF3eVp3Q2phODlEVi1wb2VMdkczNQ?oc=5"
-        }
-      ],
-      "buyerTalk": "這則消息和您的貸款、自備款或稅費比較有關，但先不用緊張，也不要只看標題就改變購屋計畫。建議先確認是否已正式生效，再請銀行依您的收入、負債與名下房屋試算，出價時也多留一點資金空間。實際條件仍以主管機關、銀行或專業人士最新公告與個案審核為準。",
-      "sellerTalk": "這類政策或貸款消息，可能讓買方需要更多時間準備自備款及確認核貸。建議先把房屋資料整理完整，並參考同社區近期成交與目前競品來定價，簽約和交屋時間也保留彈性。實際條件仍以主管機關、銀行或專業人士最新公告與個案審核為準。",
-      "publishedAt": "2026-08-10",
-      "relativeTime": "72小時內",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9VdDVnYWVEbTF6Q1dRREl6d19jSDNKaUhtbGxxemdFeFNJb0lQLTc0elA4TEF3eVp3Q2phODlEVi1wb2VMdkczNQ?oc=5",
-      "summary": "10月電價凍漲？ 經長：照顧民生穩定物價為政策方向 5168實價登錄比價王"
-    },
-    {
-      "id": "aa31bcf1a0787b94",
-      "source": "好房網News",
-      "title": "補稅140萬想趁復查脫產！國稅局出手了 換屋族乖乖繳清",
-      "published_at": "2026-08-10T01:49:00.000Z",
-      "original_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE94c0FCUlM2a0tjT045TGpSdUQzREw0RDZnRlVKeVpsbVZvbWRud2plVmZhZlFvS3FtUHRsRUlZa01LdloxRS1FSExxM3ptdVRRdHNRWks0Y1dzcHJjTzB5VUdoaUktbXNqbjNtc1Bud2rSAXBBVV95cUxPeHNBQlJTNmtLY09OOUxqUnVEM0RMNEQ2Z0ZVSnlabG1Wb21kbndqZVZmYWZRb0txbVB0bEVJWWtNS3ZaMUUtRUhMcTN6bXVUUXRzUVpLNGNXc3ByY08weVVHaGlJLW1zam4zbXNQbndq?oc=5",
-      "google_news_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE94c0FCUlM2a0tjT045TGpSdUQzREw0RDZnRlVKeVpsbVZvbWRud2plVmZhZlFvS3FtUHRsRUlZa01LdloxRS1FSExxM3ptdVRRdHNRWks0Y1dzcHJjTzB5VUdoaUktbXNqbjNtc1Bud2rSAXBBVV95cUxPeHNBQlJTNmtLY09OOUxqUnVEM0RMNEQ2Z0ZVSnlabG1Wb21kbndqZVZmYWZRb0txbVB0bEVJWWtNS3ZaMUUtRUhMcTN6bXVUUXRzUVpLNGNXc3ByY08weVVHaGlJLW1zam4zbXNQbndq?oc=5",
-      "excerpt": "補稅140萬想趁復查脫產！國稅局出手了 換屋族乖乖繳清 好房網News",
-      "image_url": null,
-      "category": "其他區域",
-      "region": "全台灣",
-      "keywords": [],
-      "collected_at": "2026-08-10T05:10:25.708Z",
-      "refreshed_at": "2026-08-10T05:10:25.708Z",
-      "refresh_batch": "3a8f24f16cca",
-      "importance_score": 62,
-      "fetch_status": "google_news_redirect",
-      "sources": [
-        {
-          "source": "好房網News",
-          "published_at": "2026-08-10T01:49:00.000Z",
-          "original_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE94c0FCUlM2a0tjT045TGpSdUQzREw0RDZnRlVKeVpsbVZvbWRud2plVmZhZlFvS3FtUHRsRUlZa01LdloxRS1FSExxM3ptdVRRdHNRWks0Y1dzcHJjTzB5VUdoaUktbXNqbjNtc1Bud2rSAXBBVV95cUxPeHNBQlJTNmtLY09OOUxqUnVEM0RMNEQ2Z0ZVSnlabG1Wb21kbndqZVZmYWZRb0txbVB0bEVJWWtNS3ZaMUUtRUhMcTN6bXVUUXRzUVpLNGNXc3ByY08weVVHaGlJLW1zam4zbXNQbndq?oc=5",
-          "google_news_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE94c0FCUlM2a0tjT045TGpSdUQzREw0RDZnRlVKeVpsbVZvbWRud2plVmZhZlFvS3FtUHRsRUlZa01LdloxRS1FSExxM3ptdVRRdHNRWks0Y1dzcHJjTzB5VUdoaUktbXNqbjNtc1Bud2rSAXBBVV95cUxPeHNBQlJTNmtLY09OOUxqUnVEM0RMNEQ2Z0ZVSnlabG1Wb21kbndqZVZmYWZRb0txbVB0bEVJWWtNS3ZaMUUtRUhMcTN6bXVUUXRzUVpLNGNXc3ByY08weVVHaGlJLW1zam4zbXNQbndq?oc=5"
+          "source": "dongshi.taichung.gov.tw",
+          "published_at": "2026-08-10T11:44:52.000Z",
+          "original_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9ZZWJpeFFxQVJ1R19vb3VPUUV1U2VhODFFNmJMcEE2MUdsRlNTR0JDa202akpYcWxSODRKS3ZpVkdQQ3NuQXdTQmFfMUxwOElTWGJIME9rV0dtNTZR?oc=5",
+          "google_news_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9ZZWJpeFFxQVJ1R19vb3VPUUV1U2VhODFFNmJMcEE2MUdsRlNTR0JDa202akpYcWxSODRKS3ZpVkdQQ3NuQXdTQmFfMUxwOElTWGJIME9rV0dtNTZR?oc=5"
         }
       ],
       "buyerTalk": "這則台中區域或建設消息可以當作選屋參考，但規劃、動工和完工是不同階段，不代表周邊房價一定會上漲。建議實際走訪生活圈，確認通勤、噪音與未來供給，再比較同社區近期實價。喜歡物件可以談，但還是要守住自己的預算。",
       "sellerTalk": "區域建設能增加買方對生活圈的注意，但真正影響成交的仍是距離、便利性、屋況與價格。建議把已完成、施工中及規劃中的內容說清楚，再用同社區近期成交設定合理開價。若帶看後反覆出現相同疑慮，就調整說明、整理方式或銷售條件。",
       "publishedAt": "2026-08-10",
       "relativeTime": "72小時內",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE94c0FCUlM2a0tjT045TGpSdUQzREw0RDZnRlVKeVpsbVZvbWRud2plVmZhZlFvS3FtUHRsRUlZa01LdloxRS1FSExxM3ptdVRRdHNRWks0Y1dzcHJjTzB5VUdoaUktbXNqbjNtc1Bud2rSAXBBVV95cUxPeHNBQlJTNmtLY09OOUxqUnVEM0RMNEQ2Z0ZVSnlabG1Wb21kbndqZVZmYWZRb0txbVB0bEVJWWtNS3ZaMUUtRUhMcTN6bXVUUXRzUVpLNGNXc3ByY08weVVHaGlJLW1zam4zbXNQbndq?oc=5",
-      "summary": "補稅140萬想趁復查脫產！國稅局出手了 換屋族乖乖繳清 好房網News"
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9ZZWJpeFFxQVJ1R19vb3VPUUV1U2VhODFFNmJMcEE2MUdsRlNTR0JDa202akpYcWxSODRKS3ZpVkdQQ3NuQXdTQmFfMUxwOElTWGJIME9rV0dtNTZR?oc=5",
+      "summary": "最新消息-史努比魅力延燒！中市交通局宣布水湳轉運中心快閃店延長到8/23 dongshi.taichung.gov.tw"
     },
     {
-      "id": "1eebbd144fdd6afc",
+      "id": "c73522f311ceab4d",
       "source": "經濟日報",
-      "title": "兆基風暴延燒 李同榮：社宅政策存在「致命三刀」 | 房市話題 | 房市",
-      "published_at": "2026-08-10T00:55:08.000Z",
-      "original_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5INzRyWl9ITDJvVzRtZWJ4dXZmdFJ6Z1c0VzYycE50enA2dlduRHlERndFbTQ1YW1uZnJfWWQwSXRVcG5ONHg2TzNTTmd0MnpWXzhEcXlSZE54M0lROVFjMnc0UU5NaXdRX0dJM2ZSbXNycGU2c1lV?oc=5",
-      "google_news_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5INzRyWl9ITDJvVzRtZWJ4dXZmdFJ6Z1c0VzYycE50enA2dlduRHlERndFbTQ1YW1uZnJfWWQwSXRVcG5ONHg2TzNTTmd0MnpWXzhEcXlSZE54M0lROVFjMnc0UU5NaXdRX0dJM2ZSbXNycGU2c1lV?oc=5",
-      "excerpt": "兆基風暴延燒 李同榮：社宅政策存在「致命三刀」 | 房市話題 | 房市 經濟日報",
+      "title": "台南不動產防詐首創地籍、稅籍雙警報 「一紙啟動全台防護」",
+      "published_at": "2026-08-12T03:42:53.000Z",
+      "original_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5oQndxSG5Pd3pJUlFwdmw0NVFMZUE5T1ZPNVJpdWptblVKYjE4RnJiNlZ4UkNHM2w5LUFxMlNOMlBzODVLV3ViLVIzdktuOUdnaUp0ajVUaGZ6d9IBX0FVX3lxTFBlX3FDWTd3aTEtVnZkLVVkbnFNOVc5M2s2UURfUXlOVGdNWk1TZWpVLTc4R0VTb2lrV3NvcHRKMU03cjRudHVGdGJZRXRjR08xWlJHekJGbUEwLWU0YXJV?oc=5",
+      "google_news_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5oQndxSG5Pd3pJUlFwdmw0NVFMZUE5T1ZPNVJpdWptblVKYjE4RnJiNlZ4UkNHM2w5LUFxMlNOMlBzODVLV3ViLVIzdktuOUdnaUp0ajVUaGZ6d9IBX0FVX3lxTFBlX3FDWTd3aTEtVnZkLVVkbnFNOVc5M2s2UURfUXlOVGdNWk1TZWpVLTc4R0VTb2lrV3NvcHRKMU03cjRudHVGdGJZRXRjR08xWlJHekJGbUEwLWU0YXJV?oc=5",
+      "excerpt": "台南不動產防詐首創地籍、稅籍雙警報 「一紙啟動全台防護」 經濟日報",
       "image_url": null,
-      "category": "政策法規",
+      "category": "其他區域",
       "region": "全台灣",
-      "keywords": [
-        "房市"
-      ],
-      "collected_at": "2026-08-10T05:10:25.708Z",
-      "refreshed_at": "2026-08-10T05:10:25.708Z",
-      "refresh_batch": "3a8f24f16cca",
-      "importance_score": 61,
+      "keywords": [],
+      "collected_at": "2026-08-12T05:20:19.700Z",
+      "refreshed_at": "2026-08-12T05:20:19.700Z",
+      "refresh_batch": "61ec20dc0f0a",
+      "importance_score": 64,
       "fetch_status": "google_news_redirect",
       "sources": [
         {
           "source": "經濟日報",
-          "published_at": "2026-08-10T00:55:08.000Z",
-          "original_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5INzRyWl9ITDJvVzRtZWJ4dXZmdFJ6Z1c0VzYycE50enA2dlduRHlERndFbTQ1YW1uZnJfWWQwSXRVcG5ONHg2TzNTTmd0MnpWXzhEcXlSZE54M0lROVFjMnc0UU5NaXdRX0dJM2ZSbXNycGU2c1lV?oc=5",
-          "google_news_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5INzRyWl9ITDJvVzRtZWJ4dXZmdFJ6Z1c0VzYycE50enA2dlduRHlERndFbTQ1YW1uZnJfWWQwSXRVcG5ONHg2TzNTTmd0MnpWXzhEcXlSZE54M0lROVFjMnc0UU5NaXdRX0dJM2ZSbXNycGU2c1lV?oc=5"
-        }
-      ],
-      "buyerTalk": "這則消息和您的貸款、自備款或稅費比較有關，但先不用緊張，也不要只看標題就改變購屋計畫。建議先確認是否已正式生效，再請銀行依您的收入、負債與名下房屋試算，出價時也多留一點資金空間。實際條件仍以主管機關、銀行或專業人士最新公告與個案審核為準。",
-      "sellerTalk": "這類政策或貸款消息，可能讓買方需要更多時間準備自備款及確認核貸。建議先把房屋資料整理完整，並參考同社區近期成交與目前競品來定價，簽約和交屋時間也保留彈性。實際條件仍以主管機關、銀行或專業人士最新公告與個案審核為準。",
-      "publishedAt": "2026-08-10",
-      "relativeTime": "72小時內",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5INzRyWl9ITDJvVzRtZWJ4dXZmdFJ6Z1c0VzYycE50enA2dlduRHlERndFbTQ1YW1uZnJfWWQwSXRVcG5ONHg2TzNTTmd0MnpWXzhEcXlSZE54M0lROVFjMnc0UU5NaXdRX0dJM2ZSbXNycGU2c1lV?oc=5",
-      "summary": "兆基風暴延燒 李同榮：社宅政策存在「致命三刀」 | 房市話題 | 房市 經濟日報"
-    },
-    {
-      "id": "c8850afd9a19127c",
-      "source": "富途牛牛",
-      "title": "北京出臺房地產新政策 機構稱政策可能推動房地產市場走入正循環",
-      "published_at": "2026-08-09T23:44:59.000Z",
-      "original_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVFNnbFljNVVYVDJiaVhINzFzRjlYWTJpYnBhOVVCMDNzTFZwZjRkZGNFQUYtSWpjWmlTRVJtTWhicVgzNnRNSEFrcGxGdktMVTV4ZGRZX2YtaW5iV2xKaDFkSXZZUHRNOS1jdEdvWkVhaG4tU1E2VU9wY0QtS25YWG5kZ002N3NYN0doSk1KdjdRZmd6dThETklRT2pSeE5WdEtaVlozdVVac1F2QVdkR2tidw?oc=5",
-      "google_news_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVFNnbFljNVVYVDJiaVhINzFzRjlYWTJpYnBhOVVCMDNzTFZwZjRkZGNFQUYtSWpjWmlTRVJtTWhicVgzNnRNSEFrcGxGdktMVTV4ZGRZX2YtaW5iV2xKaDFkSXZZUHRNOS1jdEdvWkVhaG4tU1E2VU9wY0QtS25YWG5kZ002N3NYN0doSk1KdjdRZmd6dThETklRT2pSeE5WdEtaVlozdVVac1F2QVdkR2tidw?oc=5",
-      "excerpt": "北京出臺房地產新政策 機構稱政策可能推動房地產市場走入正循環 富途牛牛",
-      "image_url": null,
-      "category": "政策法規",
-      "region": "全台灣",
-      "keywords": [
-        "房地產"
-      ],
-      "collected_at": "2026-08-10T05:10:25.708Z",
-      "refreshed_at": "2026-08-10T05:10:25.708Z",
-      "refresh_batch": "3a8f24f16cca",
-      "importance_score": 60,
-      "fetch_status": "google_news_redirect",
-      "sources": [
-        {
-          "source": "富途牛牛",
-          "published_at": "2026-08-09T23:44:59.000Z",
-          "original_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVFNnbFljNVVYVDJiaVhINzFzRjlYWTJpYnBhOVVCMDNzTFZwZjRkZGNFQUYtSWpjWmlTRVJtTWhicVgzNnRNSEFrcGxGdktMVTV4ZGRZX2YtaW5iV2xKaDFkSXZZUHRNOS1jdEdvWkVhaG4tU1E2VU9wY0QtS25YWG5kZ002N3NYN0doSk1KdjdRZmd6dThETklRT2pSeE5WdEtaVlozdVVac1F2QVdkR2tidw?oc=5",
-          "google_news_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVFNnbFljNVVYVDJiaVhINzFzRjlYWTJpYnBhOVVCMDNzTFZwZjRkZGNFQUYtSWpjWmlTRVJtTWhicVgzNnRNSEFrcGxGdktMVTV4ZGRZX2YtaW5iV2xKaDFkSXZZUHRNOS1jdEdvWkVhaG4tU1E2VU9wY0QtS25YWG5kZ002N3NYN0doSk1KdjdRZmd6dThETklRT2pSeE5WdEtaVlozdVVac1F2QVdkR2tidw?oc=5"
-        }
-      ],
-      "buyerTalk": "這則消息和您的貸款、自備款或稅費比較有關，但先不用緊張，也不要只看標題就改變購屋計畫。建議先確認是否已正式生效，再請銀行依您的收入、負債與名下房屋試算，出價時也多留一點資金空間。實際條件仍以主管機關、銀行或專業人士最新公告與個案審核為準。",
-      "sellerTalk": "這類政策或貸款消息，可能讓買方需要更多時間準備自備款及確認核貸。建議先把房屋資料整理完整，並參考同社區近期成交與目前競品來定價，簽約和交屋時間也保留彈性。實際條件仍以主管機關、銀行或專業人士最新公告與個案審核為準。",
-      "publishedAt": "2026-08-09",
-      "relativeTime": "72小時內",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVFNnbFljNVVYVDJiaVhINzFzRjlYWTJpYnBhOVVCMDNzTFZwZjRkZGNFQUYtSWpjWmlTRVJtTWhicVgzNnRNSEFrcGxGdktMVTV4ZGRZX2YtaW5iV2xKaDFkSXZZUHRNOS1jdEdvWkVhaG4tU1E2VU9wY0QtS25YWG5kZ002N3NYN0doSk1KdjdRZmd6dThETklRT2pSeE5WdEtaVlozdVVac1F2QVdkR2tidw?oc=5",
-      "summary": "北京出臺房地產新政策 機構稱政策可能推動房地產市場走入正循環 富途牛牛"
-    },
-    {
-      "id": "ad8e2d1fd82261ef",
-      "source": "Yahoo新聞",
-      "title": "房貸族注意！10年公債利率衝1.969%創2008年來新高 央行9月會升息？市場緊盯3訊號",
-      "published_at": "2026-08-09T23:00:00.000Z",
-      "original_url": "https://news.google.com/rss/articles/CBMizANBVV95cUxPdGdGY2NNSlROdHJ1WEVXWnlLR0RyOXFIamxCUjFPZnpLWUtCaG4tZDFUTmNOeVhQT2QyQndzSWctdll2U3lCdzVZYlVVSU9zeVBvbWJnNHdQcnlYV1FKMDluZ0VDajZZUEhDQ3BTTEdNRkg4SFNDd0pWZ3gyLVBrT2prR0M4LTBITzBiRlQtR2cxLXM5OEw3cThYYXpFZmFabHR2WVY4TGpybnpiOEZFZTFfSFdhMVljRUxaRGlYZEVfWkFqRkJkRHgxRXJpa1NYa2pmdmlGdFJBUlVpX2tCUkRGN3JFNERhcDh3VGhmZlkxQnZYa2N2U0dHbHZQZzFuZTZEcTZYMnVOSnA1U0N6MFB6Zm15dk14ZVE3RlQzeXNZYm05b3huYTRpbFk2QXA0RzVGMjJnUnNPd21OYmZ3NWxmX0JIUFNzSFBhaHJhaVJidGZJa2FhUzdhU0E0R200RUllbG1hcGFMRElnUzROdEMxOFFHNW5faHhJb0JtOHpuNGdQaTVWSnpIODFBZnozWmNBR3YyNlc1em5NZ1NORWphZTlXNnFwdFRRb0ZDU3hheUlhNGtGQ1E5Qkw1aGlMRnBhSmFna24wdkNw?oc=5",
-      "google_news_url": "https://news.google.com/rss/articles/CBMizANBVV95cUxPdGdGY2NNSlROdHJ1WEVXWnlLR0RyOXFIamxCUjFPZnpLWUtCaG4tZDFUTmNOeVhQT2QyQndzSWctdll2U3lCdzVZYlVVSU9zeVBvbWJnNHdQcnlYV1FKMDluZ0VDajZZUEhDQ3BTTEdNRkg4SFNDd0pWZ3gyLVBrT2prR0M4LTBITzBiRlQtR2cxLXM5OEw3cThYYXpFZmFabHR2WVY4TGpybnpiOEZFZTFfSFdhMVljRUxaRGlYZEVfWkFqRkJkRHgxRXJpa1NYa2pmdmlGdFJBUlVpX2tCUkRGN3JFNERhcDh3VGhmZlkxQnZYa2N2U0dHbHZQZzFuZTZEcTZYMnVOSnA1U0N6MFB6Zm15dk14ZVE3RlQzeXNZYm05b3huYTRpbFk2QXA0RzVGMjJnUnNPd21OYmZ3NWxmX0JIUFNzSFBhaHJhaVJidGZJa2FhUzdhU0E0R200RUllbG1hcGFMRElnUzROdEMxOFFHNW5faHhJb0JtOHpuNGdQaTVWSnpIODFBZnozWmNBR3YyNlc1em5NZ1NORWphZTlXNnFwdFRRb0ZDU3hheUlhNGtGQ1E5Qkw1aGlMRnBhSmFna24wdkNw?oc=5",
-      "excerpt": "房貸族注意！10年公債利率衝1.969%創2008年來新高 央行9月會升息？市場緊盯3訊號 Yahoo新聞",
-      "image_url": null,
-      "category": "房貸金融",
-      "region": "全台灣",
-      "keywords": [
-        "房貸",
-        "央行"
-      ],
-      "collected_at": "2026-08-10T05:10:25.708Z",
-      "refreshed_at": "2026-08-10T05:10:25.708Z",
-      "refresh_batch": "3a8f24f16cca",
-      "importance_score": 59,
-      "fetch_status": "google_news_redirect",
-      "sources": [
-        {
-          "source": "Yahoo新聞",
-          "published_at": "2026-08-09T23:00:00.000Z",
-          "original_url": "https://news.google.com/rss/articles/CBMizANBVV95cUxPdGdGY2NNSlROdHJ1WEVXWnlLR0RyOXFIamxCUjFPZnpLWUtCaG4tZDFUTmNOeVhQT2QyQndzSWctdll2U3lCdzVZYlVVSU9zeVBvbWJnNHdQcnlYV1FKMDluZ0VDajZZUEhDQ3BTTEdNRkg4SFNDd0pWZ3gyLVBrT2prR0M4LTBITzBiRlQtR2cxLXM5OEw3cThYYXpFZmFabHR2WVY4TGpybnpiOEZFZTFfSFdhMVljRUxaRGlYZEVfWkFqRkJkRHgxRXJpa1NYa2pmdmlGdFJBUlVpX2tCUkRGN3JFNERhcDh3VGhmZlkxQnZYa2N2U0dHbHZQZzFuZTZEcTZYMnVOSnA1U0N6MFB6Zm15dk14ZVE3RlQzeXNZYm05b3huYTRpbFk2QXA0RzVGMjJnUnNPd21OYmZ3NWxmX0JIUFNzSFBhaHJhaVJidGZJa2FhUzdhU0E0R200RUllbG1hcGFMRElnUzROdEMxOFFHNW5faHhJb0JtOHpuNGdQaTVWSnpIODFBZnozWmNBR3YyNlc1em5NZ1NORWphZTlXNnFwdFRRb0ZDU3hheUlhNGtGQ1E5Qkw1aGlMRnBhSmFna24wdkNw?oc=5",
-          "google_news_url": "https://news.google.com/rss/articles/CBMizANBVV95cUxPdGdGY2NNSlROdHJ1WEVXWnlLR0RyOXFIamxCUjFPZnpLWUtCaG4tZDFUTmNOeVhQT2QyQndzSWctdll2U3lCdzVZYlVVSU9zeVBvbWJnNHdQcnlYV1FKMDluZ0VDajZZUEhDQ3BTTEdNRkg4SFNDd0pWZ3gyLVBrT2prR0M4LTBITzBiRlQtR2cxLXM5OEw3cThYYXpFZmFabHR2WVY4TGpybnpiOEZFZTFfSFdhMVljRUxaRGlYZEVfWkFqRkJkRHgxRXJpa1NYa2pmdmlGdFJBUlVpX2tCUkRGN3JFNERhcDh3VGhmZlkxQnZYa2N2U0dHbHZQZzFuZTZEcTZYMnVOSnA1U0N6MFB6Zm15dk14ZVE3RlQzeXNZYm05b3huYTRpbFk2QXA0RzVGMjJnUnNPd21OYmZ3NWxmX0JIUFNzSFBhaHJhaVJidGZJa2FhUzdhU0E0R200RUllbG1hcGFMRElnUzROdEMxOFFHNW5faHhJb0JtOHpuNGdQaTVWSnpIODFBZnozWmNBR3YyNlc1em5NZ1NORWphZTlXNnFwdFRRb0ZDU3hheUlhNGtGQ1E5Qkw1aGlMRnBhSmFna24wdkNw?oc=5"
-        }
-      ],
-      "buyerTalk": "這則消息和您的貸款、自備款或稅費比較有關，但先不用緊張，也不要只看標題就改變購屋計畫。建議先確認是否已正式生效，再請銀行依您的收入、負債與名下房屋試算，出價時也多留一點資金空間。實際條件仍以主管機關、銀行或專業人士最新公告與個案審核為準。",
-      "sellerTalk": "這類政策或貸款消息，可能讓買方需要更多時間準備自備款及確認核貸。建議先把房屋資料整理完整，並參考同社區近期成交與目前競品來定價，簽約和交屋時間也保留彈性。實際條件仍以主管機關、銀行或專業人士最新公告與個案審核為準。",
-      "publishedAt": "2026-08-09",
-      "relativeTime": "72小時內",
-      "url": "https://news.google.com/rss/articles/CBMizANBVV95cUxPdGdGY2NNSlROdHJ1WEVXWnlLR0RyOXFIamxCUjFPZnpLWUtCaG4tZDFUTmNOeVhQT2QyQndzSWctdll2U3lCdzVZYlVVSU9zeVBvbWJnNHdQcnlYV1FKMDluZ0VDajZZUEhDQ3BTTEdNRkg4SFNDd0pWZ3gyLVBrT2prR0M4LTBITzBiRlQtR2cxLXM5OEw3cThYYXpFZmFabHR2WVY4TGpybnpiOEZFZTFfSFdhMVljRUxaRGlYZEVfWkFqRkJkRHgxRXJpa1NYa2pmdmlGdFJBUlVpX2tCUkRGN3JFNERhcDh3VGhmZlkxQnZYa2N2U0dHbHZQZzFuZTZEcTZYMnVOSnA1U0N6MFB6Zm15dk14ZVE3RlQzeXNZYm05b3huYTRpbFk2QXA0RzVGMjJnUnNPd21OYmZ3NWxmX0JIUFNzSFBhaHJhaVJidGZJa2FhUzdhU0E0R200RUllbG1hcGFMRElnUzROdEMxOFFHNW5faHhJb0JtOHpuNGdQaTVWSnpIODFBZnozWmNBR3YyNlc1em5NZ1NORWphZTlXNnFwdFRRb0ZDU3hheUlhNGtGQ1E5Qkw1aGlMRnBhSmFna24wdkNw?oc=5",
-      "summary": "房貸族注意！10年公債利率衝1.969%創2008年來新高 央行9月會升息？市場緊盯3訊號 Yahoo新聞"
-    },
-    {
-      "id": "17395ea521b38625",
-      "source": "Yahoo新聞",
-      "title": "新青安3.0房貸上路｜新聞事件整理與重點摘要",
-      "published_at": "2026-08-09T10:32:55.000Z",
-      "original_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5BY1BCdjNmZVRTM1dKcEh6RXM5a2NZN254eExndXYzV3dnbTkwa29CbXlYVXRVbUJLS3dSejU0M2V2SGpUNWM4ZGRsTktfTVpYR1duaXlaLXMyUzhlQmJ3a2x1ZXlSb1VMWVp0ZS11MWYtUWVIaURzYlpxUmpBUQ?oc=5",
-      "google_news_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5BY1BCdjNmZVRTM1dKcEh6RXM5a2NZN254eExndXYzV3dnbTkwa29CbXlYVXRVbUJLS3dSejU0M2V2SGpUNWM4ZGRsTktfTVpYR1duaXlaLXMyUzhlQmJ3a2x1ZXlSb1VMWVp0ZS11MWYtUWVIaURzYlpxUmpBUQ?oc=5",
-      "excerpt": "新青安3.0房貸上路｜新聞事件整理與重點摘要 Yahoo新聞",
-      "image_url": null,
-      "category": "房貸金融",
-      "region": "全台灣",
-      "keywords": [
-        "房貸",
-        "新青安"
-      ],
-      "collected_at": "2026-08-10T05:10:25.708Z",
-      "refreshed_at": "2026-08-10T05:10:25.708Z",
-      "refresh_batch": "3a8f24f16cca",
-      "importance_score": 55,
-      "fetch_status": "google_news_redirect",
-      "sources": [
-        {
-          "source": "Yahoo新聞",
-          "published_at": "2026-08-09T10:32:55.000Z",
-          "original_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5BY1BCdjNmZVRTM1dKcEh6RXM5a2NZN254eExndXYzV3dnbTkwa29CbXlYVXRVbUJLS3dSejU0M2V2SGpUNWM4ZGRsTktfTVpYR1duaXlaLXMyUzhlQmJ3a2x1ZXlSb1VMWVp0ZS11MWYtUWVIaURzYlpxUmpBUQ?oc=5",
-          "google_news_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5BY1BCdjNmZVRTM1dKcEh6RXM5a2NZN254eExndXYzV3dnbTkwa29CbXlYVXRVbUJLS3dSejU0M2V2SGpUNWM4ZGRsTktfTVpYR1duaXlaLXMyUzhlQmJ3a2x1ZXlSb1VMWVp0ZS11MWYtUWVIaURzYlpxUmpBUQ?oc=5"
-        }
-      ],
-      "buyerTalk": "這則消息和您的貸款、自備款或稅費比較有關，但先不用緊張，也不要只看標題就改變購屋計畫。建議先確認是否已正式生效，再請銀行依您的收入、負債與名下房屋試算，出價時也多留一點資金空間。實際條件仍以主管機關、銀行或專業人士最新公告與個案審核為準。",
-      "sellerTalk": "這類政策或貸款消息，可能讓買方需要更多時間準備自備款及確認核貸。建議先把房屋資料整理完整，並參考同社區近期成交與目前競品來定價，簽約和交屋時間也保留彈性。實際條件仍以主管機關、銀行或專業人士最新公告與個案審核為準。",
-      "publishedAt": "2026-08-09",
-      "relativeTime": "72小時內",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5BY1BCdjNmZVRTM1dKcEh6RXM5a2NZN254eExndXYzV3dnbTkwa29CbXlYVXRVbUJLS3dSejU0M2V2SGpUNWM4ZGRsTktfTVpYR1duaXlaLXMyUzhlQmJ3a2x1ZXlSb1VMWVp0ZS11MWYtUWVIaURzYlpxUmpBUQ?oc=5",
-      "summary": "新青安3.0房貸上路｜新聞事件整理與重點摘要 Yahoo新聞"
-    },
-    {
-      "id": "aee660526ee60f5b",
-      "source": "三立新聞",
-      "title": "新聞幕後／新青安2.0排富？學者批「根本是劫貧濟富」：一開始就是錯誤",
-      "published_at": "2026-08-09T07:00:50.000Z",
-      "original_url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBTSHdnamd6MWdYX2xGRFZFMlJieUVhX0tsTHpEdUVwMHlqVnZJeENwYWI5Nk9wdGFxVi1oaWF3VFZoQlczZDJmaNIBTEFVX3lxTE5BZ0Z6ZkZ6TzFEMllOaFFITWpPNzA1NUFTYjBRWWVqYUZYQlJkYXJEcmZLZS1TRmpSd1gwZGlyeVhGVFFiUV8tZVpfMDg?oc=5",
-      "google_news_url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBTSHdnamd6MWdYX2xGRFZFMlJieUVhX0tsTHpEdUVwMHlqVnZJeENwYWI5Nk9wdGFxVi1oaWF3VFZoQlczZDJmaNIBTEFVX3lxTE5BZ0Z6ZkZ6TzFEMllOaFFITWpPNzA1NUFTYjBRWWVqYUZYQlJkYXJEcmZLZS1TRmpSd1gwZGlyeVhGVFFiUV8tZVpfMDg?oc=5",
-      "excerpt": "新聞幕後／新青安2.0排富？學者批「根本是劫貧濟富」：一開始就是錯誤 三立新聞",
-      "image_url": null,
-      "category": "房貸金融",
-      "region": "全台灣",
-      "keywords": [
-        "新青安"
-      ],
-      "collected_at": "2026-08-10T05:10:25.708Z",
-      "refreshed_at": "2026-08-10T05:10:25.708Z",
-      "refresh_batch": "3a8f24f16cca",
-      "importance_score": 55,
-      "fetch_status": "google_news_redirect",
-      "sources": [
-        {
-          "source": "三立新聞",
-          "published_at": "2026-08-09T07:00:50.000Z",
-          "original_url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBTSHdnamd6MWdYX2xGRFZFMlJieUVhX0tsTHpEdUVwMHlqVnZJeENwYWI5Nk9wdGFxVi1oaWF3VFZoQlczZDJmaNIBTEFVX3lxTE5BZ0Z6ZkZ6TzFEMllOaFFITWpPNzA1NUFTYjBRWWVqYUZYQlJkYXJEcmZLZS1TRmpSd1gwZGlyeVhGVFFiUV8tZVpfMDg?oc=5",
-          "google_news_url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBTSHdnamd6MWdYX2xGRFZFMlJieUVhX0tsTHpEdUVwMHlqVnZJeENwYWI5Nk9wdGFxVi1oaWF3VFZoQlczZDJmaNIBTEFVX3lxTE5BZ0Z6ZkZ6TzFEMllOaFFITWpPNzA1NUFTYjBRWWVqYUZYQlJkYXJEcmZLZS1TRmpSd1gwZGlyeVhGVFFiUV8tZVpfMDg?oc=5"
-        }
-      ],
-      "buyerTalk": "這則消息和您的貸款、自備款或稅費比較有關，但先不用緊張，也不要只看標題就改變購屋計畫。建議先確認是否已正式生效，再請銀行依您的收入、負債與名下房屋試算，出價時也多留一點資金空間。實際條件仍以主管機關、銀行或專業人士最新公告與個案審核為準。",
-      "sellerTalk": "這類政策或貸款消息，可能讓買方需要更多時間準備自備款及確認核貸。建議先把房屋資料整理完整，並參考同社區近期成交與目前競品來定價，簽約和交屋時間也保留彈性。實際條件仍以主管機關、銀行或專業人士最新公告與個案審核為準。",
-      "publishedAt": "2026-08-09",
-      "relativeTime": "72小時內",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBTSHdnamd6MWdYX2xGRFZFMlJieUVhX0tsTHpEdUVwMHlqVnZJeENwYWI5Nk9wdGFxVi1oaWF3VFZoQlczZDJmaNIBTEFVX3lxTE5BZ0Z6ZkZ6TzFEMllOaFFITWpPNzA1NUFTYjBRWWVqYUZYQlJkYXJEcmZLZS1TRmpSd1gwZGlyeVhGVFFiUV8tZVpfMDg?oc=5",
-      "summary": "新聞幕後／新青安2.0排富？學者批「根本是劫貧濟富」：一開始就是錯誤 三立新聞"
-    },
-    {
-      "id": "0286580a55e99ec9",
-      "source": "udn房地產",
-      "title": "中央社宅政策大轉彎 北市都發局：怎達成5萬戶目標？",
-      "published_at": "2026-08-09T02:10:54.000Z",
-      "original_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1Qc3dPbnN5bDM4SEZYQm1GVUhGUG0tc1h1bmR5eEtLTGJFOFRicjk3MjREYlNrelhaZnRwbmxFaGFnc2JwOVlSMGlXNjk4SE5QMEZBQUsyakk2eTJ1NWNHVnpDd0xJV0g5MG43SWJaNXpRa0VabHF4d3JDTGZ4Nms?oc=5",
-      "google_news_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1Qc3dPbnN5bDM4SEZYQm1GVUhGUG0tc1h1bmR5eEtLTGJFOFRicjk3MjREYlNrelhaZnRwbmxFaGFnc2JwOVlSMGlXNjk4SE5QMEZBQUsyakk2eTJ1NWNHVnpDd0xJV0g5MG43SWJaNXpRa0VabHF4d3JDTGZ4Nms?oc=5",
-      "excerpt": "中央社宅政策大轉彎 北市都發局：怎達成5萬戶目標？ udn房地產",
-      "image_url": null,
-      "category": "政策法規",
-      "region": "全台灣",
-      "keywords": [
-        "房地產"
-      ],
-      "collected_at": "2026-08-10T05:10:25.708Z",
-      "refreshed_at": "2026-08-10T05:10:25.708Z",
-      "refresh_batch": "3a8f24f16cca",
-      "importance_score": 55,
-      "fetch_status": "google_news_redirect",
-      "sources": [
-        {
-          "source": "udn房地產",
-          "published_at": "2026-08-09T02:10:54.000Z",
-          "original_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1Qc3dPbnN5bDM4SEZYQm1GVUhGUG0tc1h1bmR5eEtLTGJFOFRicjk3MjREYlNrelhaZnRwbmxFaGFnc2JwOVlSMGlXNjk4SE5QMEZBQUsyakk2eTJ1NWNHVnpDd0xJV0g5MG43SWJaNXpRa0VabHF4d3JDTGZ4Nms?oc=5",
-          "google_news_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1Qc3dPbnN5bDM4SEZYQm1GVUhGUG0tc1h1bmR5eEtLTGJFOFRicjk3MjREYlNrelhaZnRwbmxFaGFnc2JwOVlSMGlXNjk4SE5QMEZBQUsyakk2eTJ1NWNHVnpDd0xJV0g5MG43SWJaNXpRa0VabHF4d3JDTGZ4Nms?oc=5"
-        }
-      ],
-      "buyerTalk": "這則消息和您的貸款、自備款或稅費比較有關，但先不用緊張，也不要只看標題就改變購屋計畫。建議先確認是否已正式生效，再請銀行依您的收入、負債與名下房屋試算，出價時也多留一點資金空間。實際條件仍以主管機關、銀行或專業人士最新公告與個案審核為準。",
-      "sellerTalk": "這類政策或貸款消息，可能讓買方需要更多時間準備自備款及確認核貸。建議先把房屋資料整理完整，並參考同社區近期成交與目前競品來定價，簽約和交屋時間也保留彈性。實際條件仍以主管機關、銀行或專業人士最新公告與個案審核為準。",
-      "publishedAt": "2026-08-09",
-      "relativeTime": "72小時內",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1Qc3dPbnN5bDM4SEZYQm1GVUhGUG0tc1h1bmR5eEtLTGJFOFRicjk3MjREYlNrelhaZnRwbmxFaGFnc2JwOVlSMGlXNjk4SE5QMEZBQUsyakk2eTJ1NWNHVnpDd0xJV0g5MG43SWJaNXpRa0VabHF4d3JDTGZ4Nms?oc=5",
-      "summary": "中央社宅政策大轉彎 北市都發局：怎達成5萬戶目標？ udn房地產"
-    },
-    {
-      "id": "5aafaa259763973b",
-      "source": "AN不動產新聞網",
-      "title": "出售自益信託土地 符合要件土增稅可享自用住宅優惠稅率",
-      "published_at": "2026-08-09T02:01:00.000Z",
-      "original_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9Ub0JiU0FLdE4ybFJzSU5WZGVCbjk0enExb2d3MlVtNlFZOHhfNTFfUDc3bVV5dU5vM0d2YW5mbTBiaEQwdEYySzZMM0dxT0s5TkJNZFQ2M1pDR0FRS3NjbF9kTkZrVkpDRGNWWTJaRQ?oc=5",
-      "google_news_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9Ub0JiU0FLdE4ybFJzSU5WZGVCbjk0enExb2d3MlVtNlFZOHhfNTFfUDc3bVV5dU5vM0d2YW5mbTBiaEQwdEYySzZMM0dxT0s5TkJNZFQ2M1pDR0FRS3NjbF9kTkZrVkpDRGNWWTJaRQ?oc=5",
-      "excerpt": "出售自益信託土地 符合要件土增稅可享自用住宅優惠稅率 AN不動產新聞網",
-      "image_url": null,
-      "category": "其他區域",
-      "region": "全台灣",
-      "keywords": [],
-      "collected_at": "2026-08-10T05:10:25.708Z",
-      "refreshed_at": "2026-08-10T05:10:25.708Z",
-      "refresh_batch": "3a8f24f16cca",
-      "importance_score": 55,
-      "fetch_status": "google_news_redirect",
-      "sources": [
-        {
-          "source": "AN不動產新聞網",
-          "published_at": "2026-08-09T02:01:00.000Z",
-          "original_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9Ub0JiU0FLdE4ybFJzSU5WZGVCbjk0enExb2d3MlVtNlFZOHhfNTFfUDc3bVV5dU5vM0d2YW5mbTBiaEQwdEYySzZMM0dxT0s5TkJNZFQ2M1pDR0FRS3NjbF9kTkZrVkpDRGNWWTJaRQ?oc=5",
-          "google_news_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9Ub0JiU0FLdE4ybFJzSU5WZGVCbjk0enExb2d3MlVtNlFZOHhfNTFfUDc3bVV5dU5vM0d2YW5mbTBiaEQwdEYySzZMM0dxT0s5TkJNZFQ2M1pDR0FRS3NjbF9kTkZrVkpDRGNWWTJaRQ?oc=5"
+          "published_at": "2026-08-12T03:42:53.000Z",
+          "original_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBlX3FDWTd3aTEtVnZkLVVkbnFNOVc5M2s2UURfUXlOVGdNWk1TZWpVLTc4R0VTb2lrV3NvcHRKMU03cjRudHVGdGJZRXRjR08xWlJHekJGbUEwLWU0YXJV0gFfQVVfeXFMUGVfcUNZN3dpMS1WdmQtVWRucU05VzkzazZRRF9ReU5UZ01aTVNlalUtNzhHRVNvaWtXc29wdEoxTTdyNG50dUZ0YllFdGNHTzFaUkd6QkZtQTAtZTRhclU?oc=5",
+          "google_news_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBlX3FDWTd3aTEtVnZkLVVkbnFNOVc5M2s2UURfUXlOVGdNWk1TZWpVLTc4R0VTb2lrV3NvcHRKMU03cjRudHVGdGJZRXRjR08xWlJHekJGbUEwLWU0YXJV0gFfQVVfeXFMUGVfcUNZN3dpMS1WdmQtVWRucU05VzkzazZRRF9ReU5UZ01aTVNlalUtNzhHRVNvaWtXc29wdEoxTTdyNG50dUZ0YllFdGNHTzFaUkd6QkZtQTAtZTRhclU?oc=5"
         }
       ],
       "buyerTalk": "這則台中區域或建設消息可以當作選屋參考，但規劃、動工和完工是不同階段，不代表周邊房價一定會上漲。建議實際走訪生活圈，確認通勤、噪音與未來供給，再比較同社區近期實價。喜歡物件可以談，但還是要守住自己的預算。",
       "sellerTalk": "區域建設能增加買方對生活圈的注意，但真正影響成交的仍是距離、便利性、屋況與價格。建議把已完成、施工中及規劃中的內容說清楚，再用同社區近期成交設定合理開價。若帶看後反覆出現相同疑慮，就調整說明、整理方式或銷售條件。",
-      "publishedAt": "2026-08-09",
+      "publishedAt": "2026-08-12",
       "relativeTime": "72小時內",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9Ub0JiU0FLdE4ybFJzSU5WZGVCbjk0enExb2d3MlVtNlFZOHhfNTFfUDc3bVV5dU5vM0d2YW5mbTBiaEQwdEYySzZMM0dxT0s5TkJNZFQ2M1pDR0FRS3NjbF9kTkZrVkpDRGNWWTJaRQ?oc=5",
-      "summary": "出售自益信託土地 符合要件土增稅可享自用住宅優惠稅率 AN不動產新聞網"
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5oQndxSG5Pd3pJUlFwdmw0NVFMZUE5T1ZPNVJpdWptblVKYjE4RnJiNlZ4UkNHM2w5LUFxMlNOMlBzODVLV3ViLVIzdktuOUdnaUp0ajVUaGZ6d9IBX0FVX3lxTFBlX3FDWTd3aTEtVnZkLVVkbnFNOVc5M2s2UURfUXlOVGdNWk1TZWpVLTc4R0VTb2lrV3NvcHRKMU03cjRudHVGdGJZRXRjR08xWlJHekJGbUEwLWU0YXJV?oc=5",
+      "summary": "台南不動產防詐首創地籍、稅籍雙警報 「一紙啟動全台防護」 經濟日報"
     },
     {
-      "id": "26e927aacc8fe6fe",
-      "source": "udn房地產",
-      "title": "別搞混！房屋稅、地價稅自住規定差在哪 別以為有設籍就有優惠",
-      "published_at": "2026-08-08T08:31:06.000Z",
-      "original_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5FWTIyQUVIb3FFUzA2Nno2eUxKVWw4UWpOSFdiczU1N1RKdjgzUnU2TjRXN3RrbFA1b2FiWmp1N21BUF9ydjFhb053Z3NRakJHb0RJUXVjU3ZWeTAtYS1Ub2ZDOXBtb05pUTk0ejZpblM4b1hhLUFnNlhiejAtcFHSAWJBVV95cUxQbmR0VGsxU2ctNFJhSFhZLVM1WmNWQUdEUWgwelRNR0JzN01TckYxaXNiWFRYTXE2Z0U0SzBaVUgxdnpQVGNOZDFHT21YLTVYVWtrQmlMSXBQYkFNSVdXM1owZw?oc=5",
-      "google_news_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5FWTIyQUVIb3FFUzA2Nno2eUxKVWw4UWpOSFdiczU1N1RKdjgzUnU2TjRXN3RrbFA1b2FiWmp1N21BUF9ydjFhb053Z3NRakJHb0RJUXVjU3ZWeTAtYS1Ub2ZDOXBtb05pUTk0ejZpblM4b1hhLUFnNlhiejAtcFHSAWJBVV95cUxQbmR0VGsxU2ctNFJhSFhZLVM1WmNWQUdEUWgwelRNR0JzN01TckYxaXNiWFRYTXE2Z0U0SzBaVUgxdnpQVGNOZDFHT21YLTVYVWtrQmlMSXBQYkFNSVdXM1owZw?oc=5",
-      "excerpt": "別搞混！房屋稅、地價稅自住規定差在哪 別以為有設籍就有優惠 udn房地產",
+      "id": "e0593b6688a0723a",
+      "source": "news.twhg.com.tw",
+      "title": "房市稅目冷颼颼 新建案交屋助契稅一枝獨秀",
+      "published_at": "2026-08-12T01:34:43.000Z",
+      "original_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1zZ2o5VW5sS1AtUjVFcS1NWUxxMmwwQnpVbXBvMzkwZjFQa1UxS0FXYmplWnRReFlDdDU5ZjFURjh4QmRudkFUcDBsWTZZMlgzT3dvMHJBa1ZEMXBMdUIzWHRGOWMtN1k?oc=5",
+      "google_news_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1zZ2o5VW5sS1AtUjVFcS1NWUxxMmwwQnpVbXBvMzkwZjFQa1UxS0FXYmplWnRReFlDdDU5ZjFURjh4QmRudkFUcDBsWTZZMlgzT3dvMHJBa1ZEMXBMdUIzWHRGOWMtN1k?oc=5",
+      "excerpt": "房市稅目冷颼颼 新建案交屋助契稅一枝獨秀 news.twhg.com.tw",
       "image_url": null,
-      "category": "稅務",
+      "category": "建商推案",
       "region": "全台灣",
       "keywords": [
+        "房市"
+      ],
+      "collected_at": "2026-08-12T05:20:19.700Z",
+      "refreshed_at": "2026-08-12T05:20:19.700Z",
+      "refresh_batch": "61ec20dc0f0a",
+      "importance_score": 62,
+      "fetch_status": "google_news_redirect",
+      "sources": [
+        {
+          "source": "news.twhg.com.tw",
+          "published_at": "2026-08-12T01:34:43.000Z",
+          "original_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1zZ2o5VW5sS1AtUjVFcS1NWUxxMmwwQnpVbXBvMzkwZjFQa1UxS0FXYmplWnRReFlDdDU5ZjFURjh4QmRudkFUcDBsWTZZMlgzT3dvMHJBa1ZEMXBMdUIzWHRGOWMtN1k?oc=5",
+          "google_news_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1zZ2o5VW5sS1AtUjVFcS1NWUxxMmwwQnpVbXBvMzkwZjFQa1UxS0FXYmplWnRReFlDdDU5ZjFURjh4QmRudkFUcDBsWTZZMlgzT3dvMHJBa1ZEMXBMdUIzWHRGOWMtN1k?oc=5"
+        }
+      ],
+      "buyerTalk": "這則新案消息代表區域選擇可能增加，但熱銷或推案多，不等於每個建案都適合您。除了單價，也要一起比較車位、付款方式、公設比、格局、建商紀錄與交屋時間。多看幾個案子再決定，簽約前也要把契約和廣告內容逐項確認清楚。",
+      "sellerTalk": "附近新案增加後，買方通常會拿新屋付款方式和中古屋的總價、屋況一起比較。建議把立即入住、成熟機能、實際空間等優點說清楚，並用同類成交與在售競品檢查價格。若詢問多卻沒有出價，可再調整屋況呈現、曝光方式或議價空間。",
+      "publishedAt": "2026-08-12",
+      "relativeTime": "72小時內",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1zZ2o5VW5sS1AtUjVFcS1NWUxxMmwwQnpVbXBvMzkwZjFQa1UxS0FXYmplWnRReFlDdDU5ZjFURjh4QmRudkFUcDBsWTZZMlgzT3dvMHJBa1ZEMXBMdUIzWHRGOWMtN1k?oc=5",
+      "summary": "房市稅目冷颼颼 新建案交屋助契稅一枝獨秀 news.twhg.com.tw"
+    },
+    {
+      "id": "5ca85c5d1835c499",
+      "source": "udn房地產",
+      "title": "2026金磚論壇「房市之亂解方」 從政策、都更到AI尋找產業破局之道",
+      "published_at": "2026-08-12T00:03:11.000Z",
+      "original_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTVpjNEZxaXhzcFZZTVVHdmVqREI2UFJDUnNXQXNSSG9FWkJfeENNUFVmRXBlUFNVZlNHdXNLVEkwNURSYkwwTTlJeTdJWEVsYlMtSUM5bnZMOHZKaU55aWtsSmhWS0NNRk9MUnpTMThXbDY1bjhnOUdlMWNwRk15X3d1VdIBYkFVX3lxTE03aTMyUHRkY2V6b3lBcXVfM2VyQ1hHaERWUDU1aExxR01WQlRuSW1pYUo1dGRCTGdYQVBXSTd6R0cwQzBNZHJIM2E4TTdhUkUtUzh4NkFXcy1ia1VVX25IaGFn?oc=5",
+      "google_news_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTVpjNEZxaXhzcFZZTVVHdmVqREI2UFJDUnNXQXNSSG9FWkJfeENNUFVmRXBlUFNVZlNHdXNLVEkwNURSYkwwTTlJeTdJWEVsYlMtSUM5bnZMOHZKaU55aWtsSmhWS0NNRk9MUnpTMThXbDY1bjhnOUdlMWNwRk15X3d1VdIBYkFVX3lxTE03aTMyUHRkY2V6b3lBcXVfM2VyQ1hHaERWUDU1aExxR01WQlRuSW1pYUo1dGRCTGdYQVBXSTd6R0cwQzBNZHJIM2E4TTdhUkUtUzh4NkFXcy1ia1VVX25IaGFn?oc=5",
+      "excerpt": "2026金磚論壇「房市之亂解方」 從政策、都更到AI尋找產業破局之道 udn房地產",
+      "image_url": null,
+      "category": "政策法規",
+      "region": "全台灣",
+      "keywords": [
+        "房市",
         "房地產"
       ],
-      "collected_at": "2026-08-10T05:10:25.708Z",
-      "refreshed_at": "2026-08-10T05:10:25.708Z",
-      "refresh_batch": "3a8f24f16cca",
-      "importance_score": 55,
+      "collected_at": "2026-08-12T05:20:19.700Z",
+      "refreshed_at": "2026-08-12T05:20:19.700Z",
+      "refresh_batch": "61ec20dc0f0a",
+      "importance_score": 60,
       "fetch_status": "google_news_redirect",
       "sources": [
         {
           "source": "udn房地產",
-          "published_at": "2026-08-08T08:31:06.000Z",
-          "original_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5FWTIyQUVIb3FFUzA2Nno2eUxKVWw4UWpOSFdiczU1N1RKdjgzUnU2TjRXN3RrbFA1b2FiWmp1N21BUF9ydjFhb053Z3NRakJHb0RJUXVjU3ZWeTAtYS1Ub2ZDOXBtb05pUTk0ejZpblM4b1hhLUFnNlhiejAtcFHSAWJBVV95cUxQbmR0VGsxU2ctNFJhSFhZLVM1WmNWQUdEUWgwelRNR0JzN01TckYxaXNiWFRYTXE2Z0U0SzBaVUgxdnpQVGNOZDFHT21YLTVYVWtrQmlMSXBQYkFNSVdXM1owZw?oc=5",
-          "google_news_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5FWTIyQUVIb3FFUzA2Nno2eUxKVWw4UWpOSFdiczU1N1RKdjgzUnU2TjRXN3RrbFA1b2FiWmp1N21BUF9ydjFhb053Z3NRakJHb0RJUXVjU3ZWeTAtYS1Ub2ZDOXBtb05pUTk0ejZpblM4b1hhLUFnNlhiejAtcFHSAWJBVV95cUxQbmR0VGsxU2ctNFJhSFhZLVM1WmNWQUdEUWgwelRNR0JzN01TckYxaXNiWFRYTXE2Z0U0SzBaVUgxdnpQVGNOZDFHT21YLTVYVWtrQmlMSXBQYkFNSVdXM1owZw?oc=5"
+          "published_at": "2026-08-12T00:03:11.000Z",
+          "original_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTVpjNEZxaXhzcFZZTVVHdmVqREI2UFJDUnNXQXNSSG9FWkJfeENNUFVmRXBlUFNVZlNHdXNLVEkwNURSYkwwTTlJeTdJWEVsYlMtSUM5bnZMOHZKaU55aWtsSmhWS0NNRk9MUnpTMThXbDY1bjhnOUdlMWNwRk15X3d1VdIBYkFVX3lxTE03aTMyUHRkY2V6b3lBcXVfM2VyQ1hHaERWUDU1aExxR01WQlRuSW1pYUo1dGRCTGdYQVBXSTd6R0cwQzBNZHJIM2E4TTdhUkUtUzh4NkFXcy1ia1VVX25IaGFn?oc=5",
+          "google_news_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTVpjNEZxaXhzcFZZTVVHdmVqREI2UFJDUnNXQXNSSG9FWkJfeENNUFVmRXBlUFNVZlNHdXNLVEkwNURSYkwwTTlJeTdJWEVsYlMtSUM5bnZMOHZKaU55aWtsSmhWS0NNRk9MUnpTMThXbDY1bjhnOUdlMWNwRk15X3d1VdIBYkFVX3lxTE03aTMyUHRkY2V6b3lBcXVfM2VyQ1hHaERWUDU1aExxR01WQlRuSW1pYUo1dGRCTGdYQVBXSTd6R0cwQzBNZHJIM2E4TTdhUkUtUzh4NkFXcy1ia1VVX25IaGFn?oc=5"
         }
       ],
       "buyerTalk": "這則消息和您的貸款、自備款或稅費比較有關，但先不用緊張，也不要只看標題就改變購屋計畫。建議先確認是否已正式生效，再請銀行依您的收入、負債與名下房屋試算，出價時也多留一點資金空間。實際條件仍以主管機關、銀行或專業人士最新公告與個案審核為準。",
       "sellerTalk": "這類政策或貸款消息，可能讓買方需要更多時間準備自備款及確認核貸。建議先把房屋資料整理完整，並參考同社區近期成交與目前競品來定價，簽約和交屋時間也保留彈性。實際條件仍以主管機關、銀行或專業人士最新公告與個案審核為準。",
-      "publishedAt": "2026-08-08",
+      "publishedAt": "2026-08-12",
       "relativeTime": "72小時內",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5FWTIyQUVIb3FFUzA2Nno2eUxKVWw4UWpOSFdiczU1N1RKdjgzUnU2TjRXN3RrbFA1b2FiWmp1N21BUF9ydjFhb053Z3NRakJHb0RJUXVjU3ZWeTAtYS1Ub2ZDOXBtb05pUTk0ejZpblM4b1hhLUFnNlhiejAtcFHSAWJBVV95cUxQbmR0VGsxU2ctNFJhSFhZLVM1WmNWQUdEUWgwelRNR0JzN01TckYxaXNiWFRYTXE2Z0U0SzBaVUgxdnpQVGNOZDFHT21YLTVYVWtrQmlMSXBQYkFNSVdXM1owZw?oc=5",
-      "summary": "別搞混！房屋稅、地價稅自住規定差在哪 別以為有設籍就有優惠 udn房地產"
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTVpjNEZxaXhzcFZZTVVHdmVqREI2UFJDUnNXQXNSSG9FWkJfeENNUFVmRXBlUFNVZlNHdXNLVEkwNURSYkwwTTlJeTdJWEVsYlMtSUM5bnZMOHZKaU55aWtsSmhWS0NNRk9MUnpTMThXbDY1bjhnOUdlMWNwRk15X3d1VdIBYkFVX3lxTE03aTMyUHRkY2V6b3lBcXVfM2VyQ1hHaERWUDU1aExxR01WQlRuSW1pYUo1dGRCTGdYQVBXSTd6R0cwQzBNZHJIM2E4TTdhUkUtUzh4NkFXcy1ia1VVX25IaGFn?oc=5",
+      "summary": "2026金磚論壇「房市之亂解方」 從政策、都更到AI尋找產業破局之道 udn房地產"
     },
     {
-      "id": "56abbfd37bd275c9",
-      "source": "chinesedaily.com",
-      "title": "新青安3.0上路：排富排老一刀切變相懲罰弱勢- 洛周刊- 新聞",
-      "published_at": "2026-08-08T07:45:10.000Z",
-      "original_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1uVktDWFlSVnhaOGNuWHBRZFFKWGIwUWtCMzN1a3haUEJUS2tqc2JxS1JQZ2VLZ1BlZkVGdTVkLWduR2R2Wnk3aVV6SEZEdHcyXzdlYW84ZDQ0dXVENTNiUzlYWnJsdw?oc=5",
-      "google_news_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1uVktDWFlSVnhaOGNuWHBRZFFKWGIwUWtCMzN1a3haUEJUS2tqc2JxS1JQZ2VLZ1BlZkVGdTVkLWduR2R2Wnk3aVV6SEZEdHcyXzdlYW84ZDQ0dXVENTNiUzlYWnJsdw?oc=5",
-      "excerpt": "新青安3.0上路：排富排老一刀切變相懲罰弱勢- 洛周刊- 新聞 chinesedaily.com",
+      "id": "b12c5366f171afc0",
+      "source": "mnews.tw",
+      "title": "新青安3.0催出中古屋買氣 預售市場仍低迷建商嘆「再降就賠本」",
+      "published_at": "2026-08-11T23:51:00.000Z",
+      "original_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBYM2JkMmpUcXVNUTRfanhfQkdQUl9TNXk0WllPa2ZYOXBQYkdIYXh3eGlEWFFReGZ1enpKeXdZc0M1d2Vfa1ZSUUphU0JOUmh2LW9EaFlXNNIBV0FVX3lxTFBYM2JkMmpUcXVNUTRfanhfQkdQUl9TNXk0WllPa2ZYOXBQYkdIYXh3eGlEWFFReGZ1enpKeXdZc0M1d2Vfa1ZSUUphU0JOUmh2LW9EaFlXNA?oc=5",
+      "google_news_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBYM2JkMmpUcXVNUTRfanhfQkdQUl9TNXk0WllPa2ZYOXBQYkdIYXh3eGlEWFFReGZ1enpKeXdZc0M1d2Vfa1ZSUUphU0JOUmh2LW9EaFlXNNIBV0FVX3lxTFBYM2JkMmpUcXVNUTRfanhfQkdQUl9TNXk0WllPa2ZYOXBQYkdIYXh3eGlEWFFReGZ1enpKeXdZc0M1d2Vfa1ZSUUphU0JOUmh2LW9EaFlXNA?oc=5",
+      "excerpt": "新青安3.0催出中古屋買氣 預售市場仍低迷建商嘆「再降就賠本」 mnews.tw",
       "image_url": null,
       "category": "房貸金融",
       "region": "全台灣",
       "keywords": [
         "新青安"
       ],
-      "collected_at": "2026-08-10T05:10:25.708Z",
-      "refreshed_at": "2026-08-10T05:10:25.708Z",
-      "refresh_batch": "3a8f24f16cca",
-      "importance_score": 55,
+      "collected_at": "2026-08-12T05:20:19.700Z",
+      "refreshed_at": "2026-08-12T05:20:19.700Z",
+      "refresh_batch": "61ec20dc0f0a",
+      "importance_score": 60,
       "fetch_status": "google_news_redirect",
       "sources": [
         {
-          "source": "chinesedaily.com",
-          "published_at": "2026-08-08T07:45:10.000Z",
-          "original_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1uVktDWFlSVnhaOGNuWHBRZFFKWGIwUWtCMzN1a3haUEJUS2tqc2JxS1JQZ2VLZ1BlZkVGdTVkLWduR2R2Wnk3aVV6SEZEdHcyXzdlYW84ZDQ0dXVENTNiUzlYWnJsdw?oc=5",
-          "google_news_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1uVktDWFlSVnhaOGNuWHBRZFFKWGIwUWtCMzN1a3haUEJUS2tqc2JxS1JQZ2VLZ1BlZkVGdTVkLWduR2R2Wnk3aVV6SEZEdHcyXzdlYW84ZDQ0dXVENTNiUzlYWnJsdw?oc=5"
+          "source": "mnews.tw",
+          "published_at": "2026-08-11T23:51:00.000Z",
+          "original_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBYM2JkMmpUcXVNUTRfanhfQkdQUl9TNXk0WllPa2ZYOXBQYkdIYXh3eGlEWFFReGZ1enpKeXdZc0M1d2Vfa1ZSUUphU0JOUmh2LW9EaFlXNNIBV0FVX3lxTFBYM2JkMmpUcXVNUTRfanhfQkdQUl9TNXk0WllPa2ZYOXBQYkdIYXh3eGlEWFFReGZ1enpKeXdZc0M1d2Vfa1ZSUUphU0JOUmh2LW9EaFlXNA?oc=5",
+          "google_news_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBYM2JkMmpUcXVNUTRfanhfQkdQUl9TNXk0WllPa2ZYOXBQYkdIYXh3eGlEWFFReGZ1enpKeXdZc0M1d2Vfa1ZSUUphU0JOUmh2LW9EaFlXNNIBV0FVX3lxTFBYM2JkMmpUcXVNUTRfanhfQkdQUl9TNXk0WllPa2ZYOXBQYkdIYXh3eGlEWFFReGZ1enpKeXdZc0M1d2Vfa1ZSUUphU0JOUmh2LW9EaFlXNA?oc=5"
         }
       ],
       "buyerTalk": "這則消息和您的貸款、自備款或稅費比較有關，但先不用緊張，也不要只看標題就改變購屋計畫。建議先確認是否已正式生效，再請銀行依您的收入、負債與名下房屋試算，出價時也多留一點資金空間。實際條件仍以主管機關、銀行或專業人士最新公告與個案審核為準。",
       "sellerTalk": "這類政策或貸款消息，可能讓買方需要更多時間準備自備款及確認核貸。建議先把房屋資料整理完整，並參考同社區近期成交與目前競品來定價，簽約和交屋時間也保留彈性。實際條件仍以主管機關、銀行或專業人士最新公告與個案審核為準。",
-      "publishedAt": "2026-08-08",
+      "publishedAt": "2026-08-11",
       "relativeTime": "72小時內",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1uVktDWFlSVnhaOGNuWHBRZFFKWGIwUWtCMzN1a3haUEJUS2tqc2JxS1JQZ2VLZ1BlZkVGdTVkLWduR2R2Wnk3aVV6SEZEdHcyXzdlYW84ZDQ0dXVENTNiUzlYWnJsdw?oc=5",
-      "summary": "新青安3.0上路：排富排老一刀切變相懲罰弱勢- 洛周刊- 新聞 chinesedaily.com"
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBYM2JkMmpUcXVNUTRfanhfQkdQUl9TNXk0WllPa2ZYOXBQYkdIYXh3eGlEWFFReGZ1enpKeXdZc0M1d2Vfa1ZSUUphU0JOUmh2LW9EaFlXNNIBV0FVX3lxTFBYM2JkMmpUcXVNUTRfanhfQkdQUl9TNXk0WllPa2ZYOXBQYkdIYXh3eGlEWFFReGZ1enpKeXdZc0M1d2Vfa1ZSUUphU0JOUmh2LW9EaFlXNA?oc=5",
+      "summary": "新青安3.0催出中古屋買氣 預售市場仍低迷建商嘆「再降就賠本」 mnews.tw"
+    },
+    {
+      "id": "b064332fa4c36027",
+      "source": "ETtoday房產雲",
+      "title": "青安3.0救房市有限 原因又是央行",
+      "published_at": "2026-08-11T23:24:00.000Z",
+      "original_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ZSW9FMFFMemQwVkhVbzNoR1dhWkhKMDdjVnVPaGl5VDdlQVp4ekF6UU9fZWpzZ2xNRXZlYTZfdEZnZ1VZZE9KYkx4QkRzUTjSAU5BVV95cUxPRkNsZTZDVnlRNm1zZEs1d0xiVC02T0lFd0xFV1Nqb091S3JHcmNoTEtNb1RsNDdhM1pLU3llb1FJam9Eb0ZydHI1eUFCUnc?oc=5",
+      "google_news_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ZSW9FMFFMemQwVkhVbzNoR1dhWkhKMDdjVnVPaGl5VDdlQVp4ekF6UU9fZWpzZ2xNRXZlYTZfdEZnZ1VZZE9KYkx4QkRzUTjSAU5BVV95cUxPRkNsZTZDVnlRNm1zZEs1d0xiVC02T0lFd0xFV1Nqb091S3JHcmNoTEtNb1RsNDdhM1pLU3llb1FJam9Eb0ZydHI1eUFCUnc?oc=5",
+      "excerpt": "青安3.0救房市有限 原因又是央行 ETtoday房產雲",
+      "image_url": null,
+      "category": "房貸金融",
+      "region": "全台灣",
+      "keywords": [
+        "房市",
+        "央行"
+      ],
+      "collected_at": "2026-08-12T05:20:19.700Z",
+      "refreshed_at": "2026-08-12T05:20:19.700Z",
+      "refresh_batch": "61ec20dc0f0a",
+      "importance_score": 60,
+      "fetch_status": "google_news_redirect",
+      "sources": [
+        {
+          "source": "ETtoday房產雲",
+          "published_at": "2026-08-11T23:24:00.000Z",
+          "original_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ZSW9FMFFMemQwVkhVbzNoR1dhWkhKMDdjVnVPaGl5VDdlQVp4ekF6UU9fZWpzZ2xNRXZlYTZfdEZnZ1VZZE9KYkx4QkRzUTjSAU5BVV95cUxPRkNsZTZDVnlRNm1zZEs1d0xiVC02T0lFd0xFV1Nqb091S3JHcmNoTEtNb1RsNDdhM1pLU3llb1FJam9Eb0ZydHI1eUFCUnc?oc=5",
+          "google_news_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ZSW9FMFFMemQwVkhVbzNoR1dhWkhKMDdjVnVPaGl5VDdlQVp4ekF6UU9fZWpzZ2xNRXZlYTZfdEZnZ1VZZE9KYkx4QkRzUTjSAU5BVV95cUxPRkNsZTZDVnlRNm1zZEs1d0xiVC02T0lFd0xFV1Nqb091S3JHcmNoTEtNb1RsNDdhM1pLU3llb1FJam9Eb0ZydHI1eUFCUnc?oc=5"
+        }
+      ],
+      "buyerTalk": "這則消息和您的貸款、自備款或稅費比較有關，但先不用緊張，也不要只看標題就改變購屋計畫。建議先確認是否已正式生效，再請銀行依您的收入、負債與名下房屋試算，出價時也多留一點資金空間。實際條件仍以主管機關、銀行或專業人士最新公告與個案審核為準。",
+      "sellerTalk": "這類政策或貸款消息，可能讓買方需要更多時間準備自備款及確認核貸。建議先把房屋資料整理完整，並參考同社區近期成交與目前競品來定價，簽約和交屋時間也保留彈性。實際條件仍以主管機關、銀行或專業人士最新公告與個案審核為準。",
+      "publishedAt": "2026-08-11",
+      "relativeTime": "72小時內",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ZSW9FMFFMemQwVkhVbzNoR1dhWkhKMDdjVnVPaGl5VDdlQVp4ekF6UU9fZWpzZ2xNRXZlYTZfdEZnZ1VZZE9KYkx4QkRzUTjSAU5BVV95cUxPRkNsZTZDVnlRNm1zZEs1d0xiVC02T0lFd0xFV1Nqb091S3JHcmNoTEtNb1RsNDdhM1pLU3llb1FJam9Eb0ZydHI1eUFCUnc?oc=5",
+      "summary": "青安3.0救房市有限 原因又是央行 ETtoday房產雲"
+    },
+    {
+      "id": "c4c7e4be76a9aa7c",
+      "source": "Yahoo股市",
+      "title": "房市新舊兩樣情／新青安3.0催出看屋潮 預售冷中古屋回暖",
+      "published_at": "2026-08-11T22:28:59.000Z",
+      "original_url": "https://news.google.com/rss/articles/CBMi9gJBVV95cUxPaFJNSGl1WEk5RmhqNElZZXZHTEJxQjEwOThhc0JSTlBtV2E0RVBDU0R3VWg0VjJyaTZPVUUzR1RtTzJwYVlmZV83TE1BSFJZREtneFl0eUJzNGF0RURFS3dlbUJQczh2bXVKOTgtOGFqYVFKeEctNXNVZWgtZ0pSdk83NVRQOWFlVmtCRlhtR1V6MzJON1JNZkpkUHZPVnRRZFZjN1Q5NmxpSlBpMy1FVXdkbWU0MHRWQm8zZGlfT3hrbUxXUFQwTVlNVTI4Q2lQV1lBVXNLc3p3QW5fNEhyeFdRZGR6Yy13YXNkcFpGYkF4V0MyNVAzZjBpQ3lLY252UFRwcE5vajdNUnFNRjMyZ0hwTm1yN0VBOGpub3ZkbXN0SnpLM1ZHcFJJQ3F3MExPaEpyX20yeGg5b0xteGF3TjROcy04T1JvaHNyWGo1RFMtZVU4eUFoSDhyTjlySXhsVmhiYS0zSmxVVHFoOC04Q3pPVDUzZw?oc=5",
+      "google_news_url": "https://news.google.com/rss/articles/CBMi9gJBVV95cUxPaFJNSGl1WEk5RmhqNElZZXZHTEJxQjEwOThhc0JSTlBtV2E0RVBDU0R3VWg0VjJyaTZPVUUzR1RtTzJwYVlmZV83TE1BSFJZREtneFl0eUJzNGF0RURFS3dlbUJQczh2bXVKOTgtOGFqYVFKeEctNXNVZWgtZ0pSdk83NVRQOWFlVmtCRlhtR1V6MzJON1JNZkpkUHZPVnRRZFZjN1Q5NmxpSlBpMy1FVXdkbWU0MHRWQm8zZGlfT3hrbUxXUFQwTVlNVTI4Q2lQV1lBVXNLc3p3QW5fNEhyeFdRZGR6Yy13YXNkcFpGYkF4V0MyNVAzZjBpQ3lLY252UFRwcE5vajdNUnFNRjMyZ0hwTm1yN0VBOGpub3ZkbXN0SnpLM1ZHcFJJQ3F3MExPaEpyX20yeGg5b0xteGF3TjROcy04T1JvaHNyWGo1RFMtZVU4eUFoSDhyTjlySXhsVmhiYS0zSmxVVHFoOC04Q3pPVDUzZw?oc=5",
+      "excerpt": "房市新舊兩樣情／新青安3.0催出看屋潮 預售冷中古屋回暖 Yahoo股市",
+      "image_url": null,
+      "category": "房貸金融",
+      "region": "全台灣",
+      "keywords": [
+        "房市",
+        "新青安"
+      ],
+      "collected_at": "2026-08-12T05:20:19.700Z",
+      "refreshed_at": "2026-08-12T05:20:19.700Z",
+      "refresh_batch": "61ec20dc0f0a",
+      "importance_score": 59,
+      "fetch_status": "google_news_redirect",
+      "sources": [
+        {
+          "source": "Yahoo股市",
+          "published_at": "2026-08-11T22:28:59.000Z",
+          "original_url": "https://news.google.com/rss/articles/CBMi9gJBVV95cUxPaFJNSGl1WEk5RmhqNElZZXZHTEJxQjEwOThhc0JSTlBtV2E0RVBDU0R3VWg0VjJyaTZPVUUzR1RtTzJwYVlmZV83TE1BSFJZREtneFl0eUJzNGF0RURFS3dlbUJQczh2bXVKOTgtOGFqYVFKeEctNXNVZWgtZ0pSdk83NVRQOWFlVmtCRlhtR1V6MzJON1JNZkpkUHZPVnRRZFZjN1Q5NmxpSlBpMy1FVXdkbWU0MHRWQm8zZGlfT3hrbUxXUFQwTVlNVTI4Q2lQV1lBVXNLc3p3QW5fNEhyeFdRZGR6Yy13YXNkcFpGYkF4V0MyNVAzZjBpQ3lLY252UFRwcE5vajdNUnFNRjMyZ0hwTm1yN0VBOGpub3ZkbXN0SnpLM1ZHcFJJQ3F3MExPaEpyX20yeGg5b0xteGF3TjROcy04T1JvaHNyWGo1RFMtZVU4eUFoSDhyTjlySXhsVmhiYS0zSmxVVHFoOC04Q3pPVDUzZw?oc=5",
+          "google_news_url": "https://news.google.com/rss/articles/CBMi9gJBVV95cUxPaFJNSGl1WEk5RmhqNElZZXZHTEJxQjEwOThhc0JSTlBtV2E0RVBDU0R3VWg0VjJyaTZPVUUzR1RtTzJwYVlmZV83TE1BSFJZREtneFl0eUJzNGF0RURFS3dlbUJQczh2bXVKOTgtOGFqYVFKeEctNXNVZWgtZ0pSdk83NVRQOWFlVmtCRlhtR1V6MzJON1JNZkpkUHZPVnRRZFZjN1Q5NmxpSlBpMy1FVXdkbWU0MHRWQm8zZGlfT3hrbUxXUFQwTVlNVTI4Q2lQV1lBVXNLc3p3QW5fNEhyeFdRZGR6Yy13YXNkcFpGYkF4V0MyNVAzZjBpQ3lLY252UFRwcE5vajdNUnFNRjMyZ0hwTm1yN0VBOGpub3ZkbXN0SnpLM1ZHcFJJQ3F3MExPaEpyX20yeGg5b0xteGF3TjROcy04T1JvaHNyWGo1RFMtZVU4eUFoSDhyTjlySXhsVmhiYS0zSmxVVHFoOC04Q3pPVDUzZw?oc=5"
+        }
+      ],
+      "buyerTalk": "這則消息和您的貸款、自備款或稅費比較有關，但先不用緊張，也不要只看標題就改變購屋計畫。建議先確認是否已正式生效，再請銀行依您的收入、負債與名下房屋試算，出價時也多留一點資金空間。實際條件仍以主管機關、銀行或專業人士最新公告與個案審核為準。",
+      "sellerTalk": "這類政策或貸款消息，可能讓買方需要更多時間準備自備款及確認核貸。建議先把房屋資料整理完整，並參考同社區近期成交與目前競品來定價，簽約和交屋時間也保留彈性。實際條件仍以主管機關、銀行或專業人士最新公告與個案審核為準。",
+      "publishedAt": "2026-08-11",
+      "relativeTime": "72小時內",
+      "url": "https://news.google.com/rss/articles/CBMi9gJBVV95cUxPaFJNSGl1WEk5RmhqNElZZXZHTEJxQjEwOThhc0JSTlBtV2E0RVBDU0R3VWg0VjJyaTZPVUUzR1RtTzJwYVlmZV83TE1BSFJZREtneFl0eUJzNGF0RURFS3dlbUJQczh2bXVKOTgtOGFqYVFKeEctNXNVZWgtZ0pSdk83NVRQOWFlVmtCRlhtR1V6MzJON1JNZkpkUHZPVnRRZFZjN1Q5NmxpSlBpMy1FVXdkbWU0MHRWQm8zZGlfT3hrbUxXUFQwTVlNVTI4Q2lQV1lBVXNLc3p3QW5fNEhyeFdRZGR6Yy13YXNkcFpGYkF4V0MyNVAzZjBpQ3lLY252UFRwcE5vajdNUnFNRjMyZ0hwTm1yN0VBOGpub3ZkbXN0SnpLM1ZHcFJJQ3F3MExPaEpyX20yeGg5b0xteGF3TjROcy04T1JvaHNyWGo1RFMtZVU4eUFoSDhyTjlySXhsVmhiYS0zSmxVVHFoOC04Q3pPVDUzZw?oc=5",
+      "summary": "房市新舊兩樣情／新青安3.0催出看屋潮 預售冷中古屋回暖 Yahoo股市"
+    },
+    {
+      "id": "0ca066a18bb83923",
+      "source": "鏡週刊Mirror Media",
+      "title": "房市新舊兩樣情3／青安3.0救房市有限 央行不願大幅鬆綁理由曝光",
+      "published_at": "2026-08-11T22:28:56.000Z",
+      "original_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBqQ1FDVTdrYzZsY3pyZkZwS1hpVVAxZXhFR1EzdjhJLVdvU3lYX1d0akxhWW1BU2paOWdna213dFRqZ3Y4cEdsQ3VzdHp6Yjk3Y0NJeTBJNHNpTXllUHRDcdIBYEFVX3lxTFBqQ1FDVTdrYzZsY3pyZkZwS1hpVVAxZXhFR1EzdjhJLVdvU3lYX1d0akxhWW1BU2paOWdna213dFRqZ3Y4cEdsQ3VzdHp6Yjk3Y0NJeTBJNHNpTXllUHRDcQ?oc=5",
+      "google_news_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBqQ1FDVTdrYzZsY3pyZkZwS1hpVVAxZXhFR1EzdjhJLVdvU3lYX1d0akxhWW1BU2paOWdna213dFRqZ3Y4cEdsQ3VzdHp6Yjk3Y0NJeTBJNHNpTXllUHRDcdIBYEFVX3lxTFBqQ1FDVTdrYzZsY3pyZkZwS1hpVVAxZXhFR1EzdjhJLVdvU3lYX1d0akxhWW1BU2paOWdna213dFRqZ3Y4cEdsQ3VzdHp6Yjk3Y0NJeTBJNHNpTXllUHRDcQ?oc=5",
+      "excerpt": "房市新舊兩樣情3／青安3.0救房市有限 央行不願大幅鬆綁理由曝光 鏡週刊Mirror Media",
+      "image_url": null,
+      "category": "房貸金融",
+      "region": "全台灣",
+      "keywords": [
+        "房市",
+        "央行"
+      ],
+      "collected_at": "2026-08-12T05:20:19.700Z",
+      "refreshed_at": "2026-08-12T05:20:19.700Z",
+      "refresh_batch": "61ec20dc0f0a",
+      "importance_score": 59,
+      "fetch_status": "google_news_redirect",
+      "sources": [
+        {
+          "source": "鏡週刊Mirror Media",
+          "published_at": "2026-08-11T22:28:56.000Z",
+          "original_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBqQ1FDVTdrYzZsY3pyZkZwS1hpVVAxZXhFR1EzdjhJLVdvU3lYX1d0akxhWW1BU2paOWdna213dFRqZ3Y4cEdsQ3VzdHp6Yjk3Y0NJeTBJNHNpTXllUHRDcdIBYEFVX3lxTFBqQ1FDVTdrYzZsY3pyZkZwS1hpVVAxZXhFR1EzdjhJLVdvU3lYX1d0akxhWW1BU2paOWdna213dFRqZ3Y4cEdsQ3VzdHp6Yjk3Y0NJeTBJNHNpTXllUHRDcQ?oc=5",
+          "google_news_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBqQ1FDVTdrYzZsY3pyZkZwS1hpVVAxZXhFR1EzdjhJLVdvU3lYX1d0akxhWW1BU2paOWdna213dFRqZ3Y4cEdsQ3VzdHp6Yjk3Y0NJeTBJNHNpTXllUHRDcdIBYEFVX3lxTFBqQ1FDVTdrYzZsY3pyZkZwS1hpVVAxZXhFR1EzdjhJLVdvU3lYX1d0akxhWW1BU2paOWdna213dFRqZ3Y4cEdsQ3VzdHp6Yjk3Y0NJeTBJNHNpTXllUHRDcQ?oc=5"
+        }
+      ],
+      "buyerTalk": "這則消息和您的貸款、自備款或稅費比較有關，但先不用緊張，也不要只看標題就改變購屋計畫。建議先確認是否已正式生效，再請銀行依您的收入、負債與名下房屋試算，出價時也多留一點資金空間。實際條件仍以主管機關、銀行或專業人士最新公告與個案審核為準。",
+      "sellerTalk": "這類政策或貸款消息，可能讓買方需要更多時間準備自備款及確認核貸。建議先把房屋資料整理完整，並參考同社區近期成交與目前競品來定價，簽約和交屋時間也保留彈性。實際條件仍以主管機關、銀行或專業人士最新公告與個案審核為準。",
+      "publishedAt": "2026-08-11",
+      "relativeTime": "72小時內",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBqQ1FDVTdrYzZsY3pyZkZwS1hpVVAxZXhFR1EzdjhJLVdvU3lYX1d0akxhWW1BU2paOWdna213dFRqZ3Y4cEdsQ3VzdHp6Yjk3Y0NJeTBJNHNpTXllUHRDcdIBYEFVX3lxTFBqQ1FDVTdrYzZsY3pyZkZwS1hpVVAxZXhFR1EzdjhJLVdvU3lYX1d0akxhWW1BU2paOWdna213dFRqZ3Y4cEdsQ3VzdHp6Yjk3Y0NJeTBJNHNpTXllUHRDcQ?oc=5",
+      "summary": "房市新舊兩樣情3／青安3.0救房市有限 央行不願大幅鬆綁理由曝光 鏡週刊Mirror Media"
+    },
+    {
+      "id": "b12aac1ab5a2efd2",
+      "source": "蕃新聞",
+      "title": "「房地合一稅」實施十年的關鍵省思-政府是抑制炒房抑或擴大稅基？",
+      "published_at": "2026-08-11T20:43:00.000Z",
+      "original_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9raUxnbWhXdHRjZGxNZDZ1bmFyaTFtUk4wTFhINVdfc1JuYUF6WmM4ZEFULUFMODVwaU5yUlVPTW9tUU1XZVV0WmQwUmMwYTB0WXc?oc=5",
+      "google_news_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9raUxnbWhXdHRjZGxNZDZ1bmFyaTFtUk4wTFhINVdfc1JuYUF6WmM4ZEFULUFMODVwaU5yUlVPTW9tUU1XZVV0WmQwUmMwYTB0WXc?oc=5",
+      "excerpt": "「房地合一稅」實施十年的關鍵省思-政府是抑制炒房抑或擴大稅基？ 蕃新聞",
+      "image_url": null,
+      "category": "稅務",
+      "region": "全台灣",
+      "keywords": [],
+      "collected_at": "2026-08-12T05:20:19.700Z",
+      "refreshed_at": "2026-08-12T05:20:19.700Z",
+      "refresh_batch": "61ec20dc0f0a",
+      "importance_score": 57,
+      "fetch_status": "google_news_redirect",
+      "sources": [
+        {
+          "source": "蕃新聞",
+          "published_at": "2026-08-11T20:43:00.000Z",
+          "original_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9raUxnbWhXdHRjZGxNZDZ1bmFyaTFtUk4wTFhINVdfc1JuYUF6WmM4ZEFULUFMODVwaU5yUlVPTW9tUU1XZVV0WmQwUmMwYTB0WXc?oc=5",
+          "google_news_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9raUxnbWhXdHRjZGxNZDZ1bmFyaTFtUk4wTFhINVdfc1JuYUF6WmM4ZEFULUFMODVwaU5yUlVPTW9tUU1XZVV0WmQwUmMwYTB0WXc?oc=5"
+        }
+      ],
+      "buyerTalk": "這則消息和您的貸款、自備款或稅費比較有關，但先不用緊張，也不要只看標題就改變購屋計畫。建議先確認是否已正式生效，再請銀行依您的收入、負債與名下房屋試算，出價時也多留一點資金空間。實際條件仍以主管機關、銀行或專業人士最新公告與個案審核為準。",
+      "sellerTalk": "這類政策或貸款消息，可能讓買方需要更多時間準備自備款及確認核貸。建議先把房屋資料整理完整，並參考同社區近期成交與目前競品來定價，簽約和交屋時間也保留彈性。實際條件仍以主管機關、銀行或專業人士最新公告與個案審核為準。",
+      "publishedAt": "2026-08-11",
+      "relativeTime": "72小時內",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9raUxnbWhXdHRjZGxNZDZ1bmFyaTFtUk4wTFhINVdfc1JuYUF6WmM4ZEFULUFMODVwaU5yUlVPTW9tUU1XZVV0WmQwUmMwYTB0WXc?oc=5",
+      "summary": "「房地合一稅」實施十年的關鍵省思-政府是抑制炒房抑或擴大稅基？ 蕃新聞"
+    },
+    {
+      "id": "c8cccc416d2ea578",
+      "source": "自由時報",
+      "title": "台中捷運綠線又出包！這站門不能關、那站門打不開議員怒了- 生活",
+      "published_at": "2026-08-12T04:29:00.000Z",
+      "original_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5IemplQUcwRktVeFdQT3RIbWY3R2RNR0pUS05qTWJUbHRpU2F5cE4zOW0yZ2h3SEZ0SWFDR2pTS3BMSmd3bFhtak5nNWJHQ3dGUENMWFJFS2p5YjZ4WWhFdXhRLXk?oc=5",
+      "google_news_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5IemplQUcwRktVeFdQT3RIbWY3R2RNR0pUS05qTWJUbHRpU2F5cE4zOW0yZ2h3SEZ0SWFDR2pTS3BMSmd3bFhtak5nNWJHQ3dGUENMWFJFS2p5YjZ4WWhFdXhRLXk?oc=5",
+      "excerpt": "台中捷運綠線又出包！這站門不能關、那站門打不開議員怒了- 生活 自由時報",
+      "image_url": null,
+      "category": "台中建設",
+      "region": "台中市",
+      "keywords": [
+        "台中捷運"
+      ],
+      "collected_at": "2026-08-12T05:20:19.700Z",
+      "refreshed_at": "2026-08-12T05:20:19.700Z",
+      "refresh_batch": "61ec20dc0f0a",
+      "importance_score": 55,
+      "fetch_status": "google_news_redirect",
+      "sources": [
+        {
+          "source": "自由時報",
+          "published_at": "2026-08-12T04:29:00.000Z",
+          "original_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5IemplQUcwRktVeFdQT3RIbWY3R2RNR0pUS05qTWJUbHRpU2F5cE4zOW0yZ2h3SEZ0SWFDR2pTS3BMSmd3bFhtak5nNWJHQ3dGUENMWFJFS2p5YjZ4WWhFdXhRLXk?oc=5",
+          "google_news_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5IemplQUcwRktVeFdQT3RIbWY3R2RNR0pUS05qTWJUbHRpU2F5cE4zOW0yZ2h3SEZ0SWFDR2pTS3BMSmd3bFhtak5nNWJHQ3dGUENMWFJFS2p5YjZ4WWhFdXhRLXk?oc=5"
+        }
+      ],
+      "buyerTalk": "這則台中區域或建設消息可以當作選屋參考，但規劃、動工和完工是不同階段，不代表周邊房價一定會上漲。建議實際走訪生活圈，確認通勤、噪音與未來供給，再比較同社區近期實價。喜歡物件可以談，但還是要守住自己的預算。",
+      "sellerTalk": "區域建設能增加買方對生活圈的注意，但真正影響成交的仍是距離、便利性、屋況與價格。建議把已完成、施工中及規劃中的內容說清楚，再用同社區近期成交設定合理開價。若帶看後反覆出現相同疑慮，就調整說明、整理方式或銷售條件。",
+      "publishedAt": "2026-08-12",
+      "relativeTime": "72小時內",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5IemplQUcwRktVeFdQT3RIbWY3R2RNR0pUS05qTWJUbHRpU2F5cE4zOW0yZ2h3SEZ0SWFDR2pTS3BMSmd3bFhtak5nNWJHQ3dGUENMWFJFS2p5YjZ4WWhFdXhRLXk?oc=5",
+      "summary": "台中捷運綠線又出包！這站門不能關、那站門打不開議員怒了- 生活 自由時報"
+    },
+    {
+      "id": "739070e1b44220af",
+      "source": "工商時報",
+      "title": "房市稅目冷颼颼新建案交屋挹注契稅一枝獨秀- 日報",
+      "published_at": "2026-08-11T19:00:00.000Z",
+      "original_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5EbzBzYk1YZEpoaUlSZVk2R1pRdlBHcG5ERFByZjNQTERLTTduTkw4Q3lSOE1GLWpDcUtkOEpiWG1wTEYwaXdvbTY3SnNmR285VHo5Mnh4RzdhOWZRTGJj?oc=5",
+      "google_news_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5EbzBzYk1YZEpoaUlSZVk2R1pRdlBHcG5ERFByZjNQTERLTTduTkw4Q3lSOE1GLWpDcUtkOEpiWG1wTEYwaXdvbTY3SnNmR285VHo5Mnh4RzdhOWZRTGJj?oc=5",
+      "excerpt": "房市稅目冷颼颼新建案交屋挹注契稅一枝獨秀- 日報 工商時報",
+      "image_url": null,
+      "category": "建商推案",
+      "region": "全台灣",
+      "keywords": [
+        "房市"
+      ],
+      "collected_at": "2026-08-12T05:20:19.700Z",
+      "refreshed_at": "2026-08-12T05:20:19.700Z",
+      "refresh_batch": "61ec20dc0f0a",
+      "importance_score": 55,
+      "fetch_status": "google_news_redirect",
+      "sources": [
+        {
+          "source": "工商時報",
+          "published_at": "2026-08-11T19:00:00.000Z",
+          "original_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5EbzBzYk1YZEpoaUlSZVk2R1pRdlBHcG5ERFByZjNQTERLTTduTkw4Q3lSOE1GLWpDcUtkOEpiWG1wTEYwaXdvbTY3SnNmR285VHo5Mnh4RzdhOWZRTGJj?oc=5",
+          "google_news_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5EbzBzYk1YZEpoaUlSZVk2R1pRdlBHcG5ERFByZjNQTERLTTduTkw4Q3lSOE1GLWpDcUtkOEpiWG1wTEYwaXdvbTY3SnNmR285VHo5Mnh4RzdhOWZRTGJj?oc=5"
+        }
+      ],
+      "buyerTalk": "這則新案消息代表區域選擇可能增加，但熱銷或推案多，不等於每個建案都適合您。除了單價，也要一起比較車位、付款方式、公設比、格局、建商紀錄與交屋時間。多看幾個案子再決定，簽約前也要把契約和廣告內容逐項確認清楚。",
+      "sellerTalk": "附近新案增加後，買方通常會拿新屋付款方式和中古屋的總價、屋況一起比較。建議把立即入住、成熟機能、實際空間等優點說清楚，並用同類成交與在售競品檢查價格。若詢問多卻沒有出價，可再調整屋況呈現、曝光方式或議價空間。",
+      "publishedAt": "2026-08-11",
+      "relativeTime": "72小時內",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5EbzBzYk1YZEpoaUlSZVk2R1pRdlBHcG5ERFByZjNQTERLTTduTkw4Q3lSOE1GLWpDcUtkOEpiWG1wTEYwaXdvbTY3SnNmR285VHo5Mnh4RzdhOWZRTGJj?oc=5",
+      "summary": "房市稅目冷颼颼新建案交屋挹注契稅一枝獨秀- 日報 工商時報"
+    },
+    {
+      "id": "d226912e5c0fc895",
+      "source": "UDN",
+      "title": "7月房地合一稅翻黑 年減14％",
+      "published_at": "2026-08-11T18:24:47.000Z",
+      "original_url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5feWd1ajBpdmg1Zk8yQjNjQWV0RURKUmRCc29MWUxWUTJTNVpsNFBIOGZDOUFvNUhCeExrVDJ2SW1QUXNxUzMxeG5WbV9LbDhf0gFWQVVfeXFMTjVTSnNPNTItRUZlZlZPd2oyRDdEZ2M0M1Y2SVlGbHE2SG1LVlMxZ2lMdmt5ZENoYXVDTXduSEwxVEVJVldTTnNPZ1dUa1FYWDBHNWJrenc?oc=5",
+      "google_news_url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5feWd1ajBpdmg1Zk8yQjNjQWV0RURKUmRCc29MWUxWUTJTNVpsNFBIOGZDOUFvNUhCeExrVDJ2SW1QUXNxUzMxeG5WbV9LbDhf0gFWQVVfeXFMTjVTSnNPNTItRUZlZlZPd2oyRDdEZ2M0M1Y2SVlGbHE2SG1LVlMxZ2lMdmt5ZENoYXVDTXduSEwxVEVJVldTTnNPZ1dUa1FYWDBHNWJrenc?oc=5",
+      "excerpt": "7月房地合一稅翻黑 年減14％ UDN",
+      "image_url": null,
+      "category": "稅務",
+      "region": "全台灣",
+      "keywords": [],
+      "collected_at": "2026-08-12T05:20:19.700Z",
+      "refreshed_at": "2026-08-12T05:20:19.700Z",
+      "refresh_batch": "61ec20dc0f0a",
+      "importance_score": 55,
+      "fetch_status": "google_news_redirect",
+      "sources": [
+        {
+          "source": "UDN",
+          "published_at": "2026-08-11T18:24:47.000Z",
+          "original_url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5feWd1ajBpdmg1Zk8yQjNjQWV0RURKUmRCc29MWUxWUTJTNVpsNFBIOGZDOUFvNUhCeExrVDJ2SW1QUXNxUzMxeG5WbV9LbDhf0gFWQVVfeXFMTjVTSnNPNTItRUZlZlZPd2oyRDdEZ2M0M1Y2SVlGbHE2SG1LVlMxZ2lMdmt5ZENoYXVDTXduSEwxVEVJVldTTnNPZ1dUa1FYWDBHNWJrenc?oc=5",
+          "google_news_url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5feWd1ajBpdmg1Zk8yQjNjQWV0RURKUmRCc29MWUxWUTJTNVpsNFBIOGZDOUFvNUhCeExrVDJ2SW1QUXNxUzMxeG5WbV9LbDhf0gFWQVVfeXFMTjVTSnNPNTItRUZlZlZPd2oyRDdEZ2M0M1Y2SVlGbHE2SG1LVlMxZ2lMdmt5ZENoYXVDTXduSEwxVEVJVldTTnNPZ1dUa1FYWDBHNWJrenc?oc=5"
+        },
+        {
+          "source": "經濟日報",
+          "published_at": "2026-08-11T16:35:09.000Z",
+          "original_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRXVBRHRsaFFtb1V5d2lsdHpQdjUzM2Jpa3NVVUlsbUFQZmdqZF82ZlVyQTVneXZyZkgyY2RuSUctZ1U0NFJVZEFoak81c0FuWXZteERaeWhuVWJaUXFoVlk3R1dCbmhCaDZsY3JDSHNBTWdIMlZ0bnhfX3QtaUZkS9IBX0FVX3lxTE9kLWpJQktOMUtCZU5EQVI4QTNsa211VmRaelJ0enJqdHJEYWd3ck5WaVRnV3lISExoNG1DbUtGTWpISVpxc2w4U3dRWkpGd1pYNDUxUFRISDMybUh1Q0Fr?oc=5",
+          "google_news_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRXVBRHRsaFFtb1V5d2lsdHpQdjUzM2Jpa3NVVUlsbUFQZmdqZF82ZlVyQTVneXZyZkgyY2RuSUctZ1U0NFJVZEFoak81c0FuWXZteERaeWhuVWJaUXFoVlk3R1dCbmhCaDZsY3JDSHNBTWdIMlZ0bnhfX3QtaUZkS9IBX0FVX3lxTE9kLWpJQktOMUtCZU5EQVI4QTNsa211VmRaelJ0enJqdHJEYWd3ck5WaVRnV3lISExoNG1DbUtGTWpISVpxc2w4U3dRWkpGd1pYNDUxUFRISDMybUh1Q0Fr?oc=5"
+        }
+      ],
+      "buyerTalk": "這則消息和您的貸款、自備款或稅費比較有關，但先不用緊張，也不要只看標題就改變購屋計畫。建議先確認是否已正式生效，再請銀行依您的收入、負債與名下房屋試算，出價時也多留一點資金空間。實際條件仍以主管機關、銀行或專業人士最新公告與個案審核為準。",
+      "sellerTalk": "這類政策或貸款消息，可能讓買方需要更多時間準備自備款及確認核貸。建議先把房屋資料整理完整，並參考同社區近期成交與目前競品來定價，簽約和交屋時間也保留彈性。實際條件仍以主管機關、銀行或專業人士最新公告與個案審核為準。",
+      "publishedAt": "2026-08-11",
+      "relativeTime": "72小時內",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5feWd1ajBpdmg1Zk8yQjNjQWV0RURKUmRCc29MWUxWUTJTNVpsNFBIOGZDOUFvNUhCeExrVDJ2SW1QUXNxUzMxeG5WbV9LbDhf0gFWQVVfeXFMTjVTSnNPNTItRUZlZlZPd2oyRDdEZ2M0M1Y2SVlGbHE2SG1LVlMxZ2lMdmt5ZENoYXVDTXduSEwxVEVJVldTTnNPZ1dUa1FYWDBHNWJrenc?oc=5",
+      "summary": "7月房地合一稅翻黑 年減14％ UDN"
     }
   ]
 }
